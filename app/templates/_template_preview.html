@@ -1,0 +1,22 @@
+{% if error %}
+  <div style="color: var(--err); padding: 10px; background: rgba(248,113,113,0.08);
+              border: 1px solid var(--err); border-radius: 4px;">
+    <strong>Render error:</strong>
+    <pre style="white-space: pre-wrap; margin: 4px 0 0;">{{ error }}</pre>
+  </div>
+{% elif kind == 'sms' %}
+  <pre style="white-space: pre-wrap; padding: 12px; margin: 0;
+              background: var(--panel-2); border-radius: 4px;
+              font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+              font-size: 13px; line-height: 1.4;">{{ rendered }}</pre>
+  <div class="muted" style="margin-top: 6px; font-size: 11px;">
+    {{ rendered | length }} characters
+  </div>
+{% else %}
+  {# HTML email: render inside a sandboxed iframe so the template's CSS
+     can't escape and affect the editor page. #}
+  <iframe srcdoc="{{ rendered }}"
+          sandbox=""
+          style="width: 100%; min-height: 320px; background: white;
+                 border: 1px solid var(--border); border-radius: 4px;"></iframe>
+{% endif %}

@@ -1,0 +1,81 @@
+<section class="panel">
+  <div style="display: flex; justify-content: space-between; align-items: center; gap: 12px;">
+    <div>
+      <button class="btn ghost"
+              hx-get="/ui/templates" hx-target="#tab-content">&larr; Back to list</button>
+      <code style="margin-left: 12px;">{{ name }}</code>
+      <span class="pill {% if kind == 'email' %}info{% else %}ok{% endif %}"
+            style="margin-left: 8px;">{{ kind }}</span>
+    </div>
+  </div>
+</section>
+
+{% if error %}
+  <section class="panel" style="border-color: var(--err);">
+    <strong style="color: var(--err);">Error:</strong>
+    <pre style="white-space: pre-wrap; margin: 8px 0 0;">{{ error }}</pre>
+  </section>
+{% endif %}
+{% if success %}
+  <section class="panel" style="border-color: var(--ok);">
+    <strong style="color: var(--ok);">{{ success }}</strong>
+  </section>
+{% endif %}
+
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
+  <section class="panel">
+    <h2>Source</h2>
+    <form hx-post="/ui/templates/{{ name }}" hx-target="#tab-content"
+          id="template-form-{{ stem }}">
+      <textarea name="body" rows="22"
+                style="width: 100%; background: var(--panel-2); color: var(--text);
+                       border: 1px solid var(--border); border-radius: 4px;
+                       padding: 10px; font-family: 'SF Mono', Menlo, monospace;
+                       font-size: 12.5px; line-height: 1.5; resize: vertical;">{{ body }}</textarea>
+      <div style="margin-top: 10px; display: flex; gap: 8px;">
+        <button class="btn" type="submit">Save</button>
+        <button class="btn ghost" type="button"
+                hx-post="/ui/templates/{{ name }}/preview"
+                hx-target="#preview-pane"
+                hx-include="#template-form-{{ stem }}">Preview</button>
+      </div>
+    </form>
+  </section>
+
+  <section class="panel">
+    <h2>Preview (rendered against sample lead)</h2>
+    <div id="preview-pane"
+         hx-post="/ui/templates/{{ name }}/preview"
+         hx-trigger="load"
+         hx-include="#template-form-{{ stem }}"
+         hx-target="this">
+      <div class="muted" style="padding: 12px;">Loading preview...</div>
+    </div>
+  </section>
+</div>
+
+<section class="panel">
+  <h2>Available template variables</h2>
+  <div class="grid">
+    {% for var in allowed_vars %}
+      <div class="stat">
+        <div class="label">{{ '{{ ' ~ var ~ ' }}' }}</div>
+        <div style="font-size: 13px; word-break: break-all;">
+          {% if var == 'lead_name' %}{{ sample.name }}
+          {% elif var == 'call_time' %}{{ sample.call_time }}
+          {% elif var == 'calendar_link' %}{{ sample.calendar_link }}
+          {% elif var == 'case_study_link' %}{{ sample.case_study_link }}
+          {% elif var == 'meeting_type' %}{{ sample.meeting_type }}
+          {% elif var == 'mrr' %}{{ sample.mrr }}
+          {% elif var == 'business_type' %}{{ sample.business_type }}
+          {% elif var == 'timezone' %}{{ sample.timezone }}
+          {% endif %}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+  <p class="muted" style="margin-top: 12px; font-size: 12px;">
+    Optional fields can be empty at send time. Wrap usage in
+    <code>{{ '{% if var %}...{% endif %}' }}</code> for graceful fallback.
+  </p>
+</section>

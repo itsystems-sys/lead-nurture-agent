@@ -1,0 +1,21 @@
+<p>Hi {{ lead_name }},</p>
+
+{% if case_study_link %}
+<p>Following up on your inquiry. Here's a short case study showing the kind
+of outcome we typically deliver:
+  <a href="{{ case_study_link }}">{{ case_study_link }}</a>.
+</p>
+
+<p>It's a 4-minute read and is the best preview of how we'd work together.</p>
+{% else %}
+<p>Following up on your inquiry — wanted to make sure I had any questions of
+yours on my radar.</p>
+{% endif %}
+
+{% if calendar_link %}
+<p>If anything resonates, you can book a 30-minute intro call here:
+  <a href="{{ calendar_link }}">{{ calendar_link }}</a>.
+</p>
+{% endif %}
+
+<p>Talk soon,<br>The team</p>

@@ -1,0 +1,15 @@
+<p>Hi {{ lead_name }},</p>
+
+<p>It's been about a week since you got in touch. If you're still curious
+about working together, the easiest next step is a short intro call.</p>
+
+{% if calendar_link %}
+<p>Here's the calendar — pick whatever works:
+  <a href="{{ calendar_link }}">{{ calendar_link }}</a>.
+</p>
+{% endif %}
+
+<p>If now isn't the right time, no worries — feel free to reply to this
+email whenever questions come up.</p>
+
+<p>Talk soon,<br>The team</p>

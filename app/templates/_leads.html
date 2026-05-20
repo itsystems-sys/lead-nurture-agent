@@ -1,0 +1,92 @@
+{% if error %}
+  <section class="panel" style="border-color: var(--err);">
+    <strong style="color: var(--err);">Error:</strong> {{ error }}
+  </section>
+{% endif %}
+{% if success %}
+  <section class="panel" style="border-color: var(--ok);">
+    <strong style="color: var(--ok);">✓</strong> {{ success }}
+  </section>
+{% endif %}
+
+<section class="panel">
+  <h2>Create test lead</h2>
+  <form hx-post="/ui/leads" hx-target="#tab-content" hx-disabled-elt="find button" class="form-grid">
+    <label>Name<input name="name" required placeholder="John Smith"></label>
+    <label>Email<input name="email" type="email" required placeholder="john@example.com"></label>
+    <label>Phone<input name="phone" placeholder="+15555555555"></label>
+    <label>Call time (display)<input name="call_time" placeholder="Mon May 20, 3:00 PM PT"></label>
+    <label>Call at (used for reminders)<input name="call_at" type="datetime-local"></label>
+    <label>Calendar link<input name="calendar_link" placeholder="leave empty to use APP_DEFAULT_CALENDAR_LINK"></label>
+    <label>Case study link<input name="case_study_link" placeholder="leave empty to use APP_DEFAULT_CASE_STUDY_LINK"></label>
+    <div style="grid-column: 1 / -1;">
+      <button class="btn" type="submit">Create lead</button>
+    </div>
+  </form>
+</section>
+
+<section class="panel">
+  <h2>Leads</h2>
+  {% if not leads %}
+    <div class="empty">No leads yet. Create one above or POST to /api/webhooks/booking.</div>
+  {% else %}
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th><th>Email</th><th>Phone</th>
+          <th>Lead status</th><th>Opp status</th>
+          <th>Created</th><th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for lead in leads %}
+          <tr>
+            <td>{{ lead.name }}</td>
+            <td><code>{{ lead.email }}</code></td>
+            <td>{{ lead.phone or '—' }}</td>
+            <td><span class="pill info">{{ lead.status }}</span></td>
+            <td>
+              {% if lead.opportunity_status %}
+                <span class="pill
+                  {% if lead.opportunity_status in ('won', 'call_completed') %}ok
+                  {% elif lead.opportunity_status in ('lost', 'call_cancelled') %}err
+                  {% else %}warn{% endif %}">{{ lead.opportunity_status }}</span>
+              {% else %}
+                <span class="muted">—</span>
+              {% endif %}
+            </td>
+            <td><code>{{ lead.created_at.strftime('%Y-%m-%d %H:%M') }}</code></td>
+            <td>
+              <div class="row-actions">
+                <form class="inline"
+                      hx-post="/ui/leads/{{ lead.id }}/trigger"
+                      hx-target="#tab-content"
+                      hx-disabled-elt="find button">
+                  <select name="workflow">
+                    {% for wf in workflows %}
+                      <option value="{{ wf.name }}">{{ wf.name }}</option>
+                    {% endfor %}
+                  </select>
+                  <button class="btn ghost" type="submit">
+                    <span class="btn-label">Trigger</span>
+                    <span class="htmx-indicator">Triggering…</span>
+                  </button>
+                </form>
+                <form class="inline"
+                      hx-post="/ui/leads/{{ lead.id }}/delete"
+                      hx-target="#tab-content"
+                      hx-confirm="Delete this lead? Pending jobs are kept until they fire."
+                      hx-disabled-elt="find button">
+                  <button class="btn danger" type="submit">
+                    <span class="btn-label">Delete</span>
+                    <span class="htmx-indicator">Deleting…</span>
+                  </button>
+                </form>
+              </div>
+            </td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  {% endif %}
+</section>

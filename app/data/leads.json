@@ -1,0 +1,21 @@
+[
+  {
+    "id": "c1bde7f6-be92-4dc2-8f2a-a87c289f0075",
+    "external_id": "lead_NRmfcVp5i2WOjp1cpqaHtptJJu8DHiuomc7W2DhtiU5",
+    "name": "Rodvic Test",
+    "email": "rodgeagonia@gmail.com",
+    "phone": "+12015551302",
+    "status": "potential",
+    "opportunity_status": "call_booked",
+    "call_time": "",
+    "call_at": null,
+    "calendar_link": "",
+    "case_study_link": "",
+    "timezone": "",
+    "meeting_type": "",
+    "mrr": 0.0,
+    "business_type": "",
+    "created_at": "2026-05-20T06:14:47.108639Z",
+    "updated_at": "2026-05-20T06:14:47.123411Z"
+  }
+]

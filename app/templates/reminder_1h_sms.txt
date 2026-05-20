@@ -1,0 +1,1 @@
+Hi {{ lead_name }} — quick reminder, you're confirmed for {{ call_time }}.{% if calendar_link %} Calendar: {{ calendar_link }}{% endif %}

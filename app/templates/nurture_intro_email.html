@@ -1,0 +1,11 @@
+<p>Hi {{ lead_name }},</p>
+
+<p>Thanks for reaching out. We received your details and someone will be in
+touch soon to understand your goals.</p>
+
+{% if calendar_link %}
+<p>In the meantime, if you'd like to skip the queue and book a call directly,
+you can pick a slot here: <a href="{{ calendar_link }}">{{ calendar_link }}</a>.</p>
+{% endif %}
+
+<p>Talk soon,<br>The team</p>

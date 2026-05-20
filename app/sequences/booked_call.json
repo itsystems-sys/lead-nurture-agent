@@ -1,0 +1,28 @@
+{
+  "name": "Booked Call Sequence",
+  "steps": [
+    {
+      "type": "email",
+      "delay_minutes": 0,
+      "template": "confirmation_email",
+      "subject": "You're confirmed for {{ call_time }}"
+    },
+    {
+      "type": "email",
+      "delay_minutes": 60,
+      "template": "value_followup_email",
+      "subject": "Quick read before our call"
+    },
+    {
+      "type": "email",
+      "before_call_minutes": 1440,
+      "template": "reminder_24h_email",
+      "subject": "Reminder: our call is tomorrow at {{ call_time }}"
+    },
+    {
+      "type": "sms",
+      "before_call_minutes": 60,
+      "template": "reminder_1h_sms"
+    }
+  ]
+}

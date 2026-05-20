@@ -1,0 +1,11 @@
+{
+  "name": "Welcome Test",
+  "steps": [
+    {
+      "type": "email",
+      "delay_minutes": 0,
+      "template": "welcome_test_email",
+      "subject": "Hello from Lead Nurture Engine"
+    }
+  ]
+}

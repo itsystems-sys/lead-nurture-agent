@@ -1,0 +1,27 @@
+<section class="panel">
+  <h2>Logs (most recent 200)</h2>
+  {% if not logs %}
+    <div class="empty">No log entries yet.</div>
+  {% else %}
+    <table>
+      <thead>
+        <tr><th>Time (UTC)</th><th>Level</th><th>Event</th><th>Lead</th><th>Job</th><th>Message</th></tr>
+      </thead>
+      <tbody>
+        {% for entry in logs %}
+          <tr>
+            <td><code>{{ entry.ts.strftime('%Y-%m-%d %H:%M:%S') }}</code></td>
+            <td>
+              {% set lvl = entry.level %}
+              <span class="pill {% if lvl == 'ERROR' %}err{% elif lvl == 'WARNING' %}warn{% else %}info{% endif %}">{{ lvl }}</span>
+            </td>
+            <td><code>{{ entry.event }}</code></td>
+            <td class="muted"><code>{{ entry.lead_id[:8] if entry.lead_id else '' }}</code></td>
+            <td class="muted"><code>{{ entry.job_id[:8] if entry.job_id else '' }}</code></td>
+            <td>{{ entry.message }}</td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  {% endif %}
+</section>

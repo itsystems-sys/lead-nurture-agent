@@ -1,0 +1,57 @@
+<section class="panel">
+  <h2>Jobs</h2>
+  {% if not jobs %}
+    <div class="empty">No jobs scheduled.</div>
+  {% else %}
+    <table>
+      <thead>
+        <tr>
+          <th>Run at (UTC)</th><th>Lead</th><th>Workflow</th><th>Step</th>
+          <th>Type</th><th>Status</th><th>Attempts</th><th>Last error</th><th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for job in jobs %}
+          {% set lead = leads_by_id.get(job.lead_id) %}
+          <tr>
+            <td><code>{{ job.run_at.strftime('%Y-%m-%d %H:%M:%S') }}</code></td>
+            <td>
+              {% if lead %}
+                {{ lead.name }} <span class="muted">&lt;{{ lead.email }}&gt;</span>
+              {% else %}
+                <span class="muted">(deleted)</span>
+              {% endif %}
+            </td>
+            <td>{{ job.workflow_name }}</td>
+            <td>#{{ job.step_index }} <code>{{ job.template }}</code></td>
+            <td><span class="pill">{{ job.step_type }}</span></td>
+            <td>
+              {% set s = job.status.value if job.status.value is defined else job.status %}
+              <span class="pill
+                {% if s == 'succeeded' %}ok
+                {% elif s == 'failed' %}err
+                {% elif s == 'running' %}warn
+                {% else %}info{% endif %}">{{ s }}</span>
+            </td>
+            <td>{{ job.attempts }}</td>
+            <td class="muted">{{ job.last_error or '—' }}</td>
+            <td>
+              <div class="row-actions">
+                {% if s in ('scheduled', 'running') %}
+                  <form class="inline" hx-post="/ui/jobs/{{ job.id }}/cancel" hx-target="#tab-content">
+                    <button class="btn ghost" type="submit">Cancel</button>
+                  </form>
+                {% endif %}
+                {% if s in ('failed', 'cancelled') %}
+                  <form class="inline" hx-post="/ui/jobs/{{ job.id }}/retry" hx-target="#tab-content">
+                    <button class="btn" type="submit">Retry</button>
+                  </form>
+                {% endif %}
+              </div>
+            </td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  {% endif %}
+</section>

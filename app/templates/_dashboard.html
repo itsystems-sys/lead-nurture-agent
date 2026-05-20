@@ -1,0 +1,34 @@
+<section class="panel">
+  <h2>Dashboard</h2>
+  <div class="grid">
+    <div class="stat"><div class="label">Leads</div><div class="value">{{ counts.leads }}</div></div>
+    <div class="stat"><div class="label">Scheduled</div><div class="value">{{ counts.scheduled }}</div></div>
+    <div class="stat"><div class="label">Succeeded</div><div class="value">{{ counts.succeeded }}</div></div>
+    <div class="stat"><div class="label">Failed</div><div class="value">{{ counts.failed }}</div></div>
+    <div class="stat"><div class="label">Cancelled</div><div class="value">{{ counts.cancelled }}</div></div>
+  </div>
+</section>
+
+<section class="panel">
+  <h2>Recent activity</h2>
+  {% if not recent_logs %}
+    <div class="empty">No activity yet.</div>
+  {% else %}
+    <table>
+      <thead><tr><th>Time (UTC)</th><th>Level</th><th>Event</th><th>Message</th></tr></thead>
+      <tbody>
+        {% for entry in recent_logs %}
+          <tr>
+            <td><code>{{ entry.ts.strftime('%Y-%m-%d %H:%M:%S') }}</code></td>
+            <td>
+              {% set lvl = entry.level %}
+              <span class="pill {% if lvl == 'ERROR' %}err{% elif lvl == 'WARNING' %}warn{% else %}info{% endif %}">{{ lvl }}</span>
+            </td>
+            <td><code>{{ entry.event }}</code></td>
+            <td>{{ entry.message }}</td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  {% endif %}
+</section>

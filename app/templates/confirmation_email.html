@@ -1,0 +1,12 @@
+<p>Hi {{ lead_name }}, edit</p>
+
+<p>Your {% if meeting_type %}{{ meeting_type }}{% else %}call{% endif %} is confirmed for <strong>{{ call_time }}</strong>.</p>
+
+{% if calendar_link %}
+<p>Add it to your calendar here: <a href="{{ calendar_link }}">{{ calendar_link }}</a></p>
+{% endif %}
+{% if case_study_link %}
+<p>Want a preview of what we'll cover? <a href="{{ case_study_link }}">Read this short case study</a>.</p>
+{% endif %}
+
+<p>Talk soon,<br>The team</p>

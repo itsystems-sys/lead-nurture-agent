@@ -1,0 +1,3410 @@
+[
+  {
+    "id": "a96c7bb5-96d0-4bd4-a778-f75083b72996",
+    "ts": "2026-05-19T17:38:26.922446Z",
+    "level": "INFO",
+    "event": "scheduler.started",
+    "lead_id": "",
+    "job_id": "",
+    "message": "scheduler started; restored 0 jobs",
+    "context": {}
+  },
+  {
+    "id": "64269222-461a-4c97-909a-632d72dea46e",
+    "ts": "2026-05-19T18:02:21.227645Z",
+    "level": "INFO",
+    "event": "scheduler.started",
+    "lead_id": "",
+    "job_id": "",
+    "message": "scheduler started; restored 0 jobs",
+    "context": {}
+  },
+  {
+    "id": "9961fdd2-2db2-4d88-bcd3-28a3084f7ade",
+    "ts": "2026-05-19T18:02:27.715860Z",
+    "level": "INFO",
+    "event": "scheduler.started",
+    "lead_id": "",
+    "job_id": "",
+    "message": "scheduler started; restored 0 jobs",
+    "context": {}
+  },
+  {
+    "id": "b5c26047-25dd-4012-ad4c-c2147def5113",
+    "ts": "2026-05-19T18:02:35.261564Z",
+    "level": "INFO",
+    "event": "scheduler.started",
+    "lead_id": "",
+    "job_id": "",
+    "message": "scheduler started; restored 0 jobs",
+    "context": {}
+  },
+  {
+    "id": "80801468-07f0-4b80-be3b-6153fc64e250",
+    "ts": "2026-05-19T18:02:43.577840Z",
+    "level": "INFO",
+    "event": "scheduler.started",
+    "lead_id": "",
+    "job_id": "",
+    "message": "scheduler started; restored 0 jobs",
+    "context": {}
+  },
+  {
+    "id": "5704ffc9-6c58-436b-9ed3-17eca8520fbf",
+    "ts": "2026-05-19T18:02:51.468722Z",
+    "level": "INFO",
+    "event": "scheduler.started",
+    "lead_id": "",
+    "job_id": "",
+    "message": "scheduler started; restored 0 jobs",
+    "context": {}
+  },
+  {
+    "id": "c8e25f4b-9153-4c0c-acc4-ddfb09e85976",
+    "ts": "2026-05-19T18:03:07.881708Z",
+    "level": "INFO",
+    "event": "scheduler.started",
+    "lead_id": "",
+    "job_id": "",
+    "message": "scheduler started; restored 0 jobs",
+    "context": {}
+  },
+  {
+    "id": "afde1862-52df-4f4e-b668-7fe5e9b99a17",
+    "ts": "2026-05-19T18:03:39.463566Z",
+    "level": "INFO",
+    "event": "scheduler.started",
+    "lead_id": "",
+    "job_id": "",
+    "message": "scheduler started; restored 0 jobs",
+    "context": {}
+  },
+  {
+    "id": "9f22f4be-7a62-4485-9060-c217f0c674d7",
+    "ts": "2026-05-19T18:03:47.394899Z",
+    "level": "INFO",
+    "event": "scheduler.started",
+    "lead_id": "",
+    "job_id": "",
+    "message": "scheduler started; restored 0 jobs",
+    "context": {}
+  },
+  {
+    "id": "92c54405-c8dc-4f23-bf6d-ee89b4d141d9",
+    "ts": "2026-05-19T18:04:07.592133Z",
+    "level": "INFO",
+    "event": "scheduler.started",
+    "lead_id": "",
+    "job_id": "",
+    "message": "scheduler started; restored 0 jobs",
+    "context": {}
+  },
+  {
+    "id": "c8bcd1e8-3d29-4b0d-a784-9ea09ee27154",
+    "ts": "2026-05-19T18:04:27.133333Z",
+    "level": "INFO",
+    "event": "scheduler.started",
+    "lead_id": "",
+    "job_id": "",
+    "message": "scheduler started; restored 0 jobs",
+    "context": {}
+  },
+  {
+    "id": "a013ccbd-ac9f-49cc-aea2-e0e65a1ca284",
+    "ts": "2026-05-19T18:05:00.120014Z",
+    "level": "INFO",
+    "event": "scheduler.started",
+    "lead_id": "",
+    "job_id": "",
+    "message": "scheduler started; restored 0 jobs",
+    "context": {}
+  },
+  {
+    "id": "05568de4-a4e3-426b-afab-657b14504f4c",
+    "ts": "2026-05-19T18:06:07.202033Z",
+    "level": "INFO",
+    "event": "scheduler.started",
+    "lead_id": "",
+    "job_id": "",
+    "message": "scheduler started; restored 0 jobs",
+    "context": {}
+  },
+  {
+    "id": "c342f63e-50e0-4f6d-94d0-abb9fd3d0d64",
+    "ts": "2026-05-19T18:07:38.627973Z",
+    "level": "INFO",
+    "event": "lead.created",
+    "lead_id": "3f4375b2-3b4c-40a3-9a18-a96ef59c78f6",
+    "job_id": "",
+    "message": "lead created: close-test@example.com",
+    "context": {}
+  },
+  {
+    "id": "9a383da3-04f6-4656-a055-760be62a21ef",
+    "ts": "2026-05-19T18:07:38.639802Z",
+    "level": "WARNING",
+    "event": "step.skipped",
+    "lead_id": "3f4375b2-3b4c-40a3-9a18-a96ef59c78f6",
+    "job_id": "",
+    "message": "workflow 'Booked Call Sequence' step 2 (reminder_24h_email) skipped: lead has no call_at",
+    "context": {
+      "workflow": "Booked Call Sequence",
+      "step_index": 2,
+      "template": "reminder_24h_email",
+      "reason": "lead has no call_at"
+    }
+  },
+  {
+    "id": "24851e90-fe7d-4aad-891c-1b2e12299b01",
+    "ts": "2026-05-19T18:07:38.640427Z",
+    "level": "WARNING",
+    "event": "step.skipped",
+    "lead_id": "3f4375b2-3b4c-40a3-9a18-a96ef59c78f6",
+    "job_id": "",
+    "message": "workflow 'Booked Call Sequence' step 3 (reminder_1h_sms) skipped: lead has no call_at",
+    "context": {
+      "workflow": "Booked Call Sequence",
+      "step_index": 3,
+      "template": "reminder_1h_sms",
+      "reason": "lead has no call_at"
+    }
+  },
+  {
+    "id": "ae7958b0-54f6-48d5-9171-00883ddad899",
+    "ts": "2026-05-19T18:07:38.641066Z",
+    "level": "INFO",
+    "event": "workflow.scheduled",
+    "lead_id": "3f4375b2-3b4c-40a3-9a18-a96ef59c78f6",
+    "job_id": "",
+    "message": "scheduled 2 steps for workflow 'Booked Call Sequence' (2 skipped)",
+    "context": {
+      "workflow": "Booked Call Sequence",
+      "steps": 2,
+      "skipped": 2
+    }
+  },
+  {
+    "id": "a291af99-6cc1-4349-b2b6-0c0a3164a671",
+    "ts": "2026-05-19T18:07:38.645386Z",
+    "level": "INFO",
+    "event": "status.transition",
+    "lead_id": "3f4375b2-3b4c-40a3-9a18-a96ef59c78f6",
+    "job_id": "",
+    "message": "potential -> call_booked",
+    "context": {
+      "from": "potential",
+      "to": "call_booked",
+      "cancelled": 0,
+      "scheduled": 2,
+      "workflow": "Booked Call Sequence"
+    }
+  },
+  {
+    "id": "4873d704-69cc-4852-88a7-8df400d07a25",
+    "ts": "2026-05-19T18:07:38.711547Z",
+    "level": "INFO",
+    "event": "job.cancelled",
+    "lead_id": "3f4375b2-3b4c-40a3-9a18-a96ef59c78f6",
+    "job_id": "77b47b0f-0034-42ba-a990-b40013d4f449",
+    "message": "",
+    "context": {}
+  },
+  {
+    "id": "c8c8dcf0-23fc-47a0-a0ed-085217f131ca",
+    "ts": "2026-05-19T18:07:38.712784Z",
+    "level": "INFO",
+    "event": "job.cancelled",
+    "lead_id": "3f4375b2-3b4c-40a3-9a18-a96ef59c78f6",
+    "job_id": "0a79b00b-9c65-4296-b456-6b71650d4425",
+    "message": "",
+    "context": {}
+  },
+  {
+    "id": "9dc787e3-c3a2-4197-a462-3c0334c3a148",
+    "ts": "2026-05-19T18:07:38.714987Z",
+    "level": "WARNING",
+    "event": "step.skipped",
+    "lead_id": "3f4375b2-3b4c-40a3-9a18-a96ef59c78f6",
+    "job_id": "",
+    "message": "workflow 'Booked Call Sequence' step 2 (reminder_24h_email) skipped: lead has no call_at",
+    "context": {
+      "workflow": "Booked Call Sequence",
+      "step_index": 2,
+      "template": "reminder_24h_email",
+      "reason": "lead has no call_at"
+    }
+  },
+  {
+    "id": "fcb17aef-c450-45fd-acea-c3ed9fa557e1",
+    "ts": "2026-05-19T18:07:38.715628Z",
+    "level": "WARNING",
+    "event": "step.skipped",
+    "lead_id": "3f4375b2-3b4c-40a3-9a18-a96ef59c78f6",
+    "job_id": "",
+    "message": "workflow 'Booked Call Sequence' step 3 (reminder_1h_sms) skipped: lead has no call_at",
+    "context": {
+      "workflow": "Booked Call Sequence",
+      "step_index": 3,
+      "template": "reminder_1h_sms",
+      "reason": "lead has no call_at"
+    }
+  },
+  {
+    "id": "88ce9e72-93d5-4c44-909f-49498087f173",
+    "ts": "2026-05-19T18:07:38.716317Z",
+    "level": "INFO",
+    "event": "workflow.scheduled",
+    "lead_id": "3f4375b2-3b4c-40a3-9a18-a96ef59c78f6",
+    "job_id": "",
+    "message": "scheduled 2 steps for workflow 'Booked Call Sequence' (2 skipped)",
+    "context": {
+      "workflow": "Booked Call Sequence",
+      "steps": 2,
+      "skipped": 2
+    }
+  },
+  {
+    "id": "1f6b7393-b559-4c9d-acdb-7b285c24fdb4",
+    "ts": "2026-05-19T18:07:38.717155Z",
+    "level": "INFO",
+    "event": "status.transition",
+    "lead_id": "3f4375b2-3b4c-40a3-9a18-a96ef59c78f6",
+    "job_id": "",
+    "message": "call_booked -> call_rescheduled",
+    "context": {
+      "from": "call_booked",
+      "to": "call_rescheduled",
+      "cancelled": 2,
+      "scheduled": 2,
+      "workflow": "Booked Call Sequence"
+    }
+  },
+  {
+    "id": "a5a4b054-141f-417f-99fb-a28486457e7f",
+    "ts": "2026-05-19T18:07:38.744618Z",
+    "level": "INFO",
+    "event": "job.cancelled",
+    "lead_id": "3f4375b2-3b4c-40a3-9a18-a96ef59c78f6",
+    "job_id": "1a6acaa8-783c-4803-ac4f-9ac0dcc4e0d6",
+    "message": "",
+    "context": {}
+  },
+  {
+    "id": "1d8f0f0e-3bf5-4fa0-895a-fc83d60b8a0c",
+    "ts": "2026-05-19T18:07:38.746206Z",
+    "level": "INFO",
+    "event": "job.cancelled",
+    "lead_id": "3f4375b2-3b4c-40a3-9a18-a96ef59c78f6",
+    "job_id": "3bb10282-15af-44dc-92df-d4b3bb4a1339",
+    "message": "",
+    "context": {}
+  },
+  {
+    "id": "2c656e9b-ac78-42fb-98c9-d88b79e9cabd",
+    "ts": "2026-05-19T18:07:38.747391Z",
+    "level": "INFO",
+    "event": "status.transition",
+    "lead_id": "3f4375b2-3b4c-40a3-9a18-a96ef59c78f6",
+    "job_id": "",
+    "message": "call_rescheduled -> call_cancelled",
+    "context": {
+      "from": "call_rescheduled",
+      "to": "call_cancelled",
+      "cancelled": 2,
+      "scheduled": 0,
+      "workflow": ""
+    }
+  },
+  {
+    "id": "7dd2bc4d-70ec-49d7-8b4d-4c2688f755d3",
+    "ts": "2026-05-19T18:08:28.087364Z",
+    "level": "INFO",
+    "event": "scheduler.started",
+    "lead_id": "",
+    "job_id": "",
+    "message": "scheduler started; restored 0 jobs",
+    "context": {}
+  },
+  {
+    "id": "0555b298-6dc6-446b-beb2-aebf9b0f0703",
+    "ts": "2026-05-19T18:15:25.728779Z",
+    "level": "INFO",
+    "event": "scheduler.started",
+    "lead_id": "",
+    "job_id": "",
+    "message": "scheduler started; restored 0 jobs",
+    "context": {}
+  },
+  {
+    "id": "ea34b167-19d0-4f8c-bbdf-7c27be94fd48",
+    "ts": "2026-05-19T18:15:36.865040Z",
+    "level": "INFO",
+    "event": "scheduler.started",
+    "lead_id": "",
+    "job_id": "",
+    "message": "scheduler started; restored 0 jobs",
+    "context": {}
+  },
+  {
+    "id": "2b865c22-b548-4b13-af70-d0b3816e8f3d",
+    "ts": "2026-05-19T18:15:50.119871Z",
+    "level": "INFO",
+    "event": "scheduler.started",
+    "lead_id": "",
+    "job_id": "",
+    "message": "scheduler started; restored 0 jobs",
+    "context": {}
+  },
+  {
+    "id": "b8f2158e-75d4-4a86-b649-ae80f9313c51",
+    "ts": "2026-05-19T18:16:02.174263Z",
+    "level": "INFO",
+    "event": "scheduler.started",
+    "lead_id": "",
+    "job_id": "",
+    "message": "scheduler started; restored 0 jobs",
+    "context": {}
+  },
+  {
+    "id": "12ce20cb-b4b5-44db-9367-b9a12bb8c178",
+    "ts": "2026-05-19T18:17:54.632361Z",
+    "level": "INFO",
+    "event": "scheduler.started",
+    "lead_id": "",
+    "job_id": "",
+    "message": "scheduler started; restored 0 jobs",
+    "context": {}
+  },
+  {
+    "id": "e04bd187-f9f2-4a74-8275-e088c583fa4c",
+    "ts": "2026-05-19T18:18:22.629661Z",
+    "level": "INFO",
+    "event": "lead.created",
+    "lead_id": "5042606f-c909-4390-8135-b348d48d39f8",
+    "job_id": "",
+    "message": "lead created: id-test@example.com",
+    "context": {}
+  },
+  {
+    "id": "ab627ed9-3c2b-4c8a-99d4-3f4a463608c3",
+    "ts": "2026-05-19T18:18:22.643498Z",
+    "level": "WARNING",
+    "event": "step.skipped",
+    "lead_id": "5042606f-c909-4390-8135-b348d48d39f8",
+    "job_id": "",
+    "message": "workflow 'Booked Call Sequence' step 2 (reminder_24h_email) skipped: lead has no call_at",
+    "context": {
+      "workflow": "Booked Call Sequence",
+      "step_index": 2,
+      "template": "reminder_24h_email",
+      "reason": "lead has no call_at"
+    }
+  },
+  {
+    "id": "ffd42784-0fa3-456c-9142-b21ec9ddde2e",
+    "ts": "2026-05-19T18:18:22.644390Z",
+    "level": "WARNING",
+    "event": "step.skipped",
+    "lead_id": "5042606f-c909-4390-8135-b348d48d39f8",
+    "job_id": "",
+    "message": "workflow 'Booked Call Sequence' step 3 (reminder_1h_sms) skipped: lead has no call_at",
+    "context": {
+      "workflow": "Booked Call Sequence",
+      "step_index": 3,
+      "template": "reminder_1h_sms",
+      "reason": "lead has no call_at"
+    }
+  },
+  {
+    "id": "c5af9bba-8409-4a54-ac1d-8ef6f25add2a",
+    "ts": "2026-05-19T18:18:22.645150Z",
+    "level": "INFO",
+    "event": "workflow.scheduled",
+    "lead_id": "5042606f-c909-4390-8135-b348d48d39f8",
+    "job_id": "",
+    "message": "scheduled 2 steps for workflow 'Booked Call Sequence' (2 skipped)",
+    "context": {
+      "workflow": "Booked Call Sequence",
+      "steps": 2,
+      "skipped": 2
+    }
+  },
+  {
+    "id": "a461570d-ec2f-4a98-9b4a-dd84eba4dedb",
+    "ts": "2026-05-19T18:18:22.648427Z",
+    "level": "INFO",
+    "event": "status.transition",
+    "lead_id": "5042606f-c909-4390-8135-b348d48d39f8",
+    "job_id": "",
+    "message": "potential -> call_booked",
+    "context": {
+      "from": "potential",
+      "to": "call_booked",
+      "cancelled": 0,
+      "scheduled": 2,
+      "workflow": "Booked Call Sequence"
+    }
+  },
+  {
+    "id": "8e66cd12-a710-412b-807d-b8aa10996ca2",
+    "ts": "2026-05-19T18:18:27.443990Z",
+    "level": "INFO",
+    "event": "job.sent",
+    "lead_id": "5042606f-c909-4390-8135-b348d48d39f8",
+    "job_id": "e08061b8-b8ea-4761-89a6-cf057ad4886b",
+    "message": "email sent via smtp",
+    "context": {
+      "step_index": 0,
+      "template": "confirmation_email",
+      "result": {
+        "provider": "smtp",
+        "to": "id-test@example.com",
+        "subject": "You're confirmed for ",
+        "status": "sent"
+      },
+      "preview": "<p>Hi ID Test,</p>\n\n<p>Your call is confirmed for <strong></strong>.</p>\n\n<p>\n  Add it to your calendar here: <a href=\"\"></a><br>\n  Want a preview of what we'll cover? <a href=\"\">Read this short case study</a>.\n</p>\n\n<p>Talk soon,<br>The team</p>",
+      "subject": "You're confirmed for "
+    }
+  },
+  {
+    "id": "f55d9cdc-c3b3-4998-99a1-0033c53c17b6",
+    "ts": "2026-05-19T18:20:25.128115Z",
+    "level": "INFO",
+    "event": "scheduler.started",
+    "lead_id": "",
+    "job_id": "",
+    "message": "scheduler started; restored 0 jobs",
+    "context": {}
+  },
+  {
+    "id": "ff7c7a3a-51f6-42d2-9454-af83632d1c93",
+    "ts": "2026-05-19T18:30:31.584304Z",
+    "level": "INFO",
+    "event": "scheduler.started",
+    "lead_id": "",
+    "job_id": "",
+    "message": "scheduler started; restored 0 jobs",
+    "context": {}
+  },
+  {
+    "id": "621fa787-e2c7-4c9d-b9f3-630eb3e96409",
+    "ts": "2026-05-19T18:33:25.714643Z",
+    "level": "INFO",
+    "event": "scheduler.started",
+    "lead_id": "",
+    "job_id": "",
+    "message": "scheduler started; restored 0 jobs",
+    "context": {}
+  },
+  {
+    "id": "47b093fd-f110-40e7-9c2b-4589ad0f6bcb",
+    "ts": "2026-05-19T18:35:03.527662Z",
+    "level": "INFO",
+    "event": "close.webhook.lead_created",
+    "lead_id": "057acc74-b7ee-45cc-8c8c-aa30e3941ded",
+    "job_id": "",
+    "message": "lead created from Close event: jlad@dobotai.com",
+    "context": {
+      "close_lead_id": "lead_HR9PBBUa9PTtZavtTCzHmEWTiI9SRrTgLt2vz4JrJUb"
+    }
+  },
+  {
+    "id": "acd676d2-7322-4381-aa72-2a5b058154d8",
+    "ts": "2026-05-19T18:35:03.540208Z",
+    "level": "WARNING",
+    "event": "step.skipped",
+    "lead_id": "057acc74-b7ee-45cc-8c8c-aa30e3941ded",
+    "job_id": "",
+    "message": "workflow 'Booked Call Sequence' step 2 (reminder_24h_email) skipped: lead has no call_at",
+    "context": {
+      "workflow": "Booked Call Sequence",
+      "step_index": 2,
+      "template": "reminder_24h_email",
+      "reason": "lead has no call_at"
+    }
+  },
+  {
+    "id": "4fa31851-3429-4275-8ba1-835202ec054d",
+    "ts": "2026-05-19T18:35:03.542761Z",
+    "level": "WARNING",
+    "event": "step.skipped",
+    "lead_id": "057acc74-b7ee-45cc-8c8c-aa30e3941ded",
+    "job_id": "",
+    "message": "workflow 'Booked Call Sequence' step 3 (reminder_1h_sms) skipped: lead has no call_at",
+    "context": {
+      "workflow": "Booked Call Sequence",
+      "step_index": 3,
+      "template": "reminder_1h_sms",
+      "reason": "lead has no call_at"
+    }
+  },
+  {
+    "id": "87658761-ac93-48a1-91c1-b35c5f4fce4e",
+    "ts": "2026-05-19T18:35:03.545177Z",
+    "level": "INFO",
+    "event": "workflow.scheduled",
+    "lead_id": "057acc74-b7ee-45cc-8c8c-aa30e3941ded",
+    "job_id": "",
+    "message": "scheduled 2 steps for workflow 'Booked Call Sequence' (2 skipped)",
+    "context": {
+      "workflow": "Booked Call Sequence",
+      "steps": 2,
+      "skipped": 2
+    }
+  },
+  {
+    "id": "5c5295c2-5142-4724-83c4-948087d6ab54",
+    "ts": "2026-05-19T18:35:03.552305Z",
+    "level": "INFO",
+    "event": "status.transition",
+    "lead_id": "057acc74-b7ee-45cc-8c8c-aa30e3941ded",
+    "job_id": "",
+    "message": "potential -> call_booked",
+    "context": {
+      "from": "potential",
+      "to": "call_booked",
+      "cancelled": 0,
+      "scheduled": 2,
+      "workflow": "Booked Call Sequence"
+    }
+  },
+  {
+    "id": "c31227ca-1bfd-4136-b6d9-1dda2ff98882",
+    "ts": "2026-05-19T18:35:08.246787Z",
+    "level": "INFO",
+    "event": "job.sent",
+    "lead_id": "057acc74-b7ee-45cc-8c8c-aa30e3941ded",
+    "job_id": "dfd819e0-b377-41a9-b170-a18b8390634a",
+    "message": "email sent via smtp",
+    "context": {
+      "step_index": 0,
+      "template": "confirmation_email",
+      "result": {
+        "provider": "smtp",
+        "to": "jlad@dobotai.com",
+        "subject": "You're confirmed for ",
+        "status": "sent"
+      },
+      "preview": "<p>Hi Jlad Lanete,</p>\n\n<p>Your call is confirmed for <strong></strong>.</p>\n\n<p>\n  Add it to your calendar here: <a href=\"\"></a><br>\n  Want a preview of what we'll cover? <a href=\"\">Read this short case study</a>.\n</p>\n\n<p>Talk soon,<br>The team</p>",
+      "subject": "You're confirmed for "
+    }
+  },
+  {
+    "id": "ef10ff47-e93a-4048-8f0d-b197e38a49cb",
+    "ts": "2026-05-19T18:50:14.941567Z",
+    "level": "INFO",
+    "event": "scheduler.started",
+    "lead_id": "",
+    "job_id": "",
+    "message": "scheduler started; restored 1 jobs",
+    "context": {}
+  },
+  {
+    "id": "9e449e3b-2882-4d86-8258-c9fd69486dc1",
+    "ts": "2026-05-19T18:50:47.687790Z",
+    "level": "INFO",
+    "event": "lead.deleted",
+    "lead_id": "057acc74-b7ee-45cc-8c8c-aa30e3941ded",
+    "job_id": "",
+    "message": "",
+    "context": {}
+  },
+  {
+    "id": "f94090c7-6e99-4633-84c1-81a534ea0ce7",
+    "ts": "2026-05-19T18:51:30.257900Z",
+    "level": "INFO",
+    "event": "close.webhook.lead_created",
+    "lead_id": "0b3c8c50-9b80-4acc-94df-e269b4d92513",
+    "job_id": "",
+    "message": "lead created from Close event: jlad@dobotai.com",
+    "context": {
+      "close_lead_id": "lead_HR9PBBUa9PTtZavtTCzHmEWTiI9SRrTgLt2vz4JrJUb"
+    }
+  },
+  {
+    "id": "e79ae75b-bbf5-4b12-9423-4f67adac433c",
+    "ts": "2026-05-19T18:51:30.268372Z",
+    "level": "WARNING",
+    "event": "step.skipped",
+    "lead_id": "0b3c8c50-9b80-4acc-94df-e269b4d92513",
+    "job_id": "",
+    "message": "workflow 'Booked Call Sequence' step 2 (reminder_24h_email) skipped: lead has no call_at",
+    "context": {
+      "workflow": "Booked Call Sequence",
+      "step_index": 2,
+      "template": "reminder_24h_email",
+      "reason": "lead has no call_at"
+    }
+  },
+  {
+    "id": "11c79ac1-1298-4fbb-8894-8553ed2ad537",
+    "ts": "2026-05-19T18:51:30.271138Z",
+    "level": "WARNING",
+    "event": "step.skipped",
+    "lead_id": "0b3c8c50-9b80-4acc-94df-e269b4d92513",
+    "job_id": "",
+    "message": "workflow 'Booked Call Sequence' step 3 (reminder_1h_sms) skipped: lead has no call_at",
+    "context": {
+      "workflow": "Booked Call Sequence",
+      "step_index": 3,
+      "template": "reminder_1h_sms",
+      "reason": "lead has no call_at"
+    }
+  },
+  {
+    "id": "1c9bbbdd-936b-4d29-93a6-f9f3fd5d4289",
+    "ts": "2026-05-19T18:51:30.273713Z",
+    "level": "INFO",
+    "event": "workflow.scheduled",
+    "lead_id": "0b3c8c50-9b80-4acc-94df-e269b4d92513",
+    "job_id": "",
+    "message": "scheduled 2 steps for workflow 'Booked Call Sequence' (2 skipped)",
+    "context": {
+      "workflow": "Booked Call Sequence",
+      "steps": 2,
+      "skipped": 2
+    }
+  },
+  {
+    "id": "5cb629fb-8b67-48de-8eec-3b79a8927293",
+    "ts": "2026-05-19T18:51:30.277192Z",
+    "level": "INFO",
+    "event": "status.transition",
+    "lead_id": "0b3c8c50-9b80-4acc-94df-e269b4d92513",
+    "job_id": "",
+    "message": "potential -> call_booked",
+    "context": {
+      "from": "potential",
+      "to": "call_booked",
+      "cancelled": 0,
+      "scheduled": 2,
+      "workflow": "Booked Call Sequence"
+    }
+  },
+  {
+    "id": "2c06c95b-f65b-44e1-b16d-cedfd8d151f8",
+    "ts": "2026-05-19T18:51:34.884925Z",
+    "level": "INFO",
+    "event": "job.sent",
+    "lead_id": "0b3c8c50-9b80-4acc-94df-e269b4d92513",
+    "job_id": "92c65032-35a4-42f0-a9bc-8fd1a5cc7f29",
+    "message": "email sent via smtp",
+    "context": {
+      "step_index": 0,
+      "template": "confirmation_email",
+      "result": {
+        "provider": "smtp",
+        "to": "jlad@dobotai.com",
+        "subject": "You're confirmed for ",
+        "status": "sent"
+      },
+      "preview": "<p>Hi Jlad Lanete,</p>\n\n<p>Your call is confirmed for <strong></strong>.</p>\n\n<p>\n  Add it to your calendar here: <a href=\"\"></a><br>\n  Want a preview of what we'll cover? <a href=\"\">Read this short case study</a>.\n</p>\n\n<p>Talk soon,<br>The team</p>",
+      "subject": "You're confirmed for "
+    }
+  },
+  {
+    "id": "2fcf7215-a39f-4570-a697-e4ef118ca3a1",
+    "ts": "2026-05-19T18:55:33.698881Z",
+    "level": "INFO",
+    "event": "scheduler.started",
+    "lead_id": "",
+    "job_id": "",
+    "message": "scheduler started; restored 2 jobs",
+    "context": {}
+  },
+  {
+    "id": "fe85381d-2e59-4460-9609-92d889146860",
+    "ts": "2026-05-19T18:56:11.029459Z",
+    "level": "INFO",
+    "event": "scheduler.started",
+    "lead_id": "",
+    "job_id": "",
+    "message": "scheduler started; restored 2 jobs",
+    "context": {}
+  },
+  {
+    "id": "97393a2e-1fe6-429a-8e83-e69254fd21b2",
+    "ts": "2026-05-19T18:56:19.365445Z",
+    "level": "INFO",
+    "event": "scheduler.started",
+    "lead_id": "",
+    "job_id": "",
+    "message": "scheduler started; restored 2 jobs",
+    "context": {}
+  },
+  {
+    "id": "7914aed5-9c03-4016-a745-4f74ad603ffa",
+    "ts": "2026-05-19T18:56:27.881465Z",
+    "level": "INFO",
+    "event": "scheduler.started",
+    "lead_id": "",
+    "job_id": "",
+    "message": "scheduler started; restored 2 jobs",
+    "context": {}
+  },
+  {
+    "id": "0d46bf04-0251-4c51-b14b-065724e54e6f",
+    "ts": "2026-05-19T18:56:34.240391Z",
+    "level": "INFO",
+    "event": "scheduler.started",
+    "lead_id": "",
+    "job_id": "",
+    "message": "scheduler started; restored 2 jobs",
+    "context": {}
+  },
+  {
+    "id": "942d91c4-64a3-4a5c-8e39-43598949129e",
+    "ts": "2026-05-19T18:56:41.931745Z",
+    "level": "INFO",
+    "event": "scheduler.started",
+    "lead_id": "",
+    "job_id": "",
+    "message": "scheduler started; restored 2 jobs",
+    "context": {}
+  },
+  {
+    "id": "dd330030-cf6c-46e9-9b76-49b8182fd573",
+    "ts": "2026-05-19T18:56:57.278207Z",
+    "level": "INFO",
+    "event": "scheduler.started",
+    "lead_id": "",
+    "job_id": "",
+    "message": "scheduler started; restored 2 jobs",
+    "context": {}
+  },
+  {
+    "id": "28c87b9d-7902-46b5-8946-86ca7cf54e6e",
+    "ts": "2026-05-19T19:03:40.652413Z",
+    "level": "INFO",
+    "event": "scheduler.started",
+    "lead_id": "",
+    "job_id": "",
+    "message": "scheduler started; restored 2 jobs",
+    "context": {}
+  },
+  {
+    "id": "d6bee8ae-d1d4-455d-b231-7fed221ae136",
+    "ts": "2026-05-19T19:03:48.157219Z",
+    "level": "INFO",
+    "event": "scheduler.started",
+    "lead_id": "",
+    "job_id": "",
+    "message": "scheduler started; restored 2 jobs",
+    "context": {}
+  },
+  {
+    "id": "90283b32-6feb-470a-bd2c-6ce8917b8eab",
+    "ts": "2026-05-19T19:03:56.230882Z",
+    "level": "INFO",
+    "event": "scheduler.started",
+    "lead_id": "",
+    "job_id": "",
+    "message": "scheduler started; restored 2 jobs",
+    "context": {}
+  },
+  {
+    "id": "09473e8d-67c7-4cfc-9311-31678a3eb0a1",
+    "ts": "2026-05-19T19:04:22.516555Z",
+    "level": "INFO",
+    "event": "scheduler.started",
+    "lead_id": "",
+    "job_id": "",
+    "message": "scheduler started; restored 2 jobs",
+    "context": {}
+  },
+  {
+    "id": "f823aef3-73d8-4487-833f-0b969dc60ecc",
+    "ts": "2026-05-19T19:04:31.634680Z",
+    "level": "INFO",
+    "event": "scheduler.started",
+    "lead_id": "",
+    "job_id": "",
+    "message": "scheduler started; restored 2 jobs",
+    "context": {}
+  },
+  {
+    "id": "137f0dae-e0da-42b1-b57a-27882ee67151",
+    "ts": "2026-05-19T19:04:38.393394Z",
+    "level": "INFO",
+    "event": "scheduler.started",
+    "lead_id": "",
+    "job_id": "",
+    "message": "scheduler started; restored 2 jobs",
+    "context": {}
+  },
+  {
+    "id": "fc7e3951-d684-45b9-a884-1258afe1a930",
+    "ts": "2026-05-19T19:04:46.391463Z",
+    "level": "INFO",
+    "event": "scheduler.started",
+    "lead_id": "",
+    "job_id": "",
+    "message": "scheduler started; restored 2 jobs",
+    "context": {}
+  },
+  {
+    "id": "ccbcf496-6cd8-4374-af15-ef258b2602a2",
+    "ts": "2026-05-19T19:04:58.427539Z",
+    "level": "INFO",
+    "event": "scheduler.started",
+    "lead_id": "",
+    "job_id": "",
+    "message": "scheduler started; restored 2 jobs",
+    "context": {}
+  },
+  {
+    "id": "7a6530be-a74d-495c-b6cc-e4fd952723b9",
+    "ts": "2026-05-19T19:05:08.630742Z",
+    "level": "INFO",
+    "event": "scheduler.started",
+    "lead_id": "",
+    "job_id": "",
+    "message": "scheduler started; restored 2 jobs",
+    "context": {}
+  },
+  {
+    "id": "05561694-bf70-4c05-86ae-bace789d3b72",
+    "ts": "2026-05-19T19:05:19.330523Z",
+    "level": "INFO",
+    "event": "scheduler.started",
+    "lead_id": "",
+    "job_id": "",
+    "message": "scheduler started; restored 2 jobs",
+    "context": {}
+  },
+  {
+    "id": "e948defc-e6ba-4889-a4c8-aefb8c9d5a54",
+    "ts": "2026-05-19T19:05:27.228151Z",
+    "level": "INFO",
+    "event": "scheduler.started",
+    "lead_id": "",
+    "job_id": "",
+    "message": "scheduler started; restored 2 jobs",
+    "context": {}
+  },
+  {
+    "id": "d137010f-4ca2-4159-b439-3d72a52dd914",
+    "ts": "2026-05-19T19:05:34.898278Z",
+    "level": "INFO",
+    "event": "scheduler.started",
+    "lead_id": "",
+    "job_id": "",
+    "message": "scheduler started; restored 2 jobs",
+    "context": {}
+  },
+  {
+    "id": "fec8f432-91e8-4309-b068-1335f8cbe012",
+    "ts": "2026-05-19T19:05:46.838492Z",
+    "level": "INFO",
+    "event": "scheduler.started",
+    "lead_id": "",
+    "job_id": "",
+    "message": "scheduler started; restored 2 jobs",
+    "context": {}
+  },
+  {
+    "id": "d44a340e-749e-43d0-930c-54bbd473755d",
+    "ts": "2026-05-19T19:35:03.634906Z",
+    "level": "ERROR",
+    "event": "job.failed",
+    "lead_id": "057acc74-b7ee-45cc-8c8c-aa30e3941ded",
+    "job_id": "67967408-8da5-4d81-88af-62ac565802b4",
+    "message": "lead missing at execution time",
+    "context": {}
+  },
+  {
+    "id": "22c92f15-c7a2-4b69-a07a-5b8dc2ca96d2",
+    "ts": "2026-05-19T19:39:49.997326Z",
+    "level": "INFO",
+    "event": "scheduler.started",
+    "lead_id": "",
+    "job_id": "",
+    "message": "scheduler started; restored 1 jobs",
+    "context": {}
+  },
+  {
+    "id": "4f58d928-6fe1-4ff9-beb4-64fcfa68e97e",
+    "ts": "2026-05-19T19:40:00.416572Z",
+    "level": "INFO",
+    "event": "scheduler.started",
+    "lead_id": "",
+    "job_id": "",
+    "message": "scheduler started; restored 1 jobs",
+    "context": {}
+  },
+  {
+    "id": "57109076-c033-497c-85ae-fba111de84df",
+    "ts": "2026-05-19T19:40:48.235297Z",
+    "level": "INFO",
+    "event": "scheduler.started",
+    "lead_id": "",
+    "job_id": "",
+    "message": "scheduler started; restored 1 jobs",
+    "context": {}
+  },
+  {
+    "id": "98be905f-5767-44d3-8a32-3a6b8a3ff35b",
+    "ts": "2026-05-19T19:45:50.004194Z",
+    "level": "INFO",
+    "event": "scheduler.started",
+    "lead_id": "",
+    "job_id": "",
+    "message": "scheduler started; restored 1 jobs",
+    "context": {}
+  },
+  {
+    "id": "ef899987-8b73-4f42-b8ef-b67047fd1100",
+    "ts": "2026-05-19T19:54:27.854195Z",
+    "level": "INFO",
+    "event": "scheduler.started",
+    "lead_id": "",
+    "job_id": "",
+    "message": "scheduler started; restored 1 jobs",
+    "context": {}
+  },
+  {
+    "id": "5b02d550-b725-4382-82c9-2d7414b7d454",
+    "ts": "2026-05-19T19:54:32.717500Z",
+    "level": "INFO",
+    "event": "job.sent",
+    "lead_id": "0b3c8c50-9b80-4acc-94df-e269b4d92513",
+    "job_id": "9dcadb59-18a4-4555-a499-410c257d19bc",
+    "message": "email sent via smtp",
+    "context": {
+      "step_index": 1,
+      "template": "value_followup_email",
+      "result": {
+        "provider": "smtp",
+        "to": "jlad@dobotai.com",
+        "subject": "Quick read before our call",
+        "status": "sent"
+      },
+      "preview": "<p>Hi Jlad Lanete,</p>\n\n<p>Ahead of our call on , I wanted to make sure you have everything you need.</p>\n\n<p>If any questions come up before we talk, feel free to reply to this email.</p>\n\n<p>Talk soon,<br>The team</p>",
+      "subject": "Quick read before our call"
+    }
+  },
+  {
+    "id": "561d4df2-6acc-46f4-ae2e-54e422513b65",
+    "ts": "2026-05-19T20:04:27.952850Z",
+    "level": "INFO",
+    "event": "scheduler.started",
+    "lead_id": "",
+    "job_id": "",
+    "message": "scheduler started; restored 0 jobs",
+    "context": {}
+  },
+  {
+    "id": "32c6d188-9fd5-4c30-be66-e283f69865a9",
+    "ts": "2026-05-19T20:21:19.703476Z",
+    "level": "INFO",
+    "event": "scheduler.started",
+    "lead_id": "",
+    "job_id": "",
+    "message": "scheduler started; restored 0 jobs",
+    "context": {}
+  },
+  {
+    "id": "0df95cd0-b3f2-4f3f-b84a-bfb4a77b602b",
+    "ts": "2026-05-19T20:21:29.269483Z",
+    "level": "INFO",
+    "event": "scheduler.started",
+    "lead_id": "",
+    "job_id": "",
+    "message": "scheduler started; restored 0 jobs",
+    "context": {}
+  },
+  {
+    "id": "8ac1b5f1-c0ab-4f6b-9e0d-fe890d7192d2",
+    "ts": "2026-05-19T20:21:35.656254Z",
+    "level": "INFO",
+    "event": "scheduler.started",
+    "lead_id": "",
+    "job_id": "",
+    "message": "scheduler started; restored 0 jobs",
+    "context": {}
+  },
+  {
+    "id": "1db8b3c9-277a-4513-a201-6c3b3bcabf2a",
+    "ts": "2026-05-19T20:22:08.615993Z",
+    "level": "INFO",
+    "event": "scheduler.started",
+    "lead_id": "",
+    "job_id": "",
+    "message": "scheduler started; restored 0 jobs",
+    "context": {}
+  },
+  {
+    "id": "9e749e53-cc55-410b-8ec6-afd3ec731c60",
+    "ts": "2026-05-19T20:22:14.952730Z",
+    "level": "INFO",
+    "event": "scheduler.started",
+    "lead_id": "",
+    "job_id": "",
+    "message": "scheduler started; restored 0 jobs",
+    "context": {}
+  },
+  {
+    "id": "8d1e8cf1-ee77-4e9d-aee1-d25f69184578",
+    "ts": "2026-05-19T20:23:34.538370Z",
+    "level": "INFO",
+    "event": "scheduler.started",
+    "lead_id": "",
+    "job_id": "",
+    "message": "scheduler started; restored 0 jobs",
+    "context": {}
+  },
+  {
+    "id": "aee3da3c-7b7d-4175-8183-b796339109ea",
+    "ts": "2026-05-19T20:24:15.719118Z",
+    "level": "INFO",
+    "event": "scheduler.started",
+    "lead_id": "",
+    "job_id": "",
+    "message": "scheduler started; restored 0 jobs",
+    "context": {}
+  },
+  {
+    "id": "a4e1af30-425d-4797-b1ae-339d134bead2",
+    "ts": "2026-05-19T20:24:36.381768Z",
+    "level": "INFO",
+    "event": "scheduler.started",
+    "lead_id": "",
+    "job_id": "",
+    "message": "scheduler started; restored 0 jobs",
+    "context": {}
+  },
+  {
+    "id": "208182a8-2316-4026-a957-fb9772a8b67e",
+    "ts": "2026-05-19T20:25:00.232624Z",
+    "level": "INFO",
+    "event": "scheduler.started",
+    "lead_id": "",
+    "job_id": "",
+    "message": "scheduler started; restored 0 jobs",
+    "context": {}
+  },
+  {
+    "id": "49009798-b071-4035-8025-4283944bb324",
+    "ts": "2026-05-19T20:27:17.883062Z",
+    "level": "INFO",
+    "event": "scheduler.started",
+    "lead_id": "",
+    "job_id": "",
+    "message": "scheduler started; restored 0 jobs",
+    "context": {}
+  },
+  {
+    "id": "4ee526c4-cab1-46b8-b0c2-3b334c760702",
+    "ts": "2026-05-19T20:27:37.409032Z",
+    "level": "INFO",
+    "event": "close.webhook.lead_created",
+    "lead_id": "f6a53dae-b4d6-4d1f-997b-fef029312ad4",
+    "job_id": "",
+    "message": "lead created from Close lead event: testlead@example.com",
+    "context": {
+      "close_lead_id": "lead_TESTabc"
+    }
+  },
+  {
+    "id": "aa81a839-4c38-4155-8e9d-42d31368cd26",
+    "ts": "2026-05-19T20:27:37.413700Z",
+    "level": "INFO",
+    "event": "workflow.scheduled",
+    "lead_id": "f6a53dae-b4d6-4d1f-997b-fef029312ad4",
+    "job_id": "",
+    "message": "scheduled 3 steps for workflow 'Lead Nurture Sequence'",
+    "context": {
+      "workflow": "Lead Nurture Sequence",
+      "steps": 3,
+      "skipped": 0
+    }
+  },
+  {
+    "id": "65be9604-13f8-414a-8ce8-1309b5a782d4",
+    "ts": "2026-05-19T20:27:37.417341Z",
+    "level": "INFO",
+    "event": "lead_status.transition",
+    "lead_id": "f6a53dae-b4d6-4d1f-997b-fef029312ad4",
+    "job_id": "",
+    "message": "lead potential -> potential",
+    "context": {
+      "from": "potential",
+      "to": "potential",
+      "kind": "lead",
+      "cancelled": 0,
+      "scheduled": 3,
+      "workflow": "Lead Nurture Sequence"
+    }
+  },
+  {
+    "id": "c8edf055-d412-4267-8859-be6f1e2d431f",
+    "ts": "2026-05-19T20:27:37.503127Z",
+    "level": "INFO",
+    "event": "job.cancelled",
+    "lead_id": "f6a53dae-b4d6-4d1f-997b-fef029312ad4",
+    "job_id": "a97000cc-bb32-4803-b21e-3bc460884c2f",
+    "message": "",
+    "context": {}
+  },
+  {
+    "id": "49bcd203-a2d4-4669-a6e7-38a5ee704f10",
+    "ts": "2026-05-19T20:27:37.505885Z",
+    "level": "INFO",
+    "event": "job.cancelled",
+    "lead_id": "f6a53dae-b4d6-4d1f-997b-fef029312ad4",
+    "job_id": "8247460f-87d0-454c-9968-5b5fb4d227a0",
+    "message": "",
+    "context": {}
+  },
+  {
+    "id": "c8f449b7-c8ab-4448-ac2f-f3e11d125952",
+    "ts": "2026-05-19T20:27:37.508008Z",
+    "level": "INFO",
+    "event": "job.cancelled",
+    "lead_id": "f6a53dae-b4d6-4d1f-997b-fef029312ad4",
+    "job_id": "5de96bf3-30ab-4842-85c9-0513875ae0b0",
+    "message": "",
+    "context": {}
+  },
+  {
+    "id": "baa343d2-77e3-4dbf-9a24-0184fa45cc6a",
+    "ts": "2026-05-19T20:27:37.512116Z",
+    "level": "WARNING",
+    "event": "step.skipped",
+    "lead_id": "f6a53dae-b4d6-4d1f-997b-fef029312ad4",
+    "job_id": "",
+    "message": "workflow 'Booked Call Sequence' step 2 (reminder_24h_email) skipped: lead has no call_at",
+    "context": {
+      "workflow": "Booked Call Sequence",
+      "step_index": 2,
+      "template": "reminder_24h_email",
+      "reason": "lead has no call_at"
+    }
+  },
+  {
+    "id": "82f1f745-0630-4df6-bd2c-598280f605e9",
+    "ts": "2026-05-19T20:27:37.514409Z",
+    "level": "WARNING",
+    "event": "step.skipped",
+    "lead_id": "f6a53dae-b4d6-4d1f-997b-fef029312ad4",
+    "job_id": "",
+    "message": "workflow 'Booked Call Sequence' step 3 (reminder_1h_sms) skipped: lead has no call_at",
+    "context": {
+      "workflow": "Booked Call Sequence",
+      "step_index": 3,
+      "template": "reminder_1h_sms",
+      "reason": "lead has no call_at"
+    }
+  },
+  {
+    "id": "f695ef99-3604-4e74-9f59-4553d88d7998",
+    "ts": "2026-05-19T20:27:37.516732Z",
+    "level": "INFO",
+    "event": "workflow.scheduled",
+    "lead_id": "f6a53dae-b4d6-4d1f-997b-fef029312ad4",
+    "job_id": "",
+    "message": "scheduled 2 steps for workflow 'Booked Call Sequence' (2 skipped)",
+    "context": {
+      "workflow": "Booked Call Sequence",
+      "steps": 2,
+      "skipped": 2
+    }
+  },
+  {
+    "id": "089cb0ab-3d42-40c8-a727-447379a7fa52",
+    "ts": "2026-05-19T20:27:37.518977Z",
+    "level": "INFO",
+    "event": "opportunity_status.transition",
+    "lead_id": "f6a53dae-b4d6-4d1f-997b-fef029312ad4",
+    "job_id": "",
+    "message": "opportunity (none) -> call_booked",
+    "context": {
+      "from": "",
+      "to": "call_booked",
+      "kind": "opportunity",
+      "cancelled": 3,
+      "scheduled": 2,
+      "workflow": "Booked Call Sequence"
+    }
+  },
+  {
+    "id": "a168e5a7-d848-4239-94f0-e9a6ca38a47e",
+    "ts": "2026-05-19T20:27:37.567424Z",
+    "level": "INFO",
+    "event": "job.cancelled",
+    "lead_id": "f6a53dae-b4d6-4d1f-997b-fef029312ad4",
+    "job_id": "ef175395-e287-4358-b55c-be4fa4f34eff",
+    "message": "",
+    "context": {}
+  },
+  {
+    "id": "8f13ed38-80c8-438d-9785-f168b45e5639",
+    "ts": "2026-05-19T20:27:37.569921Z",
+    "level": "INFO",
+    "event": "job.cancelled",
+    "lead_id": "f6a53dae-b4d6-4d1f-997b-fef029312ad4",
+    "job_id": "e22dd07b-6228-4a87-bac8-03073c0d681f",
+    "message": "",
+    "context": {}
+  },
+  {
+    "id": "ce90358c-2d84-42d4-bc30-18a160fd10d1",
+    "ts": "2026-05-19T20:27:37.572117Z",
+    "level": "INFO",
+    "event": "lead_status.transition",
+    "lead_id": "f6a53dae-b4d6-4d1f-997b-fef029312ad4",
+    "job_id": "",
+    "message": "lead potential -> qualified",
+    "context": {
+      "from": "potential",
+      "to": "qualified",
+      "kind": "lead",
+      "cancelled": 2,
+      "scheduled": 0,
+      "workflow": ""
+    }
+  },
+  {
+    "id": "0eb61c85-fb14-4066-acac-bbea399f91ba",
+    "ts": "2026-05-19T20:49:57.780778Z",
+    "level": "INFO",
+    "event": "scheduler.started",
+    "lead_id": "",
+    "job_id": "",
+    "message": "scheduler started; restored 0 jobs",
+    "context": {}
+  },
+  {
+    "id": "4506d262-e7e2-43eb-b746-24f39a2c0c36",
+    "ts": "2026-05-19T20:50:34.503439Z",
+    "level": "INFO",
+    "event": "lead.created",
+    "lead_id": "bffdcefd-c80e-4c54-8af6-3974f651314c",
+    "job_id": "",
+    "message": "lead created: lead_OPF17521@example.com",
+    "context": {}
+  },
+  {
+    "id": "d928ccc2-4b32-412a-b732-87d16ff589cc",
+    "ts": "2026-05-19T20:50:34.517622Z",
+    "level": "WARNING",
+    "event": "step.skipped",
+    "lead_id": "bffdcefd-c80e-4c54-8af6-3974f651314c",
+    "job_id": "",
+    "message": "workflow 'Booked Call Sequence' step 2 (reminder_24h_email) skipped: lead has no call_at",
+    "context": {
+      "workflow": "Booked Call Sequence",
+      "step_index": 2,
+      "template": "reminder_24h_email",
+      "reason": "lead has no call_at"
+    }
+  },
+  {
+    "id": "e7ff6a10-92dc-4000-b3aa-265d4c16259c",
+    "ts": "2026-05-19T20:50:34.519255Z",
+    "level": "WARNING",
+    "event": "step.skipped",
+    "lead_id": "bffdcefd-c80e-4c54-8af6-3974f651314c",
+    "job_id": "",
+    "message": "workflow 'Booked Call Sequence' step 3 (reminder_1h_sms) skipped: lead has no call_at",
+    "context": {
+      "workflow": "Booked Call Sequence",
+      "step_index": 3,
+      "template": "reminder_1h_sms",
+      "reason": "lead has no call_at"
+    }
+  },
+  {
+    "id": "e4355c86-4d1a-4dd8-af4d-017ce3ab4474",
+    "ts": "2026-05-19T20:50:34.520982Z",
+    "level": "INFO",
+    "event": "workflow.scheduled",
+    "lead_id": "bffdcefd-c80e-4c54-8af6-3974f651314c",
+    "job_id": "",
+    "message": "scheduled 2 steps for workflow 'Booked Call Sequence' (2 skipped)",
+    "context": {
+      "workflow": "Booked Call Sequence",
+      "steps": 2,
+      "skipped": 2
+    }
+  },
+  {
+    "id": "537a3056-6b7d-49fb-921f-b2b25753eeff",
+    "ts": "2026-05-19T20:50:34.529184Z",
+    "level": "INFO",
+    "event": "opportunity_status.transition",
+    "lead_id": "bffdcefd-c80e-4c54-8af6-3974f651314c",
+    "job_id": "",
+    "message": "opportunity (none) -> call_booked",
+    "context": {
+      "from": "",
+      "to": "call_booked",
+      "kind": "opportunity",
+      "cancelled": 0,
+      "scheduled": 2,
+      "workflow": "Booked Call Sequence"
+    }
+  },
+  {
+    "id": "e15f8ebd-5a80-451a-944b-51c9612e0c21",
+    "ts": "2026-05-19T20:50:34.540385Z",
+    "level": "INFO",
+    "event": "lead_status.transition",
+    "lead_id": "bffdcefd-c80e-4c54-8af6-3974f651314c",
+    "job_id": "",
+    "message": "lead potential -> qualified",
+    "context": {
+      "from": "potential",
+      "to": "qualified",
+      "kind": "lead",
+      "cancelled": 0,
+      "scheduled": 0,
+      "workflow": ""
+    }
+  },
+  {
+    "id": "3c88f13e-eaa3-47aa-91a8-20fc201256ed",
+    "ts": "2026-05-19T20:50:34.629410Z",
+    "level": "INFO",
+    "event": "lead.created",
+    "lead_id": "563d1834-19ae-4ad0-8023-3a803028b76f",
+    "job_id": "",
+    "message": "lead created: lead_LQF25359@example.com",
+    "context": {}
+  },
+  {
+    "id": "953d8cc5-bc8d-40b5-823d-9debff45ab2a",
+    "ts": "2026-05-19T20:50:34.640805Z",
+    "level": "INFO",
+    "event": "lead_status.transition",
+    "lead_id": "563d1834-19ae-4ad0-8023-3a803028b76f",
+    "job_id": "",
+    "message": "lead potential -> qualified",
+    "context": {
+      "from": "potential",
+      "to": "qualified",
+      "kind": "lead",
+      "cancelled": 0,
+      "scheduled": 0,
+      "workflow": ""
+    }
+  },
+  {
+    "id": "61c26f11-b991-415f-95e0-65b5d5cad03f",
+    "ts": "2026-05-19T20:50:34.652854Z",
+    "level": "WARNING",
+    "event": "step.skipped",
+    "lead_id": "563d1834-19ae-4ad0-8023-3a803028b76f",
+    "job_id": "",
+    "message": "workflow 'Booked Call Sequence' step 2 (reminder_24h_email) skipped: lead has no call_at",
+    "context": {
+      "workflow": "Booked Call Sequence",
+      "step_index": 2,
+      "template": "reminder_24h_email",
+      "reason": "lead has no call_at"
+    }
+  },
+  {
+    "id": "f3f7fbf6-4504-4d3a-ba29-fcb1464d61e7",
+    "ts": "2026-05-19T20:50:34.654776Z",
+    "level": "WARNING",
+    "event": "step.skipped",
+    "lead_id": "563d1834-19ae-4ad0-8023-3a803028b76f",
+    "job_id": "",
+    "message": "workflow 'Booked Call Sequence' step 3 (reminder_1h_sms) skipped: lead has no call_at",
+    "context": {
+      "workflow": "Booked Call Sequence",
+      "step_index": 3,
+      "template": "reminder_1h_sms",
+      "reason": "lead has no call_at"
+    }
+  },
+  {
+    "id": "e34e09a8-58fc-4012-8819-06d088e6ad06",
+    "ts": "2026-05-19T20:50:34.656721Z",
+    "level": "INFO",
+    "event": "workflow.scheduled",
+    "lead_id": "563d1834-19ae-4ad0-8023-3a803028b76f",
+    "job_id": "",
+    "message": "scheduled 2 steps for workflow 'Booked Call Sequence' (2 skipped)",
+    "context": {
+      "workflow": "Booked Call Sequence",
+      "steps": 2,
+      "skipped": 2
+    }
+  },
+  {
+    "id": "9a187439-e89b-4240-bbe4-e62ce0915752",
+    "ts": "2026-05-19T20:50:34.659343Z",
+    "level": "INFO",
+    "event": "opportunity_status.transition",
+    "lead_id": "563d1834-19ae-4ad0-8023-3a803028b76f",
+    "job_id": "",
+    "message": "opportunity (none) -> call_booked",
+    "context": {
+      "from": "",
+      "to": "call_booked",
+      "kind": "opportunity",
+      "cancelled": 0,
+      "scheduled": 2,
+      "workflow": "Booked Call Sequence"
+    }
+  },
+  {
+    "id": "39784363-92c0-42c9-a8d7-75fffabe9a51",
+    "ts": "2026-05-19T20:50:34.714651Z",
+    "level": "INFO",
+    "event": "lead.created",
+    "lead_id": "dd13bab8-8678-4ee4-ad60-cc5e1638254a",
+    "job_id": "",
+    "message": "lead created: lead_BFT30946@example.com",
+    "context": {}
+  },
+  {
+    "id": "4b529459-363b-43d1-8606-3160db4115ab",
+    "ts": "2026-05-19T20:50:34.727172Z",
+    "level": "WARNING",
+    "event": "step.skipped",
+    "lead_id": "dd13bab8-8678-4ee4-ad60-cc5e1638254a",
+    "job_id": "",
+    "message": "workflow 'Booked Call Sequence' step 2 (reminder_24h_email) skipped: lead has no call_at",
+    "context": {
+      "workflow": "Booked Call Sequence",
+      "step_index": 2,
+      "template": "reminder_24h_email",
+      "reason": "lead has no call_at"
+    }
+  },
+  {
+    "id": "547cd68f-d019-4432-9eec-bec4f43d85d6",
+    "ts": "2026-05-19T20:50:34.729317Z",
+    "level": "WARNING",
+    "event": "step.skipped",
+    "lead_id": "dd13bab8-8678-4ee4-ad60-cc5e1638254a",
+    "job_id": "",
+    "message": "workflow 'Booked Call Sequence' step 3 (reminder_1h_sms) skipped: lead has no call_at",
+    "context": {
+      "workflow": "Booked Call Sequence",
+      "step_index": 3,
+      "template": "reminder_1h_sms",
+      "reason": "lead has no call_at"
+    }
+  },
+  {
+    "id": "6e96684b-5fab-4014-ab29-243ea229e0ce",
+    "ts": "2026-05-19T20:50:34.731136Z",
+    "level": "INFO",
+    "event": "workflow.scheduled",
+    "lead_id": "dd13bab8-8678-4ee4-ad60-cc5e1638254a",
+    "job_id": "",
+    "message": "scheduled 2 steps for workflow 'Booked Call Sequence' (2 skipped)",
+    "context": {
+      "workflow": "Booked Call Sequence",
+      "steps": 2,
+      "skipped": 2
+    }
+  },
+  {
+    "id": "f1b41003-4f20-4555-9239-3d76de8ad190",
+    "ts": "2026-05-19T20:50:34.733230Z",
+    "level": "INFO",
+    "event": "opportunity_status.transition",
+    "lead_id": "dd13bab8-8678-4ee4-ad60-cc5e1638254a",
+    "job_id": "",
+    "message": "opportunity (none) -> call_booked",
+    "context": {
+      "from": "",
+      "to": "call_booked",
+      "kind": "opportunity",
+      "cancelled": 0,
+      "scheduled": 2,
+      "workflow": "Booked Call Sequence"
+    }
+  },
+  {
+    "id": "98fa13be-4b31-4159-99a8-c260246f7449",
+    "ts": "2026-05-19T20:50:34.744450Z",
+    "level": "INFO",
+    "event": "job.cancelled",
+    "lead_id": "dd13bab8-8678-4ee4-ad60-cc5e1638254a",
+    "job_id": "b5756dc0-b72d-43d7-983f-e4683f9f5587",
+    "message": "",
+    "context": {}
+  },
+  {
+    "id": "e5bb74e8-8c0b-42f8-b0ab-58a698ddf19a",
+    "ts": "2026-05-19T20:50:34.746826Z",
+    "level": "INFO",
+    "event": "job.cancelled",
+    "lead_id": "dd13bab8-8678-4ee4-ad60-cc5e1638254a",
+    "job_id": "c4d03c62-fdf1-49e0-bf2f-acda9495af41",
+    "message": "",
+    "context": {}
+  },
+  {
+    "id": "ca4ae202-c075-478f-bb47-d84d72949df3",
+    "ts": "2026-05-19T20:50:34.749105Z",
+    "level": "INFO",
+    "event": "lead_status.transition",
+    "lead_id": "dd13bab8-8678-4ee4-ad60-cc5e1638254a",
+    "job_id": "",
+    "message": "lead potential -> bad_fit",
+    "context": {
+      "from": "potential",
+      "to": "bad_fit",
+      "kind": "lead",
+      "cancelled": 2,
+      "scheduled": 0,
+      "workflow": ""
+    }
+  },
+  {
+    "id": "52914976-7714-412d-b6c8-1dfb98986547",
+    "ts": "2026-05-19T20:50:39.308259Z",
+    "level": "INFO",
+    "event": "job.sent",
+    "lead_id": "bffdcefd-c80e-4c54-8af6-3974f651314c",
+    "job_id": "7be76a9e-7dc8-4bcb-a108-0fc064f8a195",
+    "message": "email sent via smtp",
+    "context": {
+      "step_index": 0,
+      "template": "confirmation_email",
+      "result": {
+        "provider": "smtp",
+        "to": "lead_OPF17521@example.com",
+        "subject": "You're confirmed for ",
+        "status": "sent"
+      },
+      "preview": "<p>Hi Test1, edit</p>\n\n<p>Your call is confirmed for <strong></strong>.</p>\n\n\n<p>Talk soon,<br>The team</p>",
+      "subject": "You're confirmed for "
+    }
+  },
+  {
+    "id": "b540fce5-f596-4a81-9e5a-af862e83e0ab",
+    "ts": "2026-05-19T20:50:39.463970Z",
+    "level": "INFO",
+    "event": "job.sent",
+    "lead_id": "563d1834-19ae-4ad0-8023-3a803028b76f",
+    "job_id": "9fbeb25a-0586-4123-b4b4-bd89dda12190",
+    "message": "email sent via smtp",
+    "context": {
+      "step_index": 0,
+      "template": "confirmation_email",
+      "result": {
+        "provider": "smtp",
+        "to": "lead_LQF25359@example.com",
+        "subject": "You're confirmed for ",
+        "status": "sent"
+      },
+      "preview": "<p>Hi Test2, edit</p>\n\n<p>Your call is confirmed for <strong></strong>.</p>\n\n\n<p>Talk soon,<br>The team</p>",
+      "subject": "You're confirmed for "
+    }
+  },
+  {
+    "id": "aa1bfc91-cbbc-4e3e-9a4f-381c83fde4fb",
+    "ts": "2026-05-19T20:51:53.907418Z",
+    "level": "INFO",
+    "event": "scheduler.started",
+    "lead_id": "",
+    "job_id": "",
+    "message": "scheduler started; restored 0 jobs",
+    "context": {}
+  },
+  {
+    "id": "d02f375a-71c4-4e46-becb-fdde4dc77434",
+    "ts": "2026-05-19T21:00:38.816791Z",
+    "level": "INFO",
+    "event": "scheduler.started",
+    "lead_id": "",
+    "job_id": "",
+    "message": "scheduler started; restored 0 jobs",
+    "context": {}
+  },
+  {
+    "id": "54e71f1a-0621-4d52-b51c-36f7e63156da",
+    "ts": "2026-05-19T21:01:27.337727Z",
+    "level": "INFO",
+    "event": "scheduler.started",
+    "lead_id": "",
+    "job_id": "",
+    "message": "scheduler started; restored 0 jobs",
+    "context": {}
+  },
+  {
+    "id": "287aeb3c-0996-4925-8e75-35a667fa113f",
+    "ts": "2026-05-19T21:05:53.691851Z",
+    "level": "INFO",
+    "event": "scheduler.started",
+    "lead_id": "",
+    "job_id": "",
+    "message": "scheduler started; restored 0 jobs",
+    "context": {}
+  },
+  {
+    "id": "98e4fe79-cbe7-4737-9540-ede8255c0319",
+    "ts": "2026-05-19T21:11:37.536659Z",
+    "level": "INFO",
+    "event": "scheduler.started",
+    "lead_id": "",
+    "job_id": "",
+    "message": "scheduler started; restored 0 jobs",
+    "context": {}
+  },
+  {
+    "id": "89d277db-6cd0-4cd7-9ece-f5bb1263c31c",
+    "ts": "2026-05-19T21:11:49.219631Z",
+    "level": "INFO",
+    "event": "scheduler.started",
+    "lead_id": "",
+    "job_id": "",
+    "message": "scheduler started; restored 0 jobs",
+    "context": {}
+  },
+  {
+    "id": "821fc7de-d04e-4cc5-87c3-3038eefc1892",
+    "ts": "2026-05-19T21:30:57.474144Z",
+    "level": "INFO",
+    "event": "scheduler.started",
+    "lead_id": "",
+    "job_id": "",
+    "message": "scheduler started; restored 0 jobs",
+    "context": {}
+  },
+  {
+    "id": "b8bdd948-f0e4-4afa-865e-9b760b4e71fd",
+    "ts": "2026-05-19T21:35:51.649812Z",
+    "level": "INFO",
+    "event": "scheduler.started",
+    "lead_id": "",
+    "job_id": "",
+    "message": "scheduler started; restored 0 jobs",
+    "context": {}
+  },
+  {
+    "id": "5597caef-1fb7-4487-b1fe-488df2da0c2f",
+    "ts": "2026-05-19T21:43:01.119995Z",
+    "level": "INFO",
+    "event": "scheduler.started",
+    "lead_id": "",
+    "job_id": "",
+    "message": "scheduler started; restored 0 jobs",
+    "context": {}
+  },
+  {
+    "id": "ce08fb29-5b37-4a57-91d9-f45b3d4f1b0c",
+    "ts": "2026-05-19T21:43:22.751094Z",
+    "level": "INFO",
+    "event": "scheduler.started",
+    "lead_id": "",
+    "job_id": "",
+    "message": "scheduler started; restored 0 jobs",
+    "context": {}
+  },
+  {
+    "id": "9883f5e9-ac7e-4738-bc6c-31fe9082ec01",
+    "ts": "2026-05-19T21:43:49.779002Z",
+    "level": "INFO",
+    "event": "scheduler.started",
+    "lead_id": "",
+    "job_id": "",
+    "message": "scheduler started; restored 0 jobs",
+    "context": {}
+  },
+  {
+    "id": "150b8443-a680-4c59-badf-c69e6a7846b3",
+    "ts": "2026-05-19T21:44:06.156846Z",
+    "level": "INFO",
+    "event": "scheduler.started",
+    "lead_id": "",
+    "job_id": "",
+    "message": "scheduler started; restored 0 jobs",
+    "context": {}
+  },
+  {
+    "id": "7f728c23-9f7c-41fd-9f6f-b2ff01afe3db",
+    "ts": "2026-05-19T21:44:29.089741Z",
+    "level": "INFO",
+    "event": "close.webhook.lead_created",
+    "lead_id": "d583ab6e-cd48-494c-aa10-e426bdff0ba7",
+    "job_id": "",
+    "message": "lead created from Close lead event: dt@example.com",
+    "context": {
+      "close_lead_id": "lead_DISP1"
+    }
+  },
+  {
+    "id": "db5e2507-0c97-404c-a232-2e111ec89ce2",
+    "ts": "2026-05-19T21:44:29.095046Z",
+    "level": "INFO",
+    "event": "lead_status.transition",
+    "lead_id": "d583ab6e-cd48-494c-aa10-e426bdff0ba7",
+    "job_id": "",
+    "message": "lead potential -> potential",
+    "context": {
+      "from": "potential",
+      "to": "potential",
+      "kind": "lead",
+      "cancelled": 0,
+      "scheduled": 0,
+      "workflow": ""
+    }
+  },
+  {
+    "id": "8c07af3e-9b9d-42e7-9425-cb921cd5dfa8",
+    "ts": "2026-05-19T21:44:29.162462Z",
+    "level": "WARNING",
+    "event": "step.skipped",
+    "lead_id": "d583ab6e-cd48-494c-aa10-e426bdff0ba7",
+    "job_id": "",
+    "message": "workflow 'Booked Call Sequence' step 2 (reminder_24h_email) skipped: lead has no call_at",
+    "context": {
+      "workflow": "Booked Call Sequence",
+      "step_index": 2,
+      "template": "reminder_24h_email",
+      "reason": "lead has no call_at"
+    }
+  },
+  {
+    "id": "b2b95681-58ee-44c2-ab67-9ccaaf112e4e",
+    "ts": "2026-05-19T21:44:29.164966Z",
+    "level": "WARNING",
+    "event": "step.skipped",
+    "lead_id": "d583ab6e-cd48-494c-aa10-e426bdff0ba7",
+    "job_id": "",
+    "message": "workflow 'Booked Call Sequence' step 3 (reminder_1h_sms) skipped: lead has no call_at",
+    "context": {
+      "workflow": "Booked Call Sequence",
+      "step_index": 3,
+      "template": "reminder_1h_sms",
+      "reason": "lead has no call_at"
+    }
+  },
+  {
+    "id": "cf05ad40-d43a-4952-a046-b9e368bafb23",
+    "ts": "2026-05-19T21:44:29.167179Z",
+    "level": "INFO",
+    "event": "workflow.scheduled",
+    "lead_id": "d583ab6e-cd48-494c-aa10-e426bdff0ba7",
+    "job_id": "",
+    "message": "scheduled 2 steps for workflow 'Booked Call Sequence' (2 skipped)",
+    "context": {
+      "workflow": "Booked Call Sequence",
+      "steps": 2,
+      "skipped": 2
+    }
+  },
+  {
+    "id": "74e44ef0-42c2-4d4e-98ca-d2d83fe86475",
+    "ts": "2026-05-19T21:44:29.171279Z",
+    "level": "INFO",
+    "event": "opportunity_status.transition",
+    "lead_id": "d583ab6e-cd48-494c-aa10-e426bdff0ba7",
+    "job_id": "",
+    "message": "opportunity (none) -> call_booked",
+    "context": {
+      "from": "",
+      "to": "call_booked",
+      "kind": "opportunity",
+      "cancelled": 0,
+      "scheduled": 2,
+      "workflow": "Booked Call Sequence"
+    }
+  },
+  {
+    "id": "0dfcef18-9a48-4918-a9bc-dde67277213b",
+    "ts": "2026-05-19T21:44:29.225039Z",
+    "level": "INFO",
+    "event": "lead_status.transition",
+    "lead_id": "d583ab6e-cd48-494c-aa10-e426bdff0ba7",
+    "job_id": "",
+    "message": "lead potential -> qualified",
+    "context": {
+      "from": "potential",
+      "to": "qualified",
+      "kind": "lead",
+      "cancelled": 0,
+      "scheduled": 0,
+      "workflow": ""
+    }
+  },
+  {
+    "id": "9aeed9bd-1606-4ee0-90d5-7d87f392c04a",
+    "ts": "2026-05-19T21:44:34.076084Z",
+    "level": "INFO",
+    "event": "job.sent",
+    "lead_id": "d583ab6e-cd48-494c-aa10-e426bdff0ba7",
+    "job_id": "87293e14-f277-419c-9661-58bcc8b918c3",
+    "message": "email sent via smtp",
+    "context": {
+      "step_index": 0,
+      "template": "confirmation_email",
+      "result": {
+        "provider": "smtp",
+        "to": "dt@example.com",
+        "subject": "You're confirmed for ",
+        "status": "sent"
+      },
+      "preview": "<p>Hi Dispatcher Test, edit</p>\n\n<p>Your call is confirmed for <strong></strong>.</p>\n\n<p>Add it to your calendar here: <a href=\"https://calendly.com/\">https://calendly.com/</a></p>\n<p>Want a preview of what we'll cover? <a href=\"https://www.dobotai.com/\">Read this short case study</a>.</p>\n\n<p>Talk soon,<br>The team</p>",
+      "subject": "You're confirmed for "
+    }
+  },
+  {
+    "id": "9c6e7c44-1e33-47d0-8044-a9d3aac7f44f",
+    "ts": "2026-05-19T22:05:57.005215Z",
+    "level": "INFO",
+    "event": "scheduler.started",
+    "lead_id": "",
+    "job_id": "",
+    "message": "scheduler started; restored 0 jobs",
+    "context": {}
+  },
+  {
+    "id": "ead34455-5dfe-45dc-bc28-6e7d52589599",
+    "ts": "2026-05-19T22:07:04.063960Z",
+    "level": "INFO",
+    "event": "close.webhook.lead_created",
+    "lead_id": "a82bd583-bab4-4cff-a628-9888fb1c3b7a",
+    "job_id": "",
+    "message": "lead created from close event: t@example.com",
+    "context": {
+      "external_id": "lead_TEST"
+    }
+  },
+  {
+    "id": "3fe30ecf-837c-4f7f-a845-c541bca8caad",
+    "ts": "2026-05-19T22:07:04.068786Z",
+    "level": "INFO",
+    "event": "lead_status.transition",
+    "lead_id": "a82bd583-bab4-4cff-a628-9888fb1c3b7a",
+    "job_id": "",
+    "message": "lead potential -> potential",
+    "context": {
+      "from": "potential",
+      "to": "potential",
+      "kind": "lead",
+      "cancelled": 0,
+      "scheduled": 0,
+      "workflow": ""
+    }
+  },
+  {
+    "id": "9c4a42ee-11d5-414f-92a3-0b7c6868ca61",
+    "ts": "2026-05-19T22:07:04.131444Z",
+    "level": "WARNING",
+    "event": "step.skipped",
+    "lead_id": "a82bd583-bab4-4cff-a628-9888fb1c3b7a",
+    "job_id": "",
+    "message": "workflow 'Booked Call Sequence' step 2 (reminder_24h_email) skipped: lead has no call_at",
+    "context": {
+      "workflow": "Booked Call Sequence",
+      "step_index": 2,
+      "template": "reminder_24h_email",
+      "reason": "lead has no call_at"
+    }
+  },
+  {
+    "id": "dd135134-2314-4d1e-8dcc-de1e4d6446c1",
+    "ts": "2026-05-19T22:07:04.133763Z",
+    "level": "WARNING",
+    "event": "step.skipped",
+    "lead_id": "a82bd583-bab4-4cff-a628-9888fb1c3b7a",
+    "job_id": "",
+    "message": "workflow 'Booked Call Sequence' step 3 (reminder_1h_sms) skipped: lead has no call_at",
+    "context": {
+      "workflow": "Booked Call Sequence",
+      "step_index": 3,
+      "template": "reminder_1h_sms",
+      "reason": "lead has no call_at"
+    }
+  },
+  {
+    "id": "8ac34d36-2a86-49de-8d3c-f2bf54b1c7a9",
+    "ts": "2026-05-19T22:07:04.135963Z",
+    "level": "INFO",
+    "event": "workflow.scheduled",
+    "lead_id": "a82bd583-bab4-4cff-a628-9888fb1c3b7a",
+    "job_id": "",
+    "message": "scheduled 2 steps for workflow 'Booked Call Sequence' (2 skipped)",
+    "context": {
+      "workflow": "Booked Call Sequence",
+      "steps": 2,
+      "skipped": 2
+    }
+  },
+  {
+    "id": "e455857b-753e-4ebb-8045-95ec05166024",
+    "ts": "2026-05-19T22:07:04.143604Z",
+    "level": "INFO",
+    "event": "opportunity_status.transition",
+    "lead_id": "a82bd583-bab4-4cff-a628-9888fb1c3b7a",
+    "job_id": "",
+    "message": "opportunity (none) -> call_booked",
+    "context": {
+      "from": "",
+      "to": "call_booked",
+      "kind": "opportunity",
+      "cancelled": 0,
+      "scheduled": 2,
+      "workflow": "Booked Call Sequence"
+    }
+  },
+  {
+    "id": "3a304784-e753-4d89-bed7-a4e76f7604bf",
+    "ts": "2026-05-19T22:07:04.160908Z",
+    "level": "INFO",
+    "event": "close.webhook.ignored",
+    "lead_id": "",
+    "job_id": "",
+    "message": "unhandled event contact.updated",
+    "context": {
+      "raw_status_id": "",
+      "raw_status_label": ""
+    }
+  },
+  {
+    "id": "ac01c354-f28c-4f11-ab39-8e507ccc1ec2",
+    "ts": "2026-05-19T22:07:04.192299Z",
+    "level": "INFO",
+    "event": "lead_status.transition",
+    "lead_id": "a82bd583-bab4-4cff-a628-9888fb1c3b7a",
+    "job_id": "",
+    "message": "lead potential -> qualified",
+    "context": {
+      "from": "potential",
+      "to": "qualified",
+      "kind": "lead",
+      "cancelled": 0,
+      "scheduled": 0,
+      "workflow": ""
+    }
+  },
+  {
+    "id": "e2f33041-6a4c-48d4-a91c-a946966092aa",
+    "ts": "2026-05-19T22:07:04.225434Z",
+    "level": "INFO",
+    "event": "job.cancelled",
+    "lead_id": "a82bd583-bab4-4cff-a628-9888fb1c3b7a",
+    "job_id": "b9d97c5b-3719-449f-b716-af6f30b5601c",
+    "message": "",
+    "context": {}
+  },
+  {
+    "id": "b1be73e4-ed16-42d4-8b70-b1d3b6386a35",
+    "ts": "2026-05-19T22:07:04.229950Z",
+    "level": "INFO",
+    "event": "job.cancelled",
+    "lead_id": "a82bd583-bab4-4cff-a628-9888fb1c3b7a",
+    "job_id": "bb26f5f7-dc79-44e5-9594-34eb5e523421",
+    "message": "",
+    "context": {}
+  },
+  {
+    "id": "633c4ec4-2154-408e-ad31-90e5b69ed477",
+    "ts": "2026-05-19T22:07:04.233407Z",
+    "level": "INFO",
+    "event": "opportunity_status.transition",
+    "lead_id": "a82bd583-bab4-4cff-a628-9888fb1c3b7a",
+    "job_id": "",
+    "message": "opportunity call_booked -> call_cancelled",
+    "context": {
+      "from": "call_booked",
+      "to": "call_cancelled",
+      "kind": "opportunity",
+      "cancelled": 2,
+      "scheduled": 0,
+      "workflow": ""
+    }
+  },
+  {
+    "id": "75bc289d-f33e-4ab5-9091-1c3eac910168",
+    "ts": "2026-05-20T06:06:08.969592Z",
+    "level": "INFO",
+    "event": "scheduler.started",
+    "lead_id": "",
+    "job_id": "",
+    "message": "scheduler started; restored 0 jobs",
+    "context": {}
+  },
+  {
+    "id": "57a9d0f1-db05-4cac-b7a6-4b7f6ed3f753",
+    "ts": "2026-05-20T06:06:17.146157Z",
+    "level": "WARNING",
+    "event": "close.webhook.no_email",
+    "lead_id": "",
+    "job_id": "",
+    "message": "no email available; skipping lead creation",
+    "context": {
+      "external_id": "lead_NRmfcVp5i2WOjp1cpqaHtptJJu8DHiuomc7W2DhtiU5"
+    }
+  },
+  {
+    "id": "bc4a76b3-a818-483e-81a9-b9326e396515",
+    "ts": "2026-05-20T06:06:17.167028Z",
+    "level": "INFO",
+    "event": "close.webhook.ignored",
+    "lead_id": "",
+    "job_id": "",
+    "message": "unhandled event contact.created",
+    "context": {
+      "raw_status_id": "",
+      "raw_status_label": ""
+    }
+  },
+  {
+    "id": "222a92dd-264c-4acf-8ab5-161a9188ac98",
+    "ts": "2026-05-20T06:06:42.261465Z",
+    "level": "INFO",
+    "event": "close.webhook.ignored",
+    "lead_id": "",
+    "job_id": "",
+    "message": "status not in changed_fields",
+    "context": {
+      "raw_status_id": "",
+      "raw_status_label": ""
+    }
+  },
+  {
+    "id": "dcf0e324-512a-4b1d-8d3a-76e86ac6c54c",
+    "ts": "2026-05-20T06:07:48.671837Z",
+    "level": "INFO",
+    "event": "close.webhook.ignored",
+    "lead_id": "",
+    "job_id": "",
+    "message": "unhandled event contact.created",
+    "context": {
+      "raw_status_id": "",
+      "raw_status_label": ""
+    }
+  },
+  {
+    "id": "2664e8f8-1dee-4f74-a810-782edc1f60bf",
+    "ts": "2026-05-20T06:07:56.732885Z",
+    "level": "INFO",
+    "event": "close.webhook.ignored",
+    "lead_id": "",
+    "job_id": "",
+    "message": "status not in changed_fields",
+    "context": {
+      "raw_status_id": "",
+      "raw_status_label": ""
+    }
+  },
+  {
+    "id": "69abecee-fcce-4ec5-9342-c14f67a29087",
+    "ts": "2026-05-20T06:08:15.050832Z",
+    "level": "INFO",
+    "event": "close.webhook.ignored",
+    "lead_id": "",
+    "job_id": "",
+    "message": "status not in changed_fields",
+    "context": {
+      "raw_status_id": "",
+      "raw_status_label": ""
+    }
+  },
+  {
+    "id": "b13017e5-4661-420a-be6e-982156c6dea2",
+    "ts": "2026-05-20T06:08:35.806922Z",
+    "level": "WARNING",
+    "event": "close.webhook.no_email",
+    "lead_id": "",
+    "job_id": "",
+    "message": "no email available; skipping lead creation",
+    "context": {
+      "external_id": "lead_NRmfcVp5i2WOjp1cpqaHtptJJu8DHiuomc7W2DhtiU5"
+    }
+  },
+  {
+    "id": "c18870af-9d24-42bf-b944-667f9dce99ce",
+    "ts": "2026-05-20T06:11:22.942550Z",
+    "level": "INFO",
+    "event": "close.webhook.ignored",
+    "lead_id": "",
+    "job_id": "",
+    "message": "status not in changed_fields",
+    "context": {
+      "raw_status_id": "",
+      "raw_status_label": ""
+    }
+  },
+  {
+    "id": "d74a7e0a-da4a-496d-9c5e-5153d7c81534",
+    "ts": "2026-05-20T06:11:33.573336Z",
+    "level": "INFO",
+    "event": "close.webhook.ignored",
+    "lead_id": "",
+    "job_id": "",
+    "message": "status not in changed_fields",
+    "context": {
+      "raw_status_id": "",
+      "raw_status_label": ""
+    }
+  },
+  {
+    "id": "e6bbf9fd-7301-4cf5-a791-b30ebb08c36a",
+    "ts": "2026-05-20T06:13:01.418282Z",
+    "level": "INFO",
+    "event": "close.webhook.ignored",
+    "lead_id": "",
+    "job_id": "",
+    "message": "unhandled event contact.updated",
+    "context": {
+      "raw_status_id": "",
+      "raw_status_label": ""
+    }
+  },
+  {
+    "id": "b8e4cad9-ba04-43a4-ba1d-ccadf1d9dafe",
+    "ts": "2026-05-20T06:14:47.115373Z",
+    "level": "INFO",
+    "event": "close.webhook.lead_created",
+    "lead_id": "c1bde7f6-be92-4dc2-8f2a-a87c289f0075",
+    "job_id": "",
+    "message": "lead created from close event: rodgeagonia@gmail.com",
+    "context": {
+      "external_id": "lead_NRmfcVp5i2WOjp1cpqaHtptJJu8DHiuomc7W2DhtiU5"
+    }
+  },
+  {
+    "id": "67f8cd1a-6328-47ac-b161-6e0d7b4cb50a",
+    "ts": "2026-05-20T06:14:47.127863Z",
+    "level": "WARNING",
+    "event": "step.skipped",
+    "lead_id": "c1bde7f6-be92-4dc2-8f2a-a87c289f0075",
+    "job_id": "",
+    "message": "workflow 'Booked Call Sequence' step 2 (reminder_24h_email) skipped: lead has no call_at",
+    "context": {
+      "workflow": "Booked Call Sequence",
+      "step_index": 2,
+      "template": "reminder_24h_email",
+      "reason": "lead has no call_at"
+    }
+  },
+  {
+    "id": "97a24bf1-8969-4ca9-bc01-d3aea58e79a3",
+    "ts": "2026-05-20T06:14:47.133698Z",
+    "level": "WARNING",
+    "event": "step.skipped",
+    "lead_id": "c1bde7f6-be92-4dc2-8f2a-a87c289f0075",
+    "job_id": "",
+    "message": "workflow 'Booked Call Sequence' step 3 (reminder_1h_sms) skipped: lead has no call_at",
+    "context": {
+      "workflow": "Booked Call Sequence",
+      "step_index": 3,
+      "template": "reminder_1h_sms",
+      "reason": "lead has no call_at"
+    }
+  },
+  {
+    "id": "45273dea-4663-48dd-960f-fd701aeca45d",
+    "ts": "2026-05-20T06:14:47.138721Z",
+    "level": "INFO",
+    "event": "workflow.scheduled",
+    "lead_id": "c1bde7f6-be92-4dc2-8f2a-a87c289f0075",
+    "job_id": "",
+    "message": "scheduled 2 steps for workflow 'Booked Call Sequence' (2 skipped)",
+    "context": {
+      "workflow": "Booked Call Sequence",
+      "steps": 2,
+      "skipped": 2
+    }
+  },
+  {
+    "id": "53bdb979-4ab0-433b-bf1c-91b7fc3f1f4c",
+    "ts": "2026-05-20T06:14:47.156886Z",
+    "level": "INFO",
+    "event": "opportunity_status.transition",
+    "lead_id": "c1bde7f6-be92-4dc2-8f2a-a87c289f0075",
+    "job_id": "",
+    "message": "opportunity (none) -> call_booked",
+    "context": {
+      "from": "",
+      "to": "call_booked",
+      "kind": "opportunity",
+      "cancelled": 0,
+      "scheduled": 2,
+      "workflow": "Booked Call Sequence"
+    }
+  },
+  {
+    "id": "1ded76f2-5ef3-46b8-9ae8-948efcbddcb0",
+    "ts": "2026-05-20T06:14:51.714689Z",
+    "level": "INFO",
+    "event": "job.sent",
+    "lead_id": "c1bde7f6-be92-4dc2-8f2a-a87c289f0075",
+    "job_id": "1987b880-7b29-4ed6-a3c7-2269e892a010",
+    "message": "email sent via smtp",
+    "context": {
+      "step_index": 0,
+      "template": "confirmation_email",
+      "result": {
+        "provider": "smtp",
+        "to": "rodgeagonia@gmail.com",
+        "subject": "You're confirmed for ",
+        "status": "sent"
+      },
+      "preview": "<p>Hi Rodvic Test, edit</p>\n\n<p>Your call is confirmed for <strong></strong>.</p>\n\n<p>Add it to your calendar here: <a href=\"https://calendly.com/\">https://calendly.com/</a></p>\n<p>Want a preview of what we'll cover? <a href=\"https://www.dobotai.com/\">Read this short case study</a>.</p>\n\n<p>Talk soon,<br>The team</p>",
+      "subject": "You're confirmed for "
+    }
+  },
+  {
+    "id": "55c45e43-d6f2-447a-9685-f880818d0533",
+    "ts": "2026-05-20T06:16:12.189164Z",
+    "level": "INFO",
+    "event": "close.webhook.lead_created",
+    "lead_id": "fb6ad045-1f8d-496d-b2ca-13f890d6cda8",
+    "job_id": "",
+    "message": "lead created from close event: b@prospecthelp.com",
+    "context": {
+      "external_id": "lead_VnWyzdqemBYjVnAvO9LV8qFRNhNNpcZvht7N0Dpxkt7"
+    }
+  },
+  {
+    "id": "0d1173f3-04af-40c7-b4b0-9099904313fa",
+    "ts": "2026-05-20T06:16:12.206001Z",
+    "level": "INFO",
+    "event": "lead_status.transition",
+    "lead_id": "fb6ad045-1f8d-496d-b2ca-13f890d6cda8",
+    "job_id": "",
+    "message": "lead potential -> potential",
+    "context": {
+      "from": "potential",
+      "to": "potential",
+      "kind": "lead",
+      "cancelled": 0,
+      "scheduled": 0,
+      "workflow": ""
+    }
+  },
+  {
+    "id": "4cb106c8-82a0-4c76-81bb-a10344d45191",
+    "ts": "2026-05-20T06:16:13.222049Z",
+    "level": "INFO",
+    "event": "close.webhook.ignored",
+    "lead_id": "",
+    "job_id": "",
+    "message": "unhandled event contact.created",
+    "context": {
+      "raw_status_id": "",
+      "raw_status_label": ""
+    }
+  },
+  {
+    "id": "e68e3ad9-52ed-4311-87dd-4ebc1ec77134",
+    "ts": "2026-05-20T06:16:54.810978Z",
+    "level": "WARNING",
+    "event": "close.webhook.no_email",
+    "lead_id": "",
+    "job_id": "",
+    "message": "no email available; skipping lead creation",
+    "context": {
+      "external_id": "lead_wW0tJVCH8KhBAcjiW7xrAFThY9nv3nyWwiCEblHCV0J"
+    }
+  },
+  {
+    "id": "c4ee49e5-d79a-4c61-b657-7e0e8533eff7",
+    "ts": "2026-05-20T06:16:59.246656Z",
+    "level": "INFO",
+    "event": "close.webhook.ignored",
+    "lead_id": "",
+    "job_id": "",
+    "message": "unhandled event contact.created",
+    "context": {
+      "raw_status_id": "",
+      "raw_status_label": ""
+    }
+  },
+  {
+    "id": "619e94c5-fd33-41de-87b5-526b25c85f19",
+    "ts": "2026-05-20T06:19:11.656140Z",
+    "level": "INFO",
+    "event": "scheduler.started",
+    "lead_id": "",
+    "job_id": "",
+    "message": "scheduler started; restored 1 jobs",
+    "context": {}
+  },
+  {
+    "id": "8750fbfb-914c-4ae6-baaf-63a880b8c477",
+    "ts": "2026-05-20T06:19:37.637275Z",
+    "level": "WARNING",
+    "event": "step.skipped",
+    "lead_id": "c1bde7f6-be92-4dc2-8f2a-a87c289f0075",
+    "job_id": "",
+    "message": "workflow 'Booked Call Sequence' step 2 (reminder_24h_email) skipped: lead has no call_at",
+    "context": {
+      "workflow": "Booked Call Sequence",
+      "step_index": 2,
+      "template": "reminder_24h_email",
+      "reason": "lead has no call_at"
+    }
+  },
+  {
+    "id": "63947584-7f96-4118-92f6-4bbf28b384a4",
+    "ts": "2026-05-20T06:19:37.648047Z",
+    "level": "WARNING",
+    "event": "step.skipped",
+    "lead_id": "c1bde7f6-be92-4dc2-8f2a-a87c289f0075",
+    "job_id": "",
+    "message": "workflow 'Booked Call Sequence' step 3 (reminder_1h_sms) skipped: lead has no call_at",
+    "context": {
+      "workflow": "Booked Call Sequence",
+      "step_index": 3,
+      "template": "reminder_1h_sms",
+      "reason": "lead has no call_at"
+    }
+  },
+  {
+    "id": "a633afc0-d3d7-477a-b5af-2023b781febd",
+    "ts": "2026-05-20T06:19:37.655814Z",
+    "level": "INFO",
+    "event": "workflow.scheduled",
+    "lead_id": "c1bde7f6-be92-4dc2-8f2a-a87c289f0075",
+    "job_id": "",
+    "message": "scheduled 2 steps for workflow 'Booked Call Sequence' (2 skipped)",
+    "context": {
+      "workflow": "Booked Call Sequence",
+      "steps": 2,
+      "skipped": 2
+    }
+  },
+  {
+    "id": "e1bfe024-308a-4803-aebe-70ca0b777391",
+    "ts": "2026-05-20T06:19:40.849282Z",
+    "level": "WARNING",
+    "event": "step.skipped",
+    "lead_id": "c1bde7f6-be92-4dc2-8f2a-a87c289f0075",
+    "job_id": "",
+    "message": "workflow 'Booked Call Sequence' step 2 (reminder_24h_email) skipped: lead has no call_at",
+    "context": {
+      "workflow": "Booked Call Sequence",
+      "step_index": 2,
+      "template": "reminder_24h_email",
+      "reason": "lead has no call_at"
+    }
+  },
+  {
+    "id": "13c1fce4-db67-44b0-985c-fb00b77beda1",
+    "ts": "2026-05-20T06:19:40.859635Z",
+    "level": "WARNING",
+    "event": "step.skipped",
+    "lead_id": "c1bde7f6-be92-4dc2-8f2a-a87c289f0075",
+    "job_id": "",
+    "message": "workflow 'Booked Call Sequence' step 3 (reminder_1h_sms) skipped: lead has no call_at",
+    "context": {
+      "workflow": "Booked Call Sequence",
+      "step_index": 3,
+      "template": "reminder_1h_sms",
+      "reason": "lead has no call_at"
+    }
+  },
+  {
+    "id": "5055e9d1-60ba-4316-9dd6-129b096ba82d",
+    "ts": "2026-05-20T06:19:40.871712Z",
+    "level": "INFO",
+    "event": "workflow.scheduled",
+    "lead_id": "c1bde7f6-be92-4dc2-8f2a-a87c289f0075",
+    "job_id": "",
+    "message": "scheduled 2 steps for workflow 'Booked Call Sequence' (2 skipped)",
+    "context": {
+      "workflow": "Booked Call Sequence",
+      "steps": 2,
+      "skipped": 2
+    }
+  },
+  {
+    "id": "d01ad766-4770-4be2-8b59-7c7dc101b922",
+    "ts": "2026-05-20T06:19:42.253502Z",
+    "level": "INFO",
+    "event": "job.sent",
+    "lead_id": "c1bde7f6-be92-4dc2-8f2a-a87c289f0075",
+    "job_id": "31f8c442-d9cf-4ed0-80ef-516916a3505c",
+    "message": "email sent via smtp",
+    "context": {
+      "step_index": 0,
+      "template": "confirmation_email",
+      "result": {
+        "provider": "smtp",
+        "to": "rodgeagonia@gmail.com",
+        "subject": "You're confirmed for ",
+        "status": "sent"
+      },
+      "preview": "<p>Hi Rodvic Test, edit</p>\n\n<p>Your call is confirmed for <strong></strong>.</p>\n\n<p>Add it to your calendar here: <a href=\"https://calendly.com/\">https://calendly.com/</a></p>\n<p>Want a preview of what we'll cover? <a href=\"https://www.dobotai.com/\">Read this short case study</a>.</p>\n\n<p>Talk soon,<br>The team</p>",
+      "subject": "You're confirmed for "
+    }
+  },
+  {
+    "id": "8931803f-47b4-43c7-97d2-171291a55d83",
+    "ts": "2026-05-20T06:19:43.487126Z",
+    "level": "WARNING",
+    "event": "step.skipped",
+    "lead_id": "c1bde7f6-be92-4dc2-8f2a-a87c289f0075",
+    "job_id": "",
+    "message": "workflow 'Booked Call Sequence' step 2 (reminder_24h_email) skipped: lead has no call_at",
+    "context": {
+      "workflow": "Booked Call Sequence",
+      "step_index": 2,
+      "template": "reminder_24h_email",
+      "reason": "lead has no call_at"
+    }
+  },
+  {
+    "id": "183a6330-9cc1-4599-8c52-a909ecfb72b7",
+    "ts": "2026-05-20T06:19:43.498751Z",
+    "level": "WARNING",
+    "event": "step.skipped",
+    "lead_id": "c1bde7f6-be92-4dc2-8f2a-a87c289f0075",
+    "job_id": "",
+    "message": "workflow 'Booked Call Sequence' step 3 (reminder_1h_sms) skipped: lead has no call_at",
+    "context": {
+      "workflow": "Booked Call Sequence",
+      "step_index": 3,
+      "template": "reminder_1h_sms",
+      "reason": "lead has no call_at"
+    }
+  },
+  {
+    "id": "8b0f5f8d-ef72-4f04-8846-c5d6de2037cb",
+    "ts": "2026-05-20T06:19:43.509579Z",
+    "level": "INFO",
+    "event": "workflow.scheduled",
+    "lead_id": "c1bde7f6-be92-4dc2-8f2a-a87c289f0075",
+    "job_id": "",
+    "message": "scheduled 2 steps for workflow 'Booked Call Sequence' (2 skipped)",
+    "context": {
+      "workflow": "Booked Call Sequence",
+      "steps": 2,
+      "skipped": 2
+    }
+  },
+  {
+    "id": "8711848d-f2f7-4386-846e-d1bfdfae1f35",
+    "ts": "2026-05-20T06:19:43.664815Z",
+    "level": "WARNING",
+    "event": "step.skipped",
+    "lead_id": "c1bde7f6-be92-4dc2-8f2a-a87c289f0075",
+    "job_id": "",
+    "message": "workflow 'Booked Call Sequence' step 2 (reminder_24h_email) skipped: lead has no call_at",
+    "context": {
+      "workflow": "Booked Call Sequence",
+      "step_index": 2,
+      "template": "reminder_24h_email",
+      "reason": "lead has no call_at"
+    }
+  },
+  {
+    "id": "da36d581-5e4b-485d-b666-035f7c256ece",
+    "ts": "2026-05-20T06:19:43.674826Z",
+    "level": "WARNING",
+    "event": "step.skipped",
+    "lead_id": "c1bde7f6-be92-4dc2-8f2a-a87c289f0075",
+    "job_id": "",
+    "message": "workflow 'Booked Call Sequence' step 3 (reminder_1h_sms) skipped: lead has no call_at",
+    "context": {
+      "workflow": "Booked Call Sequence",
+      "step_index": 3,
+      "template": "reminder_1h_sms",
+      "reason": "lead has no call_at"
+    }
+  },
+  {
+    "id": "35f1ea01-3234-47c3-a451-fd8dd00a1e94",
+    "ts": "2026-05-20T06:19:43.684473Z",
+    "level": "INFO",
+    "event": "workflow.scheduled",
+    "lead_id": "c1bde7f6-be92-4dc2-8f2a-a87c289f0075",
+    "job_id": "",
+    "message": "scheduled 2 steps for workflow 'Booked Call Sequence' (2 skipped)",
+    "context": {
+      "workflow": "Booked Call Sequence",
+      "steps": 2,
+      "skipped": 2
+    }
+  },
+  {
+    "id": "c4631086-8117-49e8-b658-137d029afc3b",
+    "ts": "2026-05-20T06:19:43.854044Z",
+    "level": "WARNING",
+    "event": "step.skipped",
+    "lead_id": "c1bde7f6-be92-4dc2-8f2a-a87c289f0075",
+    "job_id": "",
+    "message": "workflow 'Booked Call Sequence' step 2 (reminder_24h_email) skipped: lead has no call_at",
+    "context": {
+      "workflow": "Booked Call Sequence",
+      "step_index": 2,
+      "template": "reminder_24h_email",
+      "reason": "lead has no call_at"
+    }
+  },
+  {
+    "id": "c934739e-5c51-4ee5-9b0c-e1f08464a315",
+    "ts": "2026-05-20T06:19:43.864055Z",
+    "level": "WARNING",
+    "event": "step.skipped",
+    "lead_id": "c1bde7f6-be92-4dc2-8f2a-a87c289f0075",
+    "job_id": "",
+    "message": "workflow 'Booked Call Sequence' step 3 (reminder_1h_sms) skipped: lead has no call_at",
+    "context": {
+      "workflow": "Booked Call Sequence",
+      "step_index": 3,
+      "template": "reminder_1h_sms",
+      "reason": "lead has no call_at"
+    }
+  },
+  {
+    "id": "80dbb30e-1391-4a4d-af13-a9d4740a7132",
+    "ts": "2026-05-20T06:19:43.874094Z",
+    "level": "INFO",
+    "event": "workflow.scheduled",
+    "lead_id": "c1bde7f6-be92-4dc2-8f2a-a87c289f0075",
+    "job_id": "",
+    "message": "scheduled 2 steps for workflow 'Booked Call Sequence' (2 skipped)",
+    "context": {
+      "workflow": "Booked Call Sequence",
+      "steps": 2,
+      "skipped": 2
+    }
+  },
+  {
+    "id": "4756504f-7687-4de8-a2d1-e1edea71d7bc",
+    "ts": "2026-05-20T06:19:45.815312Z",
+    "level": "INFO",
+    "event": "job.sent",
+    "lead_id": "c1bde7f6-be92-4dc2-8f2a-a87c289f0075",
+    "job_id": "064dc669-4cd7-49bc-b7f7-08cdce0242fc",
+    "message": "email sent via smtp",
+    "context": {
+      "step_index": 0,
+      "template": "confirmation_email",
+      "result": {
+        "provider": "smtp",
+        "to": "rodgeagonia@gmail.com",
+        "subject": "You're confirmed for ",
+        "status": "sent"
+      },
+      "preview": "<p>Hi Rodvic Test, edit</p>\n\n<p>Your call is confirmed for <strong></strong>.</p>\n\n<p>Add it to your calendar here: <a href=\"https://calendly.com/\">https://calendly.com/</a></p>\n<p>Want a preview of what we'll cover? <a href=\"https://www.dobotai.com/\">Read this short case study</a>.</p>\n\n<p>Talk soon,<br>The team</p>",
+      "subject": "You're confirmed for "
+    }
+  },
+  {
+    "id": "209dbeaa-9c49-4bd6-8a31-8161ba13643b",
+    "ts": "2026-05-20T06:19:46.338498Z",
+    "level": "WARNING",
+    "event": "step.skipped",
+    "lead_id": "c1bde7f6-be92-4dc2-8f2a-a87c289f0075",
+    "job_id": "",
+    "message": "workflow 'Booked Call Sequence' step 2 (reminder_24h_email) skipped: lead has no call_at",
+    "context": {
+      "workflow": "Booked Call Sequence",
+      "step_index": 2,
+      "template": "reminder_24h_email",
+      "reason": "lead has no call_at"
+    }
+  },
+  {
+    "id": "df23b2e9-b72a-4ca7-9cac-ccff854c3170",
+    "ts": "2026-05-20T06:19:46.348660Z",
+    "level": "WARNING",
+    "event": "step.skipped",
+    "lead_id": "c1bde7f6-be92-4dc2-8f2a-a87c289f0075",
+    "job_id": "",
+    "message": "workflow 'Booked Call Sequence' step 3 (reminder_1h_sms) skipped: lead has no call_at",
+    "context": {
+      "workflow": "Booked Call Sequence",
+      "step_index": 3,
+      "template": "reminder_1h_sms",
+      "reason": "lead has no call_at"
+    }
+  },
+  {
+    "id": "4a854257-8eb2-4cb1-910d-d1abbb10ce1e",
+    "ts": "2026-05-20T06:19:46.358275Z",
+    "level": "INFO",
+    "event": "workflow.scheduled",
+    "lead_id": "c1bde7f6-be92-4dc2-8f2a-a87c289f0075",
+    "job_id": "",
+    "message": "scheduled 2 steps for workflow 'Booked Call Sequence' (2 skipped)",
+    "context": {
+      "workflow": "Booked Call Sequence",
+      "steps": 2,
+      "skipped": 2
+    }
+  },
+  {
+    "id": "71a54c64-f78a-4afd-97f0-f741d56f4511",
+    "ts": "2026-05-20T06:19:46.847797Z",
+    "level": "WARNING",
+    "event": "step.skipped",
+    "lead_id": "c1bde7f6-be92-4dc2-8f2a-a87c289f0075",
+    "job_id": "",
+    "message": "workflow 'Booked Call Sequence' step 2 (reminder_24h_email) skipped: lead has no call_at",
+    "context": {
+      "workflow": "Booked Call Sequence",
+      "step_index": 2,
+      "template": "reminder_24h_email",
+      "reason": "lead has no call_at"
+    }
+  },
+  {
+    "id": "60db3c04-5209-4974-b2ad-8a7efc3b44ff",
+    "ts": "2026-05-20T06:19:46.859516Z",
+    "level": "WARNING",
+    "event": "step.skipped",
+    "lead_id": "c1bde7f6-be92-4dc2-8f2a-a87c289f0075",
+    "job_id": "",
+    "message": "workflow 'Booked Call Sequence' step 3 (reminder_1h_sms) skipped: lead has no call_at",
+    "context": {
+      "workflow": "Booked Call Sequence",
+      "step_index": 3,
+      "template": "reminder_1h_sms",
+      "reason": "lead has no call_at"
+    }
+  },
+  {
+    "id": "c5b44ddc-6776-4cef-ac7b-96063ca055f5",
+    "ts": "2026-05-20T06:19:46.869226Z",
+    "level": "INFO",
+    "event": "workflow.scheduled",
+    "lead_id": "c1bde7f6-be92-4dc2-8f2a-a87c289f0075",
+    "job_id": "",
+    "message": "scheduled 2 steps for workflow 'Booked Call Sequence' (2 skipped)",
+    "context": {
+      "workflow": "Booked Call Sequence",
+      "steps": 2,
+      "skipped": 2
+    }
+  },
+  {
+    "id": "9b10fabe-064b-428f-b999-70b12c90bda3",
+    "ts": "2026-05-20T06:19:47.032347Z",
+    "level": "WARNING",
+    "event": "step.skipped",
+    "lead_id": "c1bde7f6-be92-4dc2-8f2a-a87c289f0075",
+    "job_id": "",
+    "message": "workflow 'Booked Call Sequence' step 2 (reminder_24h_email) skipped: lead has no call_at",
+    "context": {
+      "workflow": "Booked Call Sequence",
+      "step_index": 2,
+      "template": "reminder_24h_email",
+      "reason": "lead has no call_at"
+    }
+  },
+  {
+    "id": "dc18e295-f262-4fc4-a790-fb7e2e855c31",
+    "ts": "2026-05-20T06:19:47.044208Z",
+    "level": "WARNING",
+    "event": "step.skipped",
+    "lead_id": "c1bde7f6-be92-4dc2-8f2a-a87c289f0075",
+    "job_id": "",
+    "message": "workflow 'Booked Call Sequence' step 3 (reminder_1h_sms) skipped: lead has no call_at",
+    "context": {
+      "workflow": "Booked Call Sequence",
+      "step_index": 3,
+      "template": "reminder_1h_sms",
+      "reason": "lead has no call_at"
+    }
+  },
+  {
+    "id": "234add05-d526-493b-aabe-eaa150f91d4b",
+    "ts": "2026-05-20T06:19:47.055514Z",
+    "level": "INFO",
+    "event": "workflow.scheduled",
+    "lead_id": "c1bde7f6-be92-4dc2-8f2a-a87c289f0075",
+    "job_id": "",
+    "message": "scheduled 2 steps for workflow 'Booked Call Sequence' (2 skipped)",
+    "context": {
+      "workflow": "Booked Call Sequence",
+      "steps": 2,
+      "skipped": 2
+    }
+  },
+  {
+    "id": "7d67cf2d-1a63-4d3b-bfc4-6c754bddbe58",
+    "ts": "2026-05-20T06:19:47.203155Z",
+    "level": "WARNING",
+    "event": "step.skipped",
+    "lead_id": "c1bde7f6-be92-4dc2-8f2a-a87c289f0075",
+    "job_id": "",
+    "message": "workflow 'Booked Call Sequence' step 2 (reminder_24h_email) skipped: lead has no call_at",
+    "context": {
+      "workflow": "Booked Call Sequence",
+      "step_index": 2,
+      "template": "reminder_24h_email",
+      "reason": "lead has no call_at"
+    }
+  },
+  {
+    "id": "ee153fd0-09aa-4db6-893f-fd4ea9e7a14b",
+    "ts": "2026-05-20T06:19:47.214217Z",
+    "level": "WARNING",
+    "event": "step.skipped",
+    "lead_id": "c1bde7f6-be92-4dc2-8f2a-a87c289f0075",
+    "job_id": "",
+    "message": "workflow 'Booked Call Sequence' step 3 (reminder_1h_sms) skipped: lead has no call_at",
+    "context": {
+      "workflow": "Booked Call Sequence",
+      "step_index": 3,
+      "template": "reminder_1h_sms",
+      "reason": "lead has no call_at"
+    }
+  },
+  {
+    "id": "74868ec1-9850-42ab-8c33-dd12299a2abd",
+    "ts": "2026-05-20T06:19:47.225734Z",
+    "level": "INFO",
+    "event": "workflow.scheduled",
+    "lead_id": "c1bde7f6-be92-4dc2-8f2a-a87c289f0075",
+    "job_id": "",
+    "message": "scheduled 2 steps for workflow 'Booked Call Sequence' (2 skipped)",
+    "context": {
+      "workflow": "Booked Call Sequence",
+      "steps": 2,
+      "skipped": 2
+    }
+  },
+  {
+    "id": "c2351071-0427-44dc-8835-a5902ee88d92",
+    "ts": "2026-05-20T06:19:47.756074Z",
+    "level": "INFO",
+    "event": "job.sent",
+    "lead_id": "c1bde7f6-be92-4dc2-8f2a-a87c289f0075",
+    "job_id": "b5a26759-7fe9-4a61-92ce-d273c0b4c187",
+    "message": "email sent via smtp",
+    "context": {
+      "step_index": 0,
+      "template": "confirmation_email",
+      "result": {
+        "provider": "smtp",
+        "to": "rodgeagonia@gmail.com",
+        "subject": "You're confirmed for ",
+        "status": "sent"
+      },
+      "preview": "<p>Hi Rodvic Test, edit</p>\n\n<p>Your call is confirmed for <strong></strong>.</p>\n\n<p>Add it to your calendar here: <a href=\"https://calendly.com/\">https://calendly.com/</a></p>\n<p>Want a preview of what we'll cover? <a href=\"https://www.dobotai.com/\">Read this short case study</a>.</p>\n\n<p>Talk soon,<br>The team</p>",
+      "subject": "You're confirmed for "
+    }
+  },
+  {
+    "id": "59cbc722-0b4b-431b-b39b-f61c4ffdf822",
+    "ts": "2026-05-20T06:19:47.904100Z",
+    "level": "INFO",
+    "event": "job.sent",
+    "lead_id": "c1bde7f6-be92-4dc2-8f2a-a87c289f0075",
+    "job_id": "d2495a7b-decd-4807-b392-89fc27b3dc6c",
+    "message": "email sent via smtp",
+    "context": {
+      "step_index": 0,
+      "template": "confirmation_email",
+      "result": {
+        "provider": "smtp",
+        "to": "rodgeagonia@gmail.com",
+        "subject": "You're confirmed for ",
+        "status": "sent"
+      },
+      "preview": "<p>Hi Rodvic Test, edit</p>\n\n<p>Your call is confirmed for <strong></strong>.</p>\n\n<p>Add it to your calendar here: <a href=\"https://calendly.com/\">https://calendly.com/</a></p>\n<p>Want a preview of what we'll cover? <a href=\"https://www.dobotai.com/\">Read this short case study</a>.</p>\n\n<p>Talk soon,<br>The team</p>",
+      "subject": "You're confirmed for "
+    }
+  },
+  {
+    "id": "c01eb10d-7136-4892-b9f5-c2cbf5c29a6f",
+    "ts": "2026-05-20T06:19:48.190739Z",
+    "level": "INFO",
+    "event": "job.sent",
+    "lead_id": "c1bde7f6-be92-4dc2-8f2a-a87c289f0075",
+    "job_id": "b5a1b893-1cec-4f66-af7f-625a9c62bdd9",
+    "message": "email sent via smtp",
+    "context": {
+      "step_index": 0,
+      "template": "confirmation_email",
+      "result": {
+        "provider": "smtp",
+        "to": "rodgeagonia@gmail.com",
+        "subject": "You're confirmed for ",
+        "status": "sent"
+      },
+      "preview": "<p>Hi Rodvic Test, edit</p>\n\n<p>Your call is confirmed for <strong></strong>.</p>\n\n<p>Add it to your calendar here: <a href=\"https://calendly.com/\">https://calendly.com/</a></p>\n<p>Want a preview of what we'll cover? <a href=\"https://www.dobotai.com/\">Read this short case study</a>.</p>\n\n<p>Talk soon,<br>The team</p>",
+      "subject": "You're confirmed for "
+    }
+  },
+  {
+    "id": "b24db0eb-be75-4d9d-a32d-f94300634fcf",
+    "ts": "2026-05-20T06:19:50.565176Z",
+    "level": "INFO",
+    "event": "job.sent",
+    "lead_id": "c1bde7f6-be92-4dc2-8f2a-a87c289f0075",
+    "job_id": "09f8fd65-40a8-42f5-a124-9626ecb655fa",
+    "message": "email sent via smtp",
+    "context": {
+      "step_index": 0,
+      "template": "confirmation_email",
+      "result": {
+        "provider": "smtp",
+        "to": "rodgeagonia@gmail.com",
+        "subject": "You're confirmed for ",
+        "status": "sent"
+      },
+      "preview": "<p>Hi Rodvic Test, edit</p>\n\n<p>Your call is confirmed for <strong></strong>.</p>\n\n<p>Add it to your calendar here: <a href=\"https://calendly.com/\">https://calendly.com/</a></p>\n<p>Want a preview of what we'll cover? <a href=\"https://www.dobotai.com/\">Read this short case study</a>.</p>\n\n<p>Talk soon,<br>The team</p>",
+      "subject": "You're confirmed for "
+    }
+  },
+  {
+    "id": "8dfe41c5-df2d-4d53-af3a-8aa6929d9874",
+    "ts": "2026-05-20T06:19:51.074200Z",
+    "level": "INFO",
+    "event": "job.sent",
+    "lead_id": "c1bde7f6-be92-4dc2-8f2a-a87c289f0075",
+    "job_id": "a3539d8b-f26f-4a92-ac37-3eca6822e982",
+    "message": "email sent via smtp",
+    "context": {
+      "step_index": 0,
+      "template": "confirmation_email",
+      "result": {
+        "provider": "smtp",
+        "to": "rodgeagonia@gmail.com",
+        "subject": "You're confirmed for ",
+        "status": "sent"
+      },
+      "preview": "<p>Hi Rodvic Test, edit</p>\n\n<p>Your call is confirmed for <strong></strong>.</p>\n\n<p>Add it to your calendar here: <a href=\"https://calendly.com/\">https://calendly.com/</a></p>\n<p>Want a preview of what we'll cover? <a href=\"https://www.dobotai.com/\">Read this short case study</a>.</p>\n\n<p>Talk soon,<br>The team</p>",
+      "subject": "You're confirmed for "
+    }
+  },
+  {
+    "id": "58e29c28-ca2e-4f49-bb4b-c61795841486",
+    "ts": "2026-05-20T06:19:52.108590Z",
+    "level": "INFO",
+    "event": "job.sent",
+    "lead_id": "c1bde7f6-be92-4dc2-8f2a-a87c289f0075",
+    "job_id": "8b95ca79-885d-40e9-8559-8518ff8a4df4",
+    "message": "email sent via smtp",
+    "context": {
+      "step_index": 0,
+      "template": "confirmation_email",
+      "result": {
+        "provider": "smtp",
+        "to": "rodgeagonia@gmail.com",
+        "subject": "You're confirmed for ",
+        "status": "sent"
+      },
+      "preview": "<p>Hi Rodvic Test, edit</p>\n\n<p>Your call is confirmed for <strong></strong>.</p>\n\n<p>Add it to your calendar here: <a href=\"https://calendly.com/\">https://calendly.com/</a></p>\n<p>Want a preview of what we'll cover? <a href=\"https://www.dobotai.com/\">Read this short case study</a>.</p>\n\n<p>Talk soon,<br>The team</p>",
+      "subject": "You're confirmed for "
+    }
+  },
+  {
+    "id": "a902f3f3-da45-45a1-86f6-300ac5f59e22",
+    "ts": "2026-05-20T06:19:52.728687Z",
+    "level": "INFO",
+    "event": "job.sent",
+    "lead_id": "c1bde7f6-be92-4dc2-8f2a-a87c289f0075",
+    "job_id": "5bef2658-65a7-4cbd-98f1-4badce4a7e98",
+    "message": "email sent via smtp",
+    "context": {
+      "step_index": 0,
+      "template": "confirmation_email",
+      "result": {
+        "provider": "smtp",
+        "to": "rodgeagonia@gmail.com",
+        "subject": "You're confirmed for ",
+        "status": "sent"
+      },
+      "preview": "<p>Hi Rodvic Test, edit</p>\n\n<p>Your call is confirmed for <strong></strong>.</p>\n\n<p>Add it to your calendar here: <a href=\"https://calendly.com/\">https://calendly.com/</a></p>\n<p>Want a preview of what we'll cover? <a href=\"https://www.dobotai.com/\">Read this short case study</a>.</p>\n\n<p>Talk soon,<br>The team</p>",
+      "subject": "You're confirmed for "
+    }
+  },
+  {
+    "id": "57da42be-15dc-44a2-8c41-b2c7adcd9e31",
+    "ts": "2026-05-20T06:28:08.374660Z",
+    "level": "INFO",
+    "event": "scheduler.started",
+    "lead_id": "",
+    "job_id": "",
+    "message": "scheduler started; restored 10 jobs",
+    "context": {}
+  },
+  {
+    "id": "3eb07b3a-914a-4259-9ff6-f224fb354d05",
+    "ts": "2026-05-20T06:28:49.846396Z",
+    "level": "WARNING",
+    "event": "step.skipped",
+    "lead_id": "c1bde7f6-be92-4dc2-8f2a-a87c289f0075",
+    "job_id": "",
+    "message": "workflow 'Booked Call Sequence' step 2 (reminder_24h_email) skipped: lead has no call_at",
+    "context": {
+      "workflow": "Booked Call Sequence",
+      "step_index": 2,
+      "template": "reminder_24h_email",
+      "reason": "lead has no call_at"
+    }
+  },
+  {
+    "id": "b5bacd11-ab85-4fd5-9982-dd77c5dd86b4",
+    "ts": "2026-05-20T06:28:49.857978Z",
+    "level": "WARNING",
+    "event": "step.skipped",
+    "lead_id": "c1bde7f6-be92-4dc2-8f2a-a87c289f0075",
+    "job_id": "",
+    "message": "workflow 'Booked Call Sequence' step 3 (reminder_1h_sms) skipped: lead has no call_at",
+    "context": {
+      "workflow": "Booked Call Sequence",
+      "step_index": 3,
+      "template": "reminder_1h_sms",
+      "reason": "lead has no call_at"
+    }
+  },
+  {
+    "id": "7d8d6068-661e-4567-91dd-92f434dfe872",
+    "ts": "2026-05-20T06:28:49.866730Z",
+    "level": "INFO",
+    "event": "workflow.scheduled",
+    "lead_id": "c1bde7f6-be92-4dc2-8f2a-a87c289f0075",
+    "job_id": "",
+    "message": "scheduled 2 steps for workflow 'Booked Call Sequence' (2 skipped)",
+    "context": {
+      "workflow": "Booked Call Sequence",
+      "steps": 2,
+      "skipped": 2
+    }
+  },
+  {
+    "id": "7b428808-7944-4fee-88ad-d686a948d30b",
+    "ts": "2026-05-20T06:28:54.411909Z",
+    "level": "INFO",
+    "event": "job.sent",
+    "lead_id": "c1bde7f6-be92-4dc2-8f2a-a87c289f0075",
+    "job_id": "5648e578-a49c-4fd7-be08-cef37fdbaa0c",
+    "message": "email sent via smtp",
+    "context": {
+      "step_index": 0,
+      "template": "confirmation_email",
+      "result": {
+        "provider": "smtp",
+        "to": "rodgeagonia@gmail.com",
+        "subject": "You're confirmed for ",
+        "status": "sent"
+      },
+      "preview": "<p>Hi Rodvic Test, edit</p>\n\n<p>Your call is confirmed for <strong></strong>.</p>\n\n<p>Add it to your calendar here: <a href=\"https://calendly.com/\">https://calendly.com/</a></p>\n<p>Want a preview of what we'll cover? <a href=\"https://www.dobotai.com/\">Read this short case study</a>.</p>\n\n<p>Talk soon,<br>The team</p>",
+      "subject": "You're confirmed for "
+    }
+  },
+  {
+    "id": "d5ed3920-3c61-4a6c-b9b9-2dd8abc818f5",
+    "ts": "2026-05-20T06:29:41.009797Z",
+    "level": "INFO",
+    "event": "job.sent",
+    "lead_id": "c1bde7f6-be92-4dc2-8f2a-a87c289f0075",
+    "job_id": "97cf01f2-d92a-4b00-8553-29c1909d6b96",
+    "message": "email sent via smtp",
+    "context": {
+      "step_index": 1,
+      "template": "value_followup_email",
+      "result": {
+        "provider": "smtp",
+        "to": "rodgeagonia@gmail.com",
+        "subject": "Quick read before our call",
+        "status": "sent"
+      },
+      "preview": "<p>Hi Rodvic Test,</p>\n\n<p>Ahead of our call on , here's a short case study showing the\nkind of outcome we typically deliver:\n  <a href=\"https://www.dobotai.com/\">https://www.dobotai.com/</a>.\n</p>\n\n<p>It's a 4-minute read and is the best preview of what we'll discuss.</p>\n\n<p>Talk soon,<br>The team</p>",
+      "subject": "Quick read before our call"
+    }
+  },
+  {
+    "id": "d9460d3c-47c2-4f50-a35e-9a4a17b938f0",
+    "ts": "2026-05-20T06:29:44.076737Z",
+    "level": "INFO",
+    "event": "job.sent",
+    "lead_id": "c1bde7f6-be92-4dc2-8f2a-a87c289f0075",
+    "job_id": "bdc05875-4661-4899-96b7-a6ea6a2871a3",
+    "message": "email sent via smtp",
+    "context": {
+      "step_index": 1,
+      "template": "value_followup_email",
+      "result": {
+        "provider": "smtp",
+        "to": "rodgeagonia@gmail.com",
+        "subject": "Quick read before our call",
+        "status": "sent"
+      },
+      "preview": "<p>Hi Rodvic Test,</p>\n\n<p>Ahead of our call on , here's a short case study showing the\nkind of outcome we typically deliver:\n  <a href=\"https://www.dobotai.com/\">https://www.dobotai.com/</a>.\n</p>\n\n<p>It's a 4-minute read and is the best preview of what we'll discuss.</p>\n\n<p>Talk soon,<br>The team</p>",
+      "subject": "Quick read before our call"
+    }
+  },
+  {
+    "id": "317bb1f5-4587-48f2-9d21-d9e401bc6deb",
+    "ts": "2026-05-20T06:29:46.824220Z",
+    "level": "INFO",
+    "event": "job.sent",
+    "lead_id": "c1bde7f6-be92-4dc2-8f2a-a87c289f0075",
+    "job_id": "ab385753-8d77-41f5-a594-78ecd78aaa11",
+    "message": "email sent via smtp",
+    "context": {
+      "step_index": 1,
+      "template": "value_followup_email",
+      "result": {
+        "provider": "smtp",
+        "to": "rodgeagonia@gmail.com",
+        "subject": "Quick read before our call",
+        "status": "sent"
+      },
+      "preview": "<p>Hi Rodvic Test,</p>\n\n<p>Ahead of our call on , here's a short case study showing the\nkind of outcome we typically deliver:\n  <a href=\"https://www.dobotai.com/\">https://www.dobotai.com/</a>.\n</p>\n\n<p>It's a 4-minute read and is the best preview of what we'll discuss.</p>\n\n<p>Talk soon,<br>The team</p>",
+      "subject": "Quick read before our call"
+    }
+  },
+  {
+    "id": "75b066a6-ca05-4fb5-942e-dd3151ed51e2",
+    "ts": "2026-05-20T06:29:46.962556Z",
+    "level": "INFO",
+    "event": "job.sent",
+    "lead_id": "c1bde7f6-be92-4dc2-8f2a-a87c289f0075",
+    "job_id": "3381f382-500b-4856-9387-5c9ec1f632a1",
+    "message": "email sent via smtp",
+    "context": {
+      "step_index": 1,
+      "template": "value_followup_email",
+      "result": {
+        "provider": "smtp",
+        "to": "rodgeagonia@gmail.com",
+        "subject": "Quick read before our call",
+        "status": "sent"
+      },
+      "preview": "<p>Hi Rodvic Test,</p>\n\n<p>Ahead of our call on , here's a short case study showing the\nkind of outcome we typically deliver:\n  <a href=\"https://www.dobotai.com/\">https://www.dobotai.com/</a>.\n</p>\n\n<p>It's a 4-minute read and is the best preview of what we'll discuss.</p>\n\n<p>Talk soon,<br>The team</p>",
+      "subject": "Quick read before our call"
+    }
+  },
+  {
+    "id": "f344d1bb-c214-45fa-998a-d466af22908d",
+    "ts": "2026-05-20T06:29:47.252721Z",
+    "level": "INFO",
+    "event": "job.sent",
+    "lead_id": "c1bde7f6-be92-4dc2-8f2a-a87c289f0075",
+    "job_id": "3c1321cb-3324-4cc5-ab27-a2e1daa62049",
+    "message": "email sent via smtp",
+    "context": {
+      "step_index": 1,
+      "template": "value_followup_email",
+      "result": {
+        "provider": "smtp",
+        "to": "rodgeagonia@gmail.com",
+        "subject": "Quick read before our call",
+        "status": "sent"
+      },
+      "preview": "<p>Hi Rodvic Test,</p>\n\n<p>Ahead of our call on , here's a short case study showing the\nkind of outcome we typically deliver:\n  <a href=\"https://www.dobotai.com/\">https://www.dobotai.com/</a>.\n</p>\n\n<p>It's a 4-minute read and is the best preview of what we'll discuss.</p>\n\n<p>Talk soon,<br>The team</p>",
+      "subject": "Quick read before our call"
+    }
+  },
+  {
+    "id": "f22b34d9-a403-4bcd-946e-ab9c846dfb02",
+    "ts": "2026-05-20T06:29:49.717139Z",
+    "level": "INFO",
+    "event": "job.sent",
+    "lead_id": "c1bde7f6-be92-4dc2-8f2a-a87c289f0075",
+    "job_id": "c4fe0bb7-5f80-428b-85a3-af900f6edca2",
+    "message": "email sent via smtp",
+    "context": {
+      "step_index": 1,
+      "template": "value_followup_email",
+      "result": {
+        "provider": "smtp",
+        "to": "rodgeagonia@gmail.com",
+        "subject": "Quick read before our call",
+        "status": "sent"
+      },
+      "preview": "<p>Hi Rodvic Test,</p>\n\n<p>Ahead of our call on , here's a short case study showing the\nkind of outcome we typically deliver:\n  <a href=\"https://www.dobotai.com/\">https://www.dobotai.com/</a>.\n</p>\n\n<p>It's a 4-minute read and is the best preview of what we'll discuss.</p>\n\n<p>Talk soon,<br>The team</p>",
+      "subject": "Quick read before our call"
+    }
+  },
+  {
+    "id": "b18cd917-ef51-4999-8932-7c36ecf6d476",
+    "ts": "2026-05-20T06:29:50.371993Z",
+    "level": "INFO",
+    "event": "job.sent",
+    "lead_id": "c1bde7f6-be92-4dc2-8f2a-a87c289f0075",
+    "job_id": "757b7722-8957-4dae-bbc7-f2357e7826d8",
+    "message": "email sent via smtp",
+    "context": {
+      "step_index": 1,
+      "template": "value_followup_email",
+      "result": {
+        "provider": "smtp",
+        "to": "rodgeagonia@gmail.com",
+        "subject": "Quick read before our call",
+        "status": "sent"
+      },
+      "preview": "<p>Hi Rodvic Test,</p>\n\n<p>Ahead of our call on , here's a short case study showing the\nkind of outcome we typically deliver:\n  <a href=\"https://www.dobotai.com/\">https://www.dobotai.com/</a>.\n</p>\n\n<p>It's a 4-minute read and is the best preview of what we'll discuss.</p>\n\n<p>Talk soon,<br>The team</p>",
+      "subject": "Quick read before our call"
+    }
+  },
+  {
+    "id": "fb26116d-7f36-4fa9-a85e-8bca8e434f5c",
+    "ts": "2026-05-20T06:29:50.783427Z",
+    "level": "INFO",
+    "event": "job.sent",
+    "lead_id": "c1bde7f6-be92-4dc2-8f2a-a87c289f0075",
+    "job_id": "7262fc65-bb92-417c-82f2-3f0cbb2619cd",
+    "message": "email sent via smtp",
+    "context": {
+      "step_index": 1,
+      "template": "value_followup_email",
+      "result": {
+        "provider": "smtp",
+        "to": "rodgeagonia@gmail.com",
+        "subject": "Quick read before our call",
+        "status": "sent"
+      },
+      "preview": "<p>Hi Rodvic Test,</p>\n\n<p>Ahead of our call on , here's a short case study showing the\nkind of outcome we typically deliver:\n  <a href=\"https://www.dobotai.com/\">https://www.dobotai.com/</a>.\n</p>\n\n<p>It's a 4-minute read and is the best preview of what we'll discuss.</p>\n\n<p>Talk soon,<br>The team</p>",
+      "subject": "Quick read before our call"
+    }
+  },
+  {
+    "id": "0e42a4c7-ea0b-428e-a74f-41192f54867a",
+    "ts": "2026-05-20T06:29:51.435421Z",
+    "level": "INFO",
+    "event": "job.sent",
+    "lead_id": "c1bde7f6-be92-4dc2-8f2a-a87c289f0075",
+    "job_id": "3dfbc70c-8793-47fc-a4a1-797fddb945ae",
+    "message": "email sent via smtp",
+    "context": {
+      "step_index": 1,
+      "template": "value_followup_email",
+      "result": {
+        "provider": "smtp",
+        "to": "rodgeagonia@gmail.com",
+        "subject": "Quick read before our call",
+        "status": "sent"
+      },
+      "preview": "<p>Hi Rodvic Test,</p>\n\n<p>Ahead of our call on , here's a short case study showing the\nkind of outcome we typically deliver:\n  <a href=\"https://www.dobotai.com/\">https://www.dobotai.com/</a>.\n</p>\n\n<p>It's a 4-minute read and is the best preview of what we'll discuss.</p>\n\n<p>Talk soon,<br>The team</p>",
+      "subject": "Quick read before our call"
+    }
+  },
+  {
+    "id": "9d2f8ea8-84f9-4e43-bab0-35c12b952ece",
+    "ts": "2026-05-20T06:32:12.702010Z",
+    "level": "INFO",
+    "event": "lead.deleted",
+    "lead_id": "fb6ad045-1f8d-496d-b2ca-13f890d6cda8",
+    "job_id": "",
+    "message": "",
+    "context": {}
+  },
+  {
+    "id": "195c52e2-4dec-4c2a-b026-fcc33dde7622",
+    "ts": "2026-05-20T06:38:53.532982Z",
+    "level": "INFO",
+    "event": "job.sent",
+    "lead_id": "c1bde7f6-be92-4dc2-8f2a-a87c289f0075",
+    "job_id": "290bb717-787e-4942-b32b-dbedc37a86c6",
+    "message": "email sent via smtp",
+    "context": {
+      "step_index": 1,
+      "template": "value_followup_email",
+      "result": {
+        "provider": "smtp",
+        "to": "rodgeagonia@gmail.com",
+        "subject": "Quick read before our call",
+        "status": "sent"
+      },
+      "preview": "<p>Hi Rodvic Test,</p>\n\n<p>Ahead of our call on , here's a short case study showing the\nkind of outcome we typically deliver:\n  <a href=\"https://www.dobotai.com/\">https://www.dobotai.com/</a>.\n</p>\n\n<p>It's a 4-minute read and is the best preview of what we'll discuss.</p>\n\n<p>Talk soon,<br>The team</p>",
+      "subject": "Quick read before our call"
+    }
+  },
+  {
+    "id": "642e0e93-24e5-4172-9d49-7c5342ed277e",
+    "ts": "2026-05-20T06:41:19.096654Z",
+    "level": "INFO",
+    "event": "scheduler.started",
+    "lead_id": "",
+    "job_id": "",
+    "message": "scheduler started; restored 1 jobs",
+    "context": {}
+  },
+  {
+    "id": "b4b3c966-f51e-42fe-914a-34064f4888da",
+    "ts": "2026-05-20T06:41:46.999183Z",
+    "level": "WARNING",
+    "event": "step.skipped",
+    "lead_id": "c1bde7f6-be92-4dc2-8f2a-a87c289f0075",
+    "job_id": "",
+    "message": "workflow 'Booked Call Sequence' step 2 (reminder_24h_email) skipped: lead has no call_at",
+    "context": {
+      "workflow": "Booked Call Sequence",
+      "step_index": 2,
+      "template": "reminder_24h_email",
+      "reason": "lead has no call_at"
+    }
+  },
+  {
+    "id": "611de480-61cb-4f66-9a31-ea3a70c2d789",
+    "ts": "2026-05-20T06:41:47.013361Z",
+    "level": "WARNING",
+    "event": "step.skipped",
+    "lead_id": "c1bde7f6-be92-4dc2-8f2a-a87c289f0075",
+    "job_id": "",
+    "message": "workflow 'Booked Call Sequence' step 3 (reminder_1h_sms) skipped: lead has no call_at",
+    "context": {
+      "workflow": "Booked Call Sequence",
+      "step_index": 3,
+      "template": "reminder_1h_sms",
+      "reason": "lead has no call_at"
+    }
+  },
+  {
+    "id": "ed899f79-97b7-42ca-ae91-60b716a37918",
+    "ts": "2026-05-20T06:41:47.024601Z",
+    "level": "INFO",
+    "event": "workflow.scheduled",
+    "lead_id": "c1bde7f6-be92-4dc2-8f2a-a87c289f0075",
+    "job_id": "",
+    "message": "scheduled 2 steps for workflow 'Booked Call Sequence' (2 skipped)",
+    "context": {
+      "workflow": "Booked Call Sequence",
+      "steps": 2,
+      "skipped": 2
+    }
+  },
+  {
+    "id": "c6d8a783-8507-4099-a3c7-8abf864b85ed",
+    "ts": "2026-05-20T06:41:51.320807Z",
+    "level": "INFO",
+    "event": "job.sent",
+    "lead_id": "c1bde7f6-be92-4dc2-8f2a-a87c289f0075",
+    "job_id": "d54606bc-a375-4ca7-b918-a7ae9196c6ec",
+    "message": "email sent via smtp",
+    "context": {
+      "step_index": 0,
+      "template": "confirmation_email",
+      "result": {
+        "provider": "smtp",
+        "to": "rodgeagonia@gmail.com",
+        "subject": "You're confirmed for ",
+        "status": "sent"
+      },
+      "preview": "<p>Hi Rodvic Test, edit</p>\n\n<p>Your call is confirmed for <strong></strong>.</p>\n\n<p>Add it to your calendar here: <a href=\"https://calendly.com/\">https://calendly.com/</a></p>\n<p>Want a preview of what we'll cover? <a href=\"https://www.dobotai.com/\">Read this short case study</a>.</p>\n\n<p>Talk soon,<br>The team</p>",
+      "subject": "You're confirmed for "
+    }
+  },
+  {
+    "id": "a2b0a3f0-fc9d-48cf-b395-e5d951a21815",
+    "ts": "2026-05-20T06:42:50.262715Z",
+    "level": "INFO",
+    "event": "job.sent",
+    "lead_id": "c1bde7f6-be92-4dc2-8f2a-a87c289f0075",
+    "job_id": "b6ff0f70-172b-4ada-b412-6929080bd7c7",
+    "message": "email sent via smtp",
+    "context": {
+      "step_index": 1,
+      "template": "value_followup_email",
+      "result": {
+        "provider": "smtp",
+        "to": "rodgeagonia@gmail.com",
+        "subject": "Quick read before our call",
+        "status": "sent"
+      },
+      "preview": "<p>Hi Rodvic Test,</p>\n\n<p>Ahead of our call on , here's a short case study showing the\nkind of outcome we typically deliver:\n  <a href=\"https://www.dobotai.com/\">https://www.dobotai.com/</a>.\n</p>\n\n<p>It's a 4-minute read and is the best preview of what we'll discuss.</p>\n\n<p>Talk soon,<br>The team</p>",
+      "subject": "Quick read before our call"
+    }
+  },
+  {
+    "id": "b922984e-580a-4606-88f7-760f16320fc8",
+    "ts": "2026-05-20T06:47:15.932021Z",
+    "level": "INFO",
+    "event": "scheduler.started",
+    "lead_id": "",
+    "job_id": "",
+    "message": "scheduler started; restored 1 jobs",
+    "context": {}
+  },
+  {
+    "id": "84b38ec1-b0a1-41ae-ba89-dee6b1cefa5f",
+    "ts": "2026-05-20T06:47:24.794426Z",
+    "level": "INFO",
+    "event": "workflow.scheduled",
+    "lead_id": "c1bde7f6-be92-4dc2-8f2a-a87c289f0075",
+    "job_id": "",
+    "message": "scheduled 4 steps for workflow 'Booked Call Sequence'",
+    "context": {
+      "workflow": "Booked Call Sequence",
+      "steps": 4,
+      "skipped": 0
+    }
+  },
+  {
+    "id": "ce47b963-8984-4188-9061-d11270bfdfcd",
+    "ts": "2026-05-20T06:47:29.447269Z",
+    "level": "INFO",
+    "event": "job.sent",
+    "lead_id": "c1bde7f6-be92-4dc2-8f2a-a87c289f0075",
+    "job_id": "01cd9e55-e267-4d5a-be86-87e5a28ee88d",
+    "message": "email sent via smtp",
+    "context": {
+      "step_index": 0,
+      "template": "confirmation_email",
+      "result": {
+        "provider": "smtp",
+        "to": "rodgeagonia@gmail.com",
+        "subject": "You're confirmed for ",
+        "status": "sent"
+      },
+      "preview": "<p>Hi Rodvic Test, edit</p>\n\n<p>Your call is confirmed for <strong></strong>.</p>\n\n<p>Add it to your calendar here: <a href=\"https://calendly.com/\">https://calendly.com/</a></p>\n<p>Want a preview of what we'll cover? <a href=\"https://www.dobotai.com/\">Read this short case study</a>.</p>\n\n<p>Talk soon,<br>The team</p>",
+      "subject": "You're confirmed for "
+    }
+  },
+  {
+    "id": "d7603bbe-ffc9-4a1e-bf43-159bd1d2117c",
+    "ts": "2026-05-20T06:48:24.841802Z",
+    "level": "INFO",
+    "event": "job.sent",
+    "lead_id": "c1bde7f6-be92-4dc2-8f2a-a87c289f0075",
+    "job_id": "4a1475fc-3ad0-4e32-932b-d2f7be2d3826",
+    "message": "sms sent via log",
+    "context": {
+      "step_index": 3,
+      "template": "reminder_1h_sms",
+      "result": {
+        "provider": "log",
+        "to": "+12015551302",
+        "status": "logged"
+      },
+      "preview": "Hi Rodvic Test \u2014 quick reminder, you're confirmed for . Calendar: https://calendly.com/",
+      "subject": ""
+    }
+  },
+  {
+    "id": "2679d8e6-5d7b-4efd-b3a5-866bc528c59c",
+    "ts": "2026-05-20T06:48:28.172758Z",
+    "level": "INFO",
+    "event": "job.sent",
+    "lead_id": "c1bde7f6-be92-4dc2-8f2a-a87c289f0075",
+    "job_id": "7716b180-303c-42b5-9096-b8ad3da6b503",
+    "message": "email sent via smtp",
+    "context": {
+      "step_index": 2,
+      "template": "reminder_24h_email",
+      "result": {
+        "provider": "smtp",
+        "to": "rodgeagonia@gmail.com",
+        "subject": "Reminder: our call is tomorrow at ",
+        "status": "sent"
+      },
+      "preview": "<p>Hi Rodvic Test,</p>\n\n<p>Just a reminder that we're meeting tomorrow at <strong></strong>.</p>\n\n<p>\n  Calendar event: <a href=\"https://calendly.com/\">https://calendly.com/</a><br>\n  If anything changes, reschedule from that link.\n</p>\n<p>If you'd like a quick refresher on what we'll cover, the case study is here:\n  <a href=\"https://www.dobotai.com/\">https://www.dobotai.com/</a>.\n</p>\n\n<p>See you then,<br>The team</p>",
+      "subject": "Reminder: our call is tomorrow at "
+    }
+  },
+  {
+    "id": "6afc5c8c-5b23-4b66-8a5f-901dd7483a08",
+    "ts": "2026-05-20T06:48:28.209452Z",
+    "level": "INFO",
+    "event": "job.sent",
+    "lead_id": "c1bde7f6-be92-4dc2-8f2a-a87c289f0075",
+    "job_id": "4252b1cd-44b2-4a0a-a349-44ec6add1a7b",
+    "message": "email sent via smtp",
+    "context": {
+      "step_index": 1,
+      "template": "value_followup_email",
+      "result": {
+        "provider": "smtp",
+        "to": "rodgeagonia@gmail.com",
+        "subject": "Quick read before our call",
+        "status": "sent"
+      },
+      "preview": "<p>Hi Rodvic Test,</p>\n\n<p>Ahead of our call on , here's a short case study showing the\nkind of outcome we typically deliver:\n  <a href=\"https://www.dobotai.com/\">https://www.dobotai.com/</a>.\n</p>\n\n<p>It's a 4-minute read and is the best preview of what we'll discuss.</p>\n\n<p>Talk soon,<br>The team</p>",
+      "subject": "Quick read before our call"
+    }
+  }
+]

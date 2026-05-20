@@ -1,0 +1,85 @@
+{% if error %}
+  <section class="panel" style="border-color: var(--err);">
+    <strong style="color: var(--err);">Error:</strong> {{ error }}
+  </section>
+{% endif %}
+{% if success %}
+  <section class="panel" style="border-color: var(--ok);">
+    <strong style="color: var(--ok);">{{ success }}</strong>
+  </section>
+{% endif %}
+
+<section class="panel">
+  <h2>Create new template</h2>
+  <form hx-post="/ui/templates" hx-target="#tab-content" class="form-grid">
+    <label>Filename
+      <input name="filename" required pattern="^[a-z][a-z0-9_]*\.(html|txt)$"
+             placeholder="my_new_template.html (or .txt for SMS)">
+    </label>
+    <label style="grid-column: 1 / -1;">Initial body (optional)
+      <textarea name="body" rows="4"
+                style="background: var(--panel-2); color: var(--text);
+                       border: 1px solid var(--border); border-radius: 4px;
+                       padding: 8px; font-family: 'SF Mono', Menlo, monospace;
+                       font-size: 12px;"
+                placeholder="<p>Hi {{ '{{' }} lead_name {{ '}}' }},</p>"></textarea>
+    </label>
+    <div style="grid-column: 1 / -1;">
+      <button class="btn" type="submit">Create template</button>
+      <span class="muted" style="margin-left: 12px; font-size: 12px;">
+        Filename must be lowercase, end in <code>.html</code> (email) or <code>.txt</code> (SMS).
+      </span>
+    </div>
+  </form>
+</section>
+
+<section class="panel">
+  <h2>Templates</h2>
+  {% if not items %}
+    <div class="empty">No editable templates yet.</div>
+  {% else %}
+    <table>
+      <thead>
+        <tr>
+          <th>Filename</th>
+          <th>Type</th>
+          <th>Size</th>
+          <th>Used by workflow(s)</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for t in items %}
+          <tr>
+            <td><code>{{ t.name }}</code></td>
+            <td><span class="pill {% if t.kind == 'email' %}info{% else %}ok{% endif %}">{{ t.kind }}</span></td>
+            <td class="muted">{{ t.size }} B</td>
+            <td>
+              {% set used = usage[t.stem] %}
+              {% if used %}
+                {% for w in used %}
+                  <span class="pill">{{ w }}</span>
+                {% endfor %}
+              {% else %}
+                <span class="muted">unused</span>
+              {% endif %}
+            </td>
+            <td>
+              <div class="row-actions">
+                <button class="btn ghost"
+                        hx-get="/ui/templates/{{ t.name }}"
+                        hx-target="#tab-content">Edit</button>
+                <form class="inline"
+                      hx-post="/ui/templates/{{ t.name }}/delete"
+                      hx-target="#tab-content"
+                      hx-confirm="Delete {{ t.name }}? This cannot be undone.">
+                  <button class="btn danger" type="submit">Delete</button>
+                </form>
+              </div>
+            </td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  {% endif %}
+</section>

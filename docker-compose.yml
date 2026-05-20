@@ -1,0 +1,15 @@
+services:
+  app:
+    build: .
+    image: lead-nurture-agent:local
+    container_name: lead-nurture-agent
+    restart: unless-stopped
+    env_file:
+      - .env
+    ports:
+      - "8000:8000"
+    volumes:
+      # Persist logs and state files across container restarts.
+      - ./var:/srv/var
+      # Hot-edit configs without rebuilding.
+      - ./app/config:/srv/app/config:ro

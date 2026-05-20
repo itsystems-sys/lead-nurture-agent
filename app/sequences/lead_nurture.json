@@ -1,0 +1,23 @@
+{
+  "name": "Lead Nurture Sequence",
+  "steps": [
+    {
+      "type": "email",
+      "delay_minutes": 0,
+      "template": "nurture_intro_email",
+      "subject": "Thanks for reaching out, {{ lead_name }}"
+    },
+    {
+      "type": "email",
+      "delay_minutes": 4320,
+      "template": "nurture_case_study_email",
+      "subject": "A quick case study you might like"
+    },
+    {
+      "type": "email",
+      "delay_minutes": 10080,
+      "template": "nurture_book_call_email",
+      "subject": "Ready to talk? Grab a slot"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+<p>Hi {{ lead_name }},</p>
+
+<p>Just a reminder that we're meeting tomorrow at <strong>{{ call_time }}</strong>{% if meeting_type %} for your {{ meeting_type }}{% endif %}.</p>
+
+{% if calendar_link %}
+<p>
+  Calendar event: <a href="{{ calendar_link }}">{{ calendar_link }}</a><br>
+  If anything changes, reschedule from that link.
+</p>
+{% endif %}
+{% if case_study_link %}
+<p>If you'd like a quick refresher on what we'll cover, the case study is here:
+  <a href="{{ case_study_link }}">{{ case_study_link }}</a>.
+</p>
+{% endif %}
+
+<p>See you then,<br>The team</p>

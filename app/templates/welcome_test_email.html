@@ -1,0 +1,18 @@
+<p>Hi {{ lead_name }},</p>
+
+<p>This is a test email from the <strong>Lead Nurture Engine</strong>.</p>
+
+<p>If you're reading this, the SMTP pipeline is working end-to-end:
+booking webhook → workflow scheduler → Jinja2 template → SMTP → your inbox.</p>
+
+<p>Context detected from your CRM record:</p>
+<ul>
+  {% if call_time %}<li>Call time: {{ call_time }}</li>{% endif %}
+  {% if meeting_type %}<li>Meeting type: {{ meeting_type }}</li>{% endif %}
+  {% if business_type %}<li>Business: {{ business_type }}</li>{% endif %}
+  {% if mrr %}<li>MRR: ${{ mrr }}</li>{% endif %}
+  {% if calendar_link %}<li>Calendar: <a href="{{ calendar_link }}">{{ calendar_link }}</a></li>{% endif %}
+  {% if case_study_link %}<li>Case study: <a href="{{ case_study_link }}">{{ case_study_link }}</a></li>{% endif %}
+</ul>
+
+<p>— Lead Nurture Engine</p>
