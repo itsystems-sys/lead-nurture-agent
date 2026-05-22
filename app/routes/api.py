@@ -107,6 +107,28 @@ def delete_lead(lead_id: str) -> Response:
 
 
 # ---------------------------------------------------------------------------
+# Tombstones (deleted external_ids that should NOT auto-resurrect from webhooks)
+# ---------------------------------------------------------------------------
+
+
+@router.get("/tombstones")
+def list_tombstones() -> dict[str, Any]:
+    return {"tombstones": storage.load_tombstones()}
+
+
+@router.delete("/tombstones/{external_id}")
+def clear_tombstone(external_id: str) -> Response:
+    if not storage.remove_tombstone(external_id):
+        raise HTTPException(status_code=404, detail="tombstone not found")
+    storage.log(
+        "tombstone.cleared",
+        message=f"tombstone cleared: {external_id}",
+        context={"external_id": external_id},
+    )
+    return Response(status_code=status.HTTP_204_NO_CONTENT)
+
+
+# ---------------------------------------------------------------------------
 # Workflows
 # ---------------------------------------------------------------------------
 
@@ -288,6 +310,18 @@ async def _handle_crm_webhook(adapter: CrmAdapter, request: Request) -> dict[str
 
     if not event.external_id:
         raise HTTPException(status_code=400, detail="event has no external lead id")
+
+    # Tombstone check: a lead deleted locally should NOT be silently re-created
+    # by a subsequent CRM webhook. Clear the tombstone via
+    # DELETE /api/leads/tombstones/{external_id} to opt the lead back in.
+    if storage.is_tombstoned(event.external_id):
+        storage.log(
+            f"{adapter.name}.webhook.tombstoned",
+            level="INFO",
+            message=f"event ignored: external_id {event.external_id} is tombstoned",
+            context={"external_id": event.external_id, "kind": event.kind},
+        )
+        return {"status": "ignored", "reason": "external_id is tombstoned"}
 
     lead = storage.get_lead_by_external_id(event.external_id)
     if lead is None:

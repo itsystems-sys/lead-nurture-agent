@@ -113,5 +113,9 @@ class Settings(BaseSettings):
     def logs_path(self) -> Path:
         return self.data_dir / "logs.json"
 
+    @property
+    def tombstones_path(self) -> Path:
+        return self.data_dir / "tombstones.json"
+
 
 settings = Settings()

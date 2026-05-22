@@ -64,7 +64,7 @@ def _read_json_list(path: Path) -> list[dict[str, Any]]:
     return data
 
 
-def _atomic_write_json(path: Path, payload: list[dict[str, Any]]) -> None:
+def _atomic_write_json(path: Path, payload: Any) -> None:
     _ensure_parent(path)
     fd, tmp_name = tempfile.mkstemp(prefix=path.name + ".", dir=str(path.parent))
     tmp_path = Path(tmp_name)
@@ -157,17 +157,87 @@ def upsert_lead(lead: Lead) -> Lead:
 
 
 def delete_lead(lead_id: str) -> bool:
+    """Delete a lead. If the lead has an external_id, tombstone it so future
+    webhook events from the upstream CRM don't silently re-create the lead.
+    """
     with _lock_for(settings.leads_path):
         leads = load_leads()
-        new_leads = [lead for lead in leads if lead.id != lead_id]
-        if len(new_leads) == len(leads):
+        target = next((lead for lead in leads if lead.id == lead_id), None)
+        if target is None:
             return False
+        new_leads = [lead for lead in leads if lead.id != lead_id]
         save_leads(new_leads)
+    if target.external_id:
+        add_tombstone(target.external_id)
     return True
 
 
+# ---------------------------------------------------------------------------
+# Tombstones
+# ---------------------------------------------------------------------------
+#
+# When a lead is deleted locally we record its upstream CRM identifier in a
+# tombstone file. The webhook handler checks this list and silently ignores
+# events for tombstoned external_ids so a CRM-side edit doesn't re-create a
+# lead we explicitly removed.
+
+
+def _read_tombstones() -> dict[str, str]:
+    """Return {external_id: deleted_at_iso} from disk (graceful on missing/corrupt)."""
+    path = settings.tombstones_path
+    if not path.exists():
+        return {}
+    try:
+        with path.open("r", encoding="utf-8") as fh:
+            data = json.load(fh)
+    except (json.JSONDecodeError, OSError):
+        return {}
+    if not isinstance(data, dict):
+        return {}
+    return {str(k): str(v) for k, v in data.items()}
+
+
+def _write_tombstones(entries: dict[str, str]) -> None:
+    with _lock_for(settings.tombstones_path):
+        _atomic_write_json(settings.tombstones_path, entries)  # type: ignore[arg-type]
+
+
+def add_tombstone(external_id: str) -> None:
+    if not external_id:
+        return
+    with _lock_for(settings.tombstones_path):
+        entries = _read_tombstones()
+        entries[external_id] = datetime.now(timezone.utc).isoformat()
+        _atomic_write_json(settings.tombstones_path, entries)  # type: ignore[arg-type]
+
+
+def remove_tombstone(external_id: str) -> bool:
+    with _lock_for(settings.tombstones_path):
+        entries = _read_tombstones()
+        if external_id not in entries:
+            return False
+        del entries[external_id]
+        _atomic_write_json(settings.tombstones_path, entries)  # type: ignore[arg-type]
+    return True
+
+
+def is_tombstoned(external_id: str) -> bool:
+    if not external_id:
+        return False
+    return external_id in _read_tombstones()
+
+
+def load_tombstones() -> dict[str, str]:
+    return _read_tombstones()
+
+
 def purge_expired_leads(retention_days: int | None = None) -> int:
-    """Delete leads whose created_at is older than the retention window."""
+    """Delete leads whose created_at is older than the retention window.
+
+    Also prunes tombstones older than the same window so they don't grow
+    forever — a CRM lead that's been deleted longer than the retention period
+    can safely be allowed to re-appear if it ever comes back.
+    """
     days = retention_days if retention_days is not None else settings.lead_retention_days
     cutoff = datetime.now(timezone.utc) - timedelta(days=days)
     with _lock_for(settings.leads_path):
@@ -176,6 +246,19 @@ def purge_expired_leads(retention_days: int | None = None) -> int:
         removed = len(leads) - len(kept)
         if removed:
             save_leads(kept)
+    # Prune expired tombstones.
+    with _lock_for(settings.tombstones_path):
+        entries = _read_tombstones()
+        survivors: dict[str, str] = {}
+        for eid, ts in entries.items():
+            try:
+                t = datetime.fromisoformat(ts)
+            except ValueError:
+                continue  # drop malformed entries
+            if t >= cutoff:
+                survivors[eid] = ts
+        if len(survivors) != len(entries):
+            _atomic_write_json(settings.tombstones_path, survivors)
     return removed
 
 
@@ -317,3 +400,6 @@ def ensure_data_files() -> None:
         if not path.exists():
             _ensure_parent(path)
             _atomic_write_json(path, [])
+    if not settings.tombstones_path.exists():
+        _ensure_parent(settings.tombstones_path)
+        _atomic_write_json(settings.tombstones_path, {})

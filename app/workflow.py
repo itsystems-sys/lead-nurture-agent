@@ -605,6 +605,26 @@ def apply_lead_status_transition(
     LEAD_STATUS_WORKFLOWS (if any).
     """
     prev = lead.status
+    # Idempotency: a webhook event whose status equals what's already stored
+    # is a no-op for workflow purposes (we still refresh personalization). This
+    # catches CRM replays, automation-driven non-status edits whose payload
+    # still carries the current status field, and any case where changed_fields
+    # is missing/empty so the adapter couldn't pre-filter.
+    if prev == new_status:
+        _apply_personalization(
+            lead, call_at=call_at, call_time=call_time, calendar_link=calendar_link,
+            timezone_name=timezone_name, meeting_type=meeting_type, mrr=mrr,
+            business_type=business_type,
+        )
+        storage.upsert_lead(lead)
+        storage.log(
+            "lead_status.no_change",
+            lead_id=lead.id,
+            message=f"lead status unchanged ({new_status}); personalization refreshed",
+            context={"status": new_status, "kind": "lead"},
+        )
+        return {"from": prev, "to": new_status, "kind": "lead", "cancelled": 0, "scheduled": 0, "workflow": ""}
+
     lead.status = new_status
     _apply_personalization(
         lead,
@@ -644,6 +664,22 @@ def apply_opportunity_status_transition(
 ) -> dict[str, int | str]:
     """React to a Close OPPORTUNITY status change (per-call state)."""
     prev = lead.opportunity_status or ""
+    # Idempotency: replayed/redundant webhooks should not re-trigger workflows.
+    if prev == new_status:
+        _apply_personalization(
+            lead, call_at=call_at, call_time=call_time, calendar_link=calendar_link,
+            timezone_name=timezone_name, meeting_type=meeting_type, mrr=mrr,
+            business_type=business_type,
+        )
+        storage.upsert_lead(lead)
+        storage.log(
+            "opportunity_status.no_change",
+            lead_id=lead.id,
+            message=f"opportunity status unchanged ({new_status}); personalization refreshed",
+            context={"status": new_status, "kind": "opportunity"},
+        )
+        return {"from": prev, "to": new_status, "kind": "opportunity", "cancelled": 0, "scheduled": 0, "workflow": ""}
+
     lead.opportunity_status = new_status
     _apply_personalization(
         lead,

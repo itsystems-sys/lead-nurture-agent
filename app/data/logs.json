@@ -3406,5 +3406,791 @@
       "preview": "<p>Hi Rodvic Test,</p>\n\n<p>Ahead of our call on , here's a short case study showing the\nkind of outcome we typically deliver:\n  <a href=\"https://www.dobotai.com/\">https://www.dobotai.com/</a>.\n</p>\n\n<p>It's a 4-minute read and is the best preview of what we'll discuss.</p>\n\n<p>Talk soon,<br>The team</p>",
       "subject": "Quick read before our call"
     }
+  },
+  {
+    "id": "dfc437e8-fb2c-4c2c-9feb-8bfeda264fd9",
+    "ts": "2026-05-22T16:23:20.012674Z",
+    "level": "INFO",
+    "event": "scheduler.started",
+    "lead_id": "",
+    "job_id": "",
+    "message": "scheduler started; restored 1 jobs",
+    "context": {}
+  },
+  {
+    "id": "a159121f-1ab6-401c-954f-1ad728a63db3",
+    "ts": "2026-05-22T16:23:25.307892Z",
+    "level": "INFO",
+    "event": "job.sent",
+    "lead_id": "c1bde7f6-be92-4dc2-8f2a-a87c289f0075",
+    "job_id": "de857755-c0e8-476b-8dea-e273c667f03d",
+    "message": "email sent via smtp",
+    "context": {
+      "step_index": 1,
+      "template": "value_followup_email",
+      "result": {
+        "provider": "smtp",
+        "to": "rodgeagonia@gmail.com",
+        "subject": "Quick read before our call",
+        "status": "sent"
+      },
+      "preview": "<p>Hi Rodvic Test,</p>\n\n<p>Ahead of our call on , here's a short case study showing the\nkind of outcome we typically deliver:\n  <a href=\"https://www.dobotai.com/\">https://www.dobotai.com/</a>.\n</p>\n\n<p>It's a 4-minute read and is the best preview of what we'll discuss.</p>\n\n<p>Talk soon,<br>The team</p>",
+      "subject": "Quick read before our call"
+    }
+  },
+  {
+    "id": "8cf02bc6-38ac-4572-9d07-de4b53eb47fc",
+    "ts": "2026-05-22T16:23:52.455342Z",
+    "level": "INFO",
+    "event": "lead.deleted",
+    "lead_id": "c1bde7f6-be92-4dc2-8f2a-a87c289f0075",
+    "job_id": "",
+    "message": "",
+    "context": {}
+  },
+  {
+    "id": "a2574c8f-9948-4bfb-b508-6804c97f50bf",
+    "ts": "2026-05-22T17:00:13.796850Z",
+    "level": "INFO",
+    "event": "scheduler.started",
+    "lead_id": "",
+    "job_id": "",
+    "message": "scheduler started; restored 0 jobs",
+    "context": {}
+  },
+  {
+    "id": "058d01b9-8053-47f8-97ae-49817dd024a7",
+    "ts": "2026-05-22T17:00:36.670357Z",
+    "level": "INFO",
+    "event": "scheduler.started",
+    "lead_id": "",
+    "job_id": "",
+    "message": "scheduler started; restored 0 jobs",
+    "context": {}
+  },
+  {
+    "id": "11916cc7-1e80-47b5-b62a-d0dc91f73856",
+    "ts": "2026-05-22T17:00:58.155075Z",
+    "level": "INFO",
+    "event": "scheduler.started",
+    "lead_id": "",
+    "job_id": "",
+    "message": "scheduler started; restored 0 jobs",
+    "context": {}
+  },
+  {
+    "id": "12a72435-c760-4267-b71b-bdd2e31611bd",
+    "ts": "2026-05-22T17:01:15.599762Z",
+    "level": "INFO",
+    "event": "scheduler.started",
+    "lead_id": "",
+    "job_id": "",
+    "message": "scheduler started; restored 0 jobs",
+    "context": {}
+  },
+  {
+    "id": "556f1691-fcf5-4b4e-afd6-9ecfc0a9c977",
+    "ts": "2026-05-22T17:01:26.353332Z",
+    "level": "INFO",
+    "event": "scheduler.started",
+    "lead_id": "",
+    "job_id": "",
+    "message": "scheduler started; restored 0 jobs",
+    "context": {}
+  },
+  {
+    "id": "9b27d7ef-1892-4181-a7fd-d33698f2ddb4",
+    "ts": "2026-05-22T17:01:51.545757Z",
+    "level": "INFO",
+    "event": "scheduler.started",
+    "lead_id": "",
+    "job_id": "",
+    "message": "scheduler started; restored 0 jobs",
+    "context": {}
+  },
+  {
+    "id": "0d4f3e71-adf4-43c0-8ef2-700c9f60d050",
+    "ts": "2026-05-22T17:02:50.439753Z",
+    "level": "INFO",
+    "event": "scheduler.started",
+    "lead_id": "",
+    "job_id": "",
+    "message": "scheduler started; restored 0 jobs",
+    "context": {}
+  },
+  {
+    "id": "8cadcf28-0f15-49ed-9410-e94e6a9ab7e9",
+    "ts": "2026-05-22T17:03:06.944975Z",
+    "level": "INFO",
+    "event": "scheduler.started",
+    "lead_id": "",
+    "job_id": "",
+    "message": "scheduler started; restored 0 jobs",
+    "context": {}
+  },
+  {
+    "id": "95c35f65-b3b6-4cbb-a91c-9961c330a74c",
+    "ts": "2026-05-22T17:03:21.539124Z",
+    "level": "INFO",
+    "event": "scheduler.started",
+    "lead_id": "",
+    "job_id": "",
+    "message": "scheduler started; restored 0 jobs",
+    "context": {}
+  },
+  {
+    "id": "22f5e044-d218-4e41-86ed-94952a78e591",
+    "ts": "2026-05-22T17:04:18.044969Z",
+    "level": "INFO",
+    "event": "scheduler.started",
+    "lead_id": "",
+    "job_id": "",
+    "message": "scheduler started; restored 0 jobs",
+    "context": {}
+  },
+  {
+    "id": "cd1e62f9-6f92-4b38-b64c-3350d9330ad2",
+    "ts": "2026-05-22T17:04:53.902085Z",
+    "level": "WARNING",
+    "event": "close.webhook.no_email",
+    "lead_id": "",
+    "job_id": "",
+    "message": "no email available; skipping lead creation",
+    "context": {
+      "external_id": "lead_DEMOprep29563"
+    }
+  },
+  {
+    "id": "ed6dfa7c-01d9-4db0-ac5c-161a1e96acdb",
+    "ts": "2026-05-22T17:04:55.193608Z",
+    "level": "WARNING",
+    "event": "close.webhook.no_email",
+    "lead_id": "",
+    "job_id": "",
+    "message": "no email available; skipping lead creation",
+    "context": {
+      "external_id": "lead_DEMOprep29563"
+    }
+  },
+  {
+    "id": "6db8c6d7-1917-414e-8c36-451276f5bb13",
+    "ts": "2026-05-22T17:04:56.764582Z",
+    "level": "WARNING",
+    "event": "close.webhook.no_email",
+    "lead_id": "",
+    "job_id": "",
+    "message": "no email available; skipping lead creation",
+    "context": {
+      "external_id": "lead_DEMOprep29563"
+    }
+  },
+  {
+    "id": "c8e5e8fe-8f42-45bb-a1ee-201d3340efda",
+    "ts": "2026-05-22T17:04:57.876791Z",
+    "level": "WARNING",
+    "event": "close.webhook.no_email",
+    "lead_id": "",
+    "job_id": "",
+    "message": "no email available; skipping lead creation",
+    "context": {
+      "external_id": "lead_DEMOprep29563"
+    }
+  },
+  {
+    "id": "2a4fd459-4b02-4d12-a0a3-1bb6d438bc43",
+    "ts": "2026-05-22T17:05:36.957514Z",
+    "level": "INFO",
+    "event": "close.webhook.lead_created",
+    "lead_id": "0c176cb5-92af-4d2f-92e7-78ee62c9a105",
+    "job_id": "",
+    "message": "lead created from close event: demo@example.com",
+    "context": {
+      "external_id": "lead_DEMO3075"
+    }
+  },
+  {
+    "id": "8dcfff08-fa9d-467c-8cd8-337d6d33d15f",
+    "ts": "2026-05-22T17:05:36.962426Z",
+    "level": "INFO",
+    "event": "lead_status.no_change",
+    "lead_id": "0c176cb5-92af-4d2f-92e7-78ee62c9a105",
+    "job_id": "",
+    "message": "lead status unchanged (potential); personalization refreshed",
+    "context": {
+      "status": "potential",
+      "kind": "lead"
+    }
+  },
+  {
+    "id": "65727dda-610f-4967-b537-7407446c91d9",
+    "ts": "2026-05-22T17:05:37.053971Z",
+    "level": "INFO",
+    "event": "lead_status.no_change",
+    "lead_id": "0c176cb5-92af-4d2f-92e7-78ee62c9a105",
+    "job_id": "",
+    "message": "lead status unchanged (potential); personalization refreshed",
+    "context": {
+      "status": "potential",
+      "kind": "lead"
+    }
+  },
+  {
+    "id": "fed5a99a-627a-4d50-8087-712038517360",
+    "ts": "2026-05-22T17:05:37.085109Z",
+    "level": "INFO",
+    "event": "lead.deleted",
+    "lead_id": "0c176cb5-92af-4d2f-92e7-78ee62c9a105",
+    "job_id": "",
+    "message": "",
+    "context": {}
+  },
+  {
+    "id": "be265e3d-8c44-4d14-b8b0-f8e7b1c3aa40",
+    "ts": "2026-05-22T17:05:37.130447Z",
+    "level": "INFO",
+    "event": "close.webhook.tombstoned",
+    "lead_id": "",
+    "job_id": "",
+    "message": "event ignored: external_id lead_DEMO3075 is tombstoned",
+    "context": {
+      "external_id": "lead_DEMO3075",
+      "kind": "lead"
+    }
+  },
+  {
+    "id": "c1e54ee0-4357-4153-af64-035515a14e7d",
+    "ts": "2026-05-22T17:05:37.188740Z",
+    "level": "INFO",
+    "event": "tombstone.cleared",
+    "lead_id": "",
+    "job_id": "",
+    "message": "tombstone cleared: lead_DEMO3075",
+    "context": {
+      "external_id": "lead_DEMO3075"
+    }
+  },
+  {
+    "id": "85806098-52d2-4dc1-bcb8-fe62ff74c5a5",
+    "ts": "2026-05-22T17:05:37.201563Z",
+    "level": "INFO",
+    "event": "close.webhook.lead_created",
+    "lead_id": "f07b22af-5554-4ed7-af64-ba962e84a055",
+    "job_id": "",
+    "message": "lead created from close event: demo@example.com",
+    "context": {
+      "external_id": "lead_DEMO3075"
+    }
+  },
+  {
+    "id": "92e98747-809c-4320-8bfd-cd38ec03573f",
+    "ts": "2026-05-22T17:05:37.206596Z",
+    "level": "INFO",
+    "event": "lead_status.transition",
+    "lead_id": "f07b22af-5554-4ed7-af64-ba962e84a055",
+    "job_id": "",
+    "message": "lead potential -> qualified",
+    "context": {
+      "from": "potential",
+      "to": "qualified",
+      "kind": "lead",
+      "cancelled": 0,
+      "scheduled": 0,
+      "workflow": ""
+    }
+  },
+  {
+    "id": "a32e2b9d-450b-4dc4-b3b8-c59607036875",
+    "ts": "2026-05-22T17:06:17.164118Z",
+    "level": "INFO",
+    "event": "scheduler.started",
+    "lead_id": "",
+    "job_id": "",
+    "message": "scheduler started; restored 0 jobs",
+    "context": {}
+  },
+  {
+    "id": "5d2c1b55-a24a-4f65-a12a-b8235df699c5",
+    "ts": "2026-05-22T17:06:41.745758Z",
+    "level": "INFO",
+    "event": "close.webhook.lead_created",
+    "lead_id": "c0fa3c52-4c4b-4677-abce-2e87da4f0730",
+    "job_id": "",
+    "message": "lead created from close event: demo2@example.com",
+    "context": {
+      "external_id": "lead_DEMO2_7392"
+    }
+  },
+  {
+    "id": "eb4fb66f-bfc4-449f-bb98-cee350a90eb5",
+    "ts": "2026-05-22T17:06:41.751219Z",
+    "level": "INFO",
+    "event": "lead_status.no_change",
+    "lead_id": "c0fa3c52-4c4b-4677-abce-2e87da4f0730",
+    "job_id": "",
+    "message": "lead status unchanged (potential); personalization refreshed",
+    "context": {
+      "status": "potential",
+      "kind": "lead"
+    }
+  },
+  {
+    "id": "1673d7f1-92d0-4ab2-9e58-bcd2c35654a4",
+    "ts": "2026-05-22T17:06:41.817012Z",
+    "level": "INFO",
+    "event": "lead_status.no_change",
+    "lead_id": "c0fa3c52-4c4b-4677-abce-2e87da4f0730",
+    "job_id": "",
+    "message": "lead status unchanged (potential); personalization refreshed",
+    "context": {
+      "status": "potential",
+      "kind": "lead"
+    }
+  },
+  {
+    "id": "d4e5dd46-b3f8-47e2-8de7-124d146c5e7b",
+    "ts": "2026-05-22T17:06:41.860923Z",
+    "level": "INFO",
+    "event": "lead.deleted",
+    "lead_id": "c0fa3c52-4c4b-4677-abce-2e87da4f0730",
+    "job_id": "",
+    "message": "",
+    "context": {}
+  },
+  {
+    "id": "a6ded1cf-c866-4375-8317-2030983585c7",
+    "ts": "2026-05-22T17:06:41.913947Z",
+    "level": "INFO",
+    "event": "close.webhook.tombstoned",
+    "lead_id": "",
+    "job_id": "",
+    "message": "event ignored: external_id lead_DEMO2_7392 is tombstoned",
+    "context": {
+      "external_id": "lead_DEMO2_7392",
+      "kind": "lead"
+    }
+  },
+  {
+    "id": "b5170d8a-f3d3-4bf3-84b0-639178c2b295",
+    "ts": "2026-05-22T17:06:41.967539Z",
+    "level": "INFO",
+    "event": "tombstone.cleared",
+    "lead_id": "",
+    "job_id": "",
+    "message": "tombstone cleared: lead_DEMO2_7392",
+    "context": {
+      "external_id": "lead_DEMO2_7392"
+    }
+  },
+  {
+    "id": "2f05700f-4ee2-49ad-8a39-90d53db9c74d",
+    "ts": "2026-05-22T17:06:42.002594Z",
+    "level": "INFO",
+    "event": "close.webhook.lead_created",
+    "lead_id": "5228e759-d028-4fae-8b79-7fcb0c408cf6",
+    "job_id": "",
+    "message": "lead created from close event: demo2@example.com",
+    "context": {
+      "external_id": "lead_DEMO2_7392"
+    }
+  },
+  {
+    "id": "56a6bd89-1b48-460f-b000-c0ebb78bd854",
+    "ts": "2026-05-22T17:06:42.008001Z",
+    "level": "INFO",
+    "event": "lead_status.transition",
+    "lead_id": "5228e759-d028-4fae-8b79-7fcb0c408cf6",
+    "job_id": "",
+    "message": "lead potential -> qualified",
+    "context": {
+      "from": "potential",
+      "to": "qualified",
+      "kind": "lead",
+      "cancelled": 0,
+      "scheduled": 0,
+      "workflow": ""
+    }
+  },
+  {
+    "id": "d63f9468-32ae-48b0-a402-bb6731b60b6f",
+    "ts": "2026-05-22T17:09:29.272841Z",
+    "level": "INFO",
+    "event": "scheduler.started",
+    "lead_id": "",
+    "job_id": "",
+    "message": "scheduler started; restored 0 jobs",
+    "context": {}
+  },
+  {
+    "id": "4b2dec16-81e2-4ba5-9962-ced58de64ff7",
+    "ts": "2026-05-22T17:21:39.502694Z",
+    "level": "INFO",
+    "event": "close.webhook.ignored",
+    "lead_id": "",
+    "job_id": "",
+    "message": "status not in changed_fields",
+    "context": {
+      "raw_status_id": "",
+      "raw_status_label": ""
+    }
+  },
+  {
+    "id": "d0d954b8-aaad-4961-85e4-e3cb44986a93",
+    "ts": "2026-05-22T17:21:43.839294Z",
+    "level": "INFO",
+    "event": "close.webhook.lead_created",
+    "lead_id": "f98c96e0-86ad-46fd-9b8f-8c22efaaf358",
+    "job_id": "",
+    "message": "lead created from close event: rodgeagonia@gmail.com",
+    "context": {
+      "external_id": "lead_NRmfcVp5i2WOjp1cpqaHtptJJu8DHiuomc7W2DhtiU5"
+    }
+  },
+  {
+    "id": "67fb88c5-4003-4c83-a123-eb06000eaf56",
+    "ts": "2026-05-22T17:21:43.853548Z",
+    "level": "WARNING",
+    "event": "step.skipped",
+    "lead_id": "f98c96e0-86ad-46fd-9b8f-8c22efaaf358",
+    "job_id": "",
+    "message": "workflow 'Booked Call Sequence' step 2 (reminder_24h_email) skipped: lead has no call_at",
+    "context": {
+      "workflow": "Booked Call Sequence",
+      "step_index": 2,
+      "template": "reminder_24h_email",
+      "reason": "lead has no call_at"
+    }
+  },
+  {
+    "id": "17323160-a55c-48af-b4c8-b6b0d36d449f",
+    "ts": "2026-05-22T17:21:43.858840Z",
+    "level": "WARNING",
+    "event": "step.skipped",
+    "lead_id": "f98c96e0-86ad-46fd-9b8f-8c22efaaf358",
+    "job_id": "",
+    "message": "workflow 'Booked Call Sequence' step 3 (reminder_1h_sms) skipped: lead has no call_at",
+    "context": {
+      "workflow": "Booked Call Sequence",
+      "step_index": 3,
+      "template": "reminder_1h_sms",
+      "reason": "lead has no call_at"
+    }
+  },
+  {
+    "id": "233960a2-1d9f-4d7e-9bfb-a24ba716cc95",
+    "ts": "2026-05-22T17:21:43.864383Z",
+    "level": "INFO",
+    "event": "workflow.scheduled",
+    "lead_id": "f98c96e0-86ad-46fd-9b8f-8c22efaaf358",
+    "job_id": "",
+    "message": "scheduled 2 steps for workflow 'Booked Call Sequence' (2 skipped)",
+    "context": {
+      "workflow": "Booked Call Sequence",
+      "steps": 2,
+      "skipped": 2
+    }
+  },
+  {
+    "id": "feae8000-71dd-4288-a9d2-6923bca02228",
+    "ts": "2026-05-22T17:21:43.881938Z",
+    "level": "INFO",
+    "event": "opportunity_status.transition",
+    "lead_id": "f98c96e0-86ad-46fd-9b8f-8c22efaaf358",
+    "job_id": "",
+    "message": "opportunity (none) -> call_booked",
+    "context": {
+      "from": "",
+      "to": "call_booked",
+      "kind": "opportunity",
+      "cancelled": 0,
+      "scheduled": 2,
+      "workflow": "Booked Call Sequence"
+    }
+  },
+  {
+    "id": "c4522254-b65f-4888-b051-9a915f6f9a62",
+    "ts": "2026-05-22T17:21:50.038664Z",
+    "level": "INFO",
+    "event": "job.sent",
+    "lead_id": "f98c96e0-86ad-46fd-9b8f-8c22efaaf358",
+    "job_id": "5bb41eb3-e8ab-4961-bc77-1a76484c1773",
+    "message": "email sent via smtp",
+    "context": {
+      "step_index": 0,
+      "template": "confirmation_email",
+      "result": {
+        "provider": "smtp",
+        "to": "rodgeagonia@gmail.com",
+        "subject": "You're confirmed for ",
+        "status": "sent"
+      },
+      "preview": "<p>Hi Rodvic Test, edit</p>\n\n<p>Your call is confirmed for <strong></strong>.</p>\n\n<p>Add it to your calendar here: <a href=\"https://calendly.com/\">https://calendly.com/</a></p>\n<p>Want a preview of what we'll cover? <a href=\"https://www.dobotai.com/\">Read this short case study</a>.</p>\n\n<p>Talk soon,<br>The team</p>",
+      "subject": "You're confirmed for "
+    }
+  },
+  {
+    "id": "d4e7b87f-c26b-4abb-b500-60dddfe296fd",
+    "ts": "2026-05-22T17:22:59.337734Z",
+    "level": "INFO",
+    "event": "close.webhook.lead_created",
+    "lead_id": "d6bc7cb4-d99b-4b42-b0e3-6a7296aaa7cd",
+    "job_id": "",
+    "message": "lead created from close event: amontobins2@gmail.com",
+    "context": {
+      "external_id": "lead_icvwekysnKw5EhPrhhYWQyvI8I5NwnXb1kTF2Xs7WMe"
+    }
+  },
+  {
+    "id": "4abb6512-81e4-4cdc-98e7-12dff7e94274",
+    "ts": "2026-05-22T17:22:59.358140Z",
+    "level": "INFO",
+    "event": "opportunity_status.transition",
+    "lead_id": "d6bc7cb4-d99b-4b42-b0e3-6a7296aaa7cd",
+    "job_id": "",
+    "message": "opportunity (none) -> call_completed",
+    "context": {
+      "from": "",
+      "to": "call_completed",
+      "kind": "opportunity",
+      "cancelled": 0,
+      "scheduled": 0,
+      "workflow": ""
+    }
+  },
+  {
+    "id": "30353322-c9a0-4903-a9d3-0d65314d4391",
+    "ts": "2026-05-22T17:23:00.317390Z",
+    "level": "INFO",
+    "event": "close.webhook.lead_created",
+    "lead_id": "250fa382-0d5d-4225-b2be-d7a4c36e6980",
+    "job_id": "",
+    "message": "lead created from close event: alexlasko17@gmail.com",
+    "context": {
+      "external_id": "lead_uH7A8gak2ugwBfJqv2GNSRdLP0X3DFINjwIDGs0WVc8"
+    }
+  },
+  {
+    "id": "a64ee5b2-c566-410b-96d4-36f67ab2b736",
+    "ts": "2026-05-22T17:23:00.338039Z",
+    "level": "INFO",
+    "event": "opportunity_status.transition",
+    "lead_id": "250fa382-0d5d-4225-b2be-d7a4c36e6980",
+    "job_id": "",
+    "message": "opportunity (none) -> call_completed",
+    "context": {
+      "from": "",
+      "to": "call_completed",
+      "kind": "opportunity",
+      "cancelled": 0,
+      "scheduled": 0,
+      "workflow": ""
+    }
+  },
+  {
+    "id": "849baa1d-c48c-4530-a17b-af097652fc9f",
+    "ts": "2026-05-22T17:25:09.178135Z",
+    "level": "INFO",
+    "event": "lead.deleted",
+    "lead_id": "250fa382-0d5d-4225-b2be-d7a4c36e6980",
+    "job_id": "",
+    "message": "",
+    "context": {}
+  },
+  {
+    "id": "dd5ced2e-7965-43e3-877c-a97e8251fe1e",
+    "ts": "2026-05-22T17:25:12.077371Z",
+    "level": "INFO",
+    "event": "lead.deleted",
+    "lead_id": "d6bc7cb4-d99b-4b42-b0e3-6a7296aaa7cd",
+    "job_id": "",
+    "message": "",
+    "context": {}
+  },
+  {
+    "id": "3160be47-d63b-43d4-b14e-de2e6c0f32ad",
+    "ts": "2026-05-22T17:25:14.546437Z",
+    "level": "INFO",
+    "event": "lead.deleted",
+    "lead_id": "f98c96e0-86ad-46fd-9b8f-8c22efaaf358",
+    "job_id": "",
+    "message": "",
+    "context": {}
+  },
+  {
+    "id": "054bd4ca-296d-458b-9e8b-5a67a27124cc",
+    "ts": "2026-05-22T17:28:19.045303Z",
+    "level": "INFO",
+    "event": "close.webhook.tombstoned",
+    "lead_id": "",
+    "job_id": "",
+    "message": "event ignored: external_id lead_NRmfcVp5i2WOjp1cpqaHtptJJu8DHiuomc7W2DhtiU5 is tombstoned",
+    "context": {
+      "external_id": "lead_NRmfcVp5i2WOjp1cpqaHtptJJu8DHiuomc7W2DhtiU5",
+      "kind": "opportunity"
+    }
+  },
+  {
+    "id": "11b0a915-31c5-417d-9697-9cfad30628da",
+    "ts": "2026-05-22T17:30:55.844451Z",
+    "level": "INFO",
+    "event": "close.webhook.ignored",
+    "lead_id": "",
+    "job_id": "",
+    "message": "status not in changed_fields",
+    "context": {
+      "raw_status_id": "",
+      "raw_status_label": ""
+    }
+  },
+  {
+    "id": "8bb96cb4-3ab1-42d4-85c2-0fb435c08b5b",
+    "ts": "2026-05-22T17:30:56.839970Z",
+    "level": "INFO",
+    "event": "close.webhook.tombstoned",
+    "lead_id": "",
+    "job_id": "",
+    "message": "event ignored: external_id lead_NRmfcVp5i2WOjp1cpqaHtptJJu8DHiuomc7W2DhtiU5 is tombstoned",
+    "context": {
+      "external_id": "lead_NRmfcVp5i2WOjp1cpqaHtptJJu8DHiuomc7W2DhtiU5",
+      "kind": "opportunity"
+    }
+  },
+  {
+    "id": "069bf87e-593d-4447-99d6-efd00d978130",
+    "ts": "2026-05-22T17:34:31.987942Z",
+    "level": "INFO",
+    "event": "scheduler.started",
+    "lead_id": "",
+    "job_id": "",
+    "message": "scheduler started; restored 0 jobs",
+    "context": {}
+  },
+  {
+    "id": "6d48bca5-f339-4ce9-abd0-eee5eb9f658e",
+    "ts": "2026-05-22T17:35:27.102088Z",
+    "level": "INFO",
+    "event": "close.webhook.lead_created",
+    "lead_id": "c983752c-9dca-4b24-936e-be19e145ab09",
+    "job_id": "",
+    "message": "lead created from close event: rodgeagonia@gmail.com",
+    "context": {
+      "external_id": "lead_NRmfcVp5i2WOjp1cpqaHtptJJu8DHiuomc7W2DhtiU5"
+    }
+  },
+  {
+    "id": "61b5d4c9-f2c5-4fe4-b3fa-f41cda3a62f5",
+    "ts": "2026-05-22T17:35:27.118250Z",
+    "level": "WARNING",
+    "event": "step.skipped",
+    "lead_id": "c983752c-9dca-4b24-936e-be19e145ab09",
+    "job_id": "",
+    "message": "workflow 'Booked Call Sequence' step 2 (reminder_24h_email) skipped: lead has no call_at",
+    "context": {
+      "workflow": "Booked Call Sequence",
+      "step_index": 2,
+      "template": "reminder_24h_email",
+      "reason": "lead has no call_at"
+    }
+  },
+  {
+    "id": "ac13a3f0-ca3d-4fa6-9853-ecccc0ca322f",
+    "ts": "2026-05-22T17:35:27.127044Z",
+    "level": "WARNING",
+    "event": "step.skipped",
+    "lead_id": "c983752c-9dca-4b24-936e-be19e145ab09",
+    "job_id": "",
+    "message": "workflow 'Booked Call Sequence' step 3 (reminder_1h_sms) skipped: lead has no call_at",
+    "context": {
+      "workflow": "Booked Call Sequence",
+      "step_index": 3,
+      "template": "reminder_1h_sms",
+      "reason": "lead has no call_at"
+    }
+  },
+  {
+    "id": "de63c63d-b411-471a-9ac5-92e4232c108a",
+    "ts": "2026-05-22T17:35:27.135664Z",
+    "level": "INFO",
+    "event": "workflow.scheduled",
+    "lead_id": "c983752c-9dca-4b24-936e-be19e145ab09",
+    "job_id": "",
+    "message": "scheduled 2 steps for workflow 'Booked Call Sequence' (2 skipped)",
+    "context": {
+      "workflow": "Booked Call Sequence",
+      "steps": 2,
+      "skipped": 2
+    }
+  },
+  {
+    "id": "d0b53dcf-c30b-477d-9d49-ad6b9c9fe493",
+    "ts": "2026-05-22T17:35:27.145119Z",
+    "level": "INFO",
+    "event": "opportunity_status.transition",
+    "lead_id": "c983752c-9dca-4b24-936e-be19e145ab09",
+    "job_id": "",
+    "message": "opportunity (none) -> call_booked",
+    "context": {
+      "from": "",
+      "to": "call_booked",
+      "kind": "opportunity",
+      "cancelled": 0,
+      "scheduled": 2,
+      "workflow": "Booked Call Sequence"
+    }
+  },
+  {
+    "id": "bed3bf8a-f040-4c17-b6c2-fb0fd4a12c54",
+    "ts": "2026-05-22T17:35:32.112704Z",
+    "level": "INFO",
+    "event": "job.sent",
+    "lead_id": "c983752c-9dca-4b24-936e-be19e145ab09",
+    "job_id": "860b699d-45a7-421c-a3c4-202e2355e6c0",
+    "message": "email sent via smtp",
+    "context": {
+      "step_index": 0,
+      "template": "confirmation_email",
+      "result": {
+        "provider": "smtp",
+        "to": "rodgeagonia@gmail.com",
+        "subject": "You're confirmed for ",
+        "status": "sent"
+      },
+      "preview": "<p>Hi Rodvic Test, edit</p>\n\n<p>Your call is confirmed for <strong></strong>.</p>\n\n<p>Add it to your calendar here: <a href=\"https://calendly.com/\">https://calendly.com/</a></p>\n<p>Want a preview of what we'll cover? <a href=\"https://www.dobotai.com/\">Read this short case study</a>.</p>\n\n<p>Talk soon,<br>The team</p>",
+      "subject": "You're confirmed for "
+    }
+  },
+  {
+    "id": "74fef382-ba54-4e74-9c97-f489ed114d68",
+    "ts": "2026-05-22T17:39:28.305656Z",
+    "level": "INFO",
+    "event": "workflow.scheduled",
+    "lead_id": "c983752c-9dca-4b24-936e-be19e145ab09",
+    "job_id": "",
+    "message": "scheduled 3 steps for workflow 'Lead Nurture Sequence'",
+    "context": {
+      "workflow": "Lead Nurture Sequence",
+      "steps": 3,
+      "skipped": 0
+    }
+  },
+  {
+    "id": "6ae6608e-3fc6-4814-89da-63f1922614da",
+    "ts": "2026-05-22T17:39:33.019898Z",
+    "level": "INFO",
+    "event": "job.sent",
+    "lead_id": "c983752c-9dca-4b24-936e-be19e145ab09",
+    "job_id": "3b1a79de-1b07-4f71-aac5-7bc0b9a2ee60",
+    "message": "email sent via smtp",
+    "context": {
+      "step_index": 0,
+      "template": "nurture_intro_email",
+      "result": {
+        "provider": "smtp",
+        "to": "rodgeagonia@gmail.com",
+        "subject": "Thanks for reaching out, Rodvic Test",
+        "status": "sent"
+      },
+      "preview": "<p>Hi Rodvic Test,</p>\n\n<p>Thanks for reaching out. We received your details and someone will be in\ntouch soon to understand your goals.</p>\n\n<p>In the meantime, if you'd like to skip the queue and book a call directly,\nyou can pick a slot here: <a href=\"https://calendly.com/\">https://calendly.com/</a>.</p>\n\n<p>Talk soon,<br>The team</p>",
+      "subject": "Thanks for reaching out, Rodvic Test"
+    }
   }
 ]
